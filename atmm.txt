@@ -1,2 +1,6 @@
 5/11/2019 
 npm start
+alignment - Ctrl+A+K,F
+https://codepen.io/anon/pen/oJNVJW
+image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
+model https://marvelapp.com/39ef033/screen/50996553
