@@ -1,6 +1,10 @@
-5/11/2019 
-npm start
-alignment - Ctrl+A+K,F
-https://codepen.io/anon/pen/oJNVJW
-image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
-model https://marvelapp.com/39ef033/screen/50996553
+__5/11/2019
+- npm start
+- alignment - Ctrl+A+K,F
+- https://codepen.io/anon/pen/oJNVJW
+- image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
+- model https://marvelapp.com/39ef033/screen/50996553
+__05/12/2019
+- Бэм методология https://ru.bem.info/methodology/
+- Не используем в названиях стилей дефис - из-за сложной реализации в className={c["header-n"]} - неудобно?!
+- Два стиля для класса {'${c.item} ${c.active}'}

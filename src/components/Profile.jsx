@@ -1,4 +1,6 @@
 import React from 'react';
+//import classes from ... changed to c
+import c from './Profile.module.css'
 
 const Profile = () => {
     return <div className='content'>
@@ -14,7 +16,7 @@ const Profile = () => {
                 New post
             </div>
             <div>
-                <div>
+                <div className={c.item}>
                     post 1
                 </div>
                 <div>
