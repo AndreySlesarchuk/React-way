@@ -2,10 +2,7 @@
     grid-area: content;
 }
 
-.item {
-    color: black;
-}
-
-.posts {
-    color: gold;
+.content img {
+    height: 550px;
+    width: 1800px;
 }
