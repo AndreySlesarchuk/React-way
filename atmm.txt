@@ -1,5 +1,6 @@
 __5/11/2019
 - npm start
+- Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
 - alignment - Ctrl+A+K,F
 - https://codepen.io/anon/pen/oJNVJW
 - image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
@@ -11,3 +12,5 @@ __05/12/2019
 __05/13/2019
 - Git https://github.com/it-kamasutra/react-way-of-samurai
 - /node_modules not stored in the git  >npm install
+- Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
+- debugger; останавливается выполнение и смотрим все необходимое
