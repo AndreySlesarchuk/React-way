@@ -20,6 +20,9 @@ __05/13/2019
 - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
 - debugger; останавливается выполнение и смотрим все необходимое
 - console.log(c);
+__05/14/2019
 - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
 -- npm install - for project from git for refresh
--- frames <BrowserRouter> ... <Route path='/dialogs' component={Dialogs} /> ... </BrowserRouter>
+-- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
+- <NavLink to="/dialogs">Messages</NavLink>
+- History API html5  | preventDefault
