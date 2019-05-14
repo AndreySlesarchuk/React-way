@@ -1,4 +1,7 @@
 __5/11/2019
+- nodejs https://nodejs.org/en/
+- npx create-react-app my-app  https://github.com/facebook/create-react-app
+- cd my-app
 - npm start
 - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
 - alignment - Ctrl+A+K,F
