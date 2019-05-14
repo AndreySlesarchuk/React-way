@@ -9,7 +9,7 @@ const Post = (props) => {
             <img className={c.img} src='https://blog.eu.playstation.com/files/avatars/avatar_467916.jpg' />
             {props.message}
             <div>
-                <span>like </span>{props.like}
+                <span>like - </span>{props.likesCount} 
             </div>
         </div>
     )

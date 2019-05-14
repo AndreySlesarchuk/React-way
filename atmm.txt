@@ -3,8 +3,10 @@ __5/11/2019
 - npx create-react-app my-app  https://github.com/facebook/create-react-app
 - cd my-app
 - npm start
+- index.js точка входа --> /public/index.html
 - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
-- alignment - Ctrl+A+K,F
+- alignment - Ctrl+A+Ctrl+Alt+L
+- comments - Crtl+Shift+/
 - https://codepen.io/anon/pen/oJNVJW
 - image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
 - model https://marvelapp.com/39ef033/screen/50996553
