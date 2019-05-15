@@ -2,17 +2,15 @@ import React from 'react';
 //import classes from ... changed to c
 import c from './Profile.module.css'
 import MyPosts from "./MyPosts/MyPosts.jsx";
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
-    return <div className={c.content}>
+    return (
         <div>
-            <img src='https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg' />
+            <ProfileInfo/>
+            <MyPosts/>
         </div>
-        <div>
-            ava + description
-        </div>
-        <MyPosts/>
-    </div>
+    )
 }
 
 export default Profile;
