@@ -1,14 +1,14 @@
-import React from 'react'
-import Header from "../Header"
+import React from "react"
+import Header from "./Header"
 import MemeGenerator from "./MemeGenerator";
 
-function App() {
+function Meme() {
     return (
         <div>
-            <Header/>
+            {/*<Header/>*/}
             <MemeGenerator />
         </div>
     )
 }
 
-export default App;
+export default Meme;

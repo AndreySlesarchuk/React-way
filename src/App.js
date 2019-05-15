@@ -5,8 +5,8 @@ import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import Todo from "./__test/Todo/Todo";
+import Meme from "./__test/Meme/Meme";
 import {BrowserRouter, Route} from "react-router-dom";
-
 
 const App = () => {
     return (
@@ -20,6 +20,7 @@ const App = () => {
                 <Route path='/news' component={Profile} />
                 <Route path='/music' component={Profile} />
                 <Route path='/todo' component={Todo} />
+                <Route path='/meme' component={Meme} />
                 <Route path='/Settings' component={Profile} />
             </div>
             {/*<Profile/>*/}

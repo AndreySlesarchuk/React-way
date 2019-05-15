@@ -1,13 +1,13 @@
-* {
+/** {
     box-sizing: border-box;
-}
+}*/
 
-body {
+memeBody {
     margin: 0;
     background-color: whitesmoke;
 }
 
-header {
+memeHeader {
     height: 100px;
     display: flex;
     align-items: center;
@@ -16,12 +16,12 @@ header {
     background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-header > img {
+memeHeader > img {
     height: 80%;
     margin-left: 10%;
 }
 
-header > p {
+memeHeader > p {
     font-family: VT323, monospace;
     color: whitesmoke;
     font-size: 50px;
@@ -35,7 +35,7 @@ header > p {
 }
 
 .meme > img {
-    width: 100%;
+    width: 1000px;
 }
 
 .meme > h2 {
