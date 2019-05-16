@@ -5,6 +5,11 @@
 
 .dialogsItems .dialog {
     padding: 5px;
+    color: white;
+}
+
+.dialogItem a {
+    color: white;
 }
 
 .dialogsItems a.activeDialog {
