@@ -24,6 +24,8 @@ const  Dialogs = (props) => {
                 <DialogItem name="Tana" id="1"/>
                 <DialogItem name="Andrey" id="2"/>
                 <DialogItem name="Mike" id="3"/>
+                <DialogItem name="Masha" id="4"/>
+                <DialogItem name="Sergiei" id="5"/>
             </div>
             <div className={c.messages}>
                 <Message message='Hi'/>
