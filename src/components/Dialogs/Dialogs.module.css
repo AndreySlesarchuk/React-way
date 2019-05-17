@@ -8,12 +8,9 @@
     color: aqua;
 }
 
-.dialogItem {
-    color: white;
-}
-
 .dialogItem a {
-    color: aqua;
+    color: white;
+    text-decoration: none;
 }
 
 .dialogsItems a.activeDialog {
