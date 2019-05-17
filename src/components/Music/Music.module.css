@@ -1,20 +1,21 @@
-.dialogs {
+.music {
     display: grid;
     grid-template-columns: 2fr 10fr;
 }
 
-.dialogsItems .dialog {
+.musicAlbums .album {
     padding: 5px;
 }
 
-.dialogsItems .activeDialog {
+.album .activeAlbum {
     color: gold;
 }
 
-.messages {
+.songs {
     padding: 5px;
 }
 
-.messages .message {
+.songs .song {
 
+    color: blue;
 }

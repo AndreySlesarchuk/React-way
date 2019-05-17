@@ -7,6 +7,7 @@ import Dialogs from "./components/Dialogs/Dialogs";
 import Todo from "./__test/Todo/Todo";
 import Meme from "./__test/Meme/Meme";
 import {BrowserRouter, Route} from "react-router-dom";
+import Music from "./components/Music/Music";
 
 const App = () => {
     return (
@@ -18,7 +19,7 @@ const App = () => {
                 <Route path='/dialogs' component={Dialogs} />
                 <Route path='/profile' component={Profile} />
                 <Route path='/news' component={Profile} />
-                <Route path='/music' component={Profile} />
+                <Route path='/music' component={Music} />
                 <Route path='/todo' component={Todo} />
                 <Route path='/meme' component={Meme} />
                 <Route path='/Settings' component={Profile} />

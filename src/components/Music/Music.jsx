@@ -4,22 +4,22 @@ import c from './Music.module.css';
 
 const  Music = (props) => {
     return (
-        <div className={c.dialogs}>
-            <div className={c.dialogsItems}>
-                <div className={c.dialog + ' ' + c.activeDialog}>
-                    Tana
+        <div className={c.music}>
+            <div className={c.musicAlbums}>
+                <div>
+                    Accept
+                </div>
+                <div className={c.album}>
+                    Manovar
                 </div>
                 <div className={c.dialog}>
-                    Andrey
-                </div>
-                <div className={c.dialog}>
-                    Mike
+                    DIO
                 </div>
             </div>
-            <div className={c.messages}>
-                <div className={c.message}>Hi</div>
-                <div className={c.message}>How is your react-way?</div>
-                <div className={c.message}>Yup</div>
+            <div className={c.songs}>
+                <div className={c.song}>Metal heart</div>
+                <div className={c.song}>Nothing else matter</div>
+                <div className={c.song}>Seven keys of seven sons</div>
             </div>
         </div>
 
