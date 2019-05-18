@@ -6,13 +6,13 @@ const  Music = (props) => {
     return (
         <div className={c.music}>
             <div className={c.musicAlbums}>
-                <div>
+                <div className={c.album}>
                     Accept
                 </div>
                 <div className={c.album}>
                     Manovar
                 </div>
-                <div className={c.dialog}>
+                <div className={c.album}>
                     DIO
                 </div>
             </div>
