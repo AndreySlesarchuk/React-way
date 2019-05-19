@@ -14,7 +14,7 @@
 }
 
 .dialogsItems a.activeDialog {
-    color: gold;
+    color: greenyellow;
 }
 
 .messages {
