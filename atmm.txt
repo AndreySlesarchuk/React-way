@@ -7,6 +7,8 @@ __5/11/2019
 - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
 - alignment - Ctrl+A+Ctrl+Alt+L
 - comments - Crtl+Shift+/
+- передвижение по словам - Crtl+->, с выделением слова Crtl+Shift->
+- Все места вызова тэга Alt+F7
 - https://codepen.io/anon/pen/oJNVJW
 - image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
 - model https://marvelapp.com/39ef033/screen/50996553
@@ -28,3 +30,4 @@ __05/14/2019
 - History API html5  | preventDefault
 __05/15/2019
 - Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
+- Объекты
