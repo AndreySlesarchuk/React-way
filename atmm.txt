@@ -31,3 +31,4 @@ __05/14/2019
 __05/15/2019
 - Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
 - Объекты
+- BLL - Buisness Logic Layer      UI - User Interface
