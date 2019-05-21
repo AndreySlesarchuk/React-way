@@ -9,11 +9,11 @@
 }
 
 .album .activeAlbum {
-    color: gold;
+    color: greenyellow;
 }
 
 .musicAlbums {
-    color: gold;
+    color: greenyellow;
 }
 
 .songs {
@@ -21,6 +21,5 @@
 }
 
 .songs .song {
-
-    color: white;
+    color: greenyellow;
 }
