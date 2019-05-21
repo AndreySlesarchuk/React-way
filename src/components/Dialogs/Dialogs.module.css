@@ -16,10 +16,12 @@
 }
 
 .dialogsItems a.activeDialog {
-    color: greenyellow;
+    color: gold;
 }
 
 .messages {
+    font-size: 20px;
+    color: lightgreen;
     padding: 5px;
 }
 
