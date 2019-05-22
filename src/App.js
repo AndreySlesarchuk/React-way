@@ -8,6 +8,7 @@ import Todo from "./__test/Todo/Todo";
 import Meme from "./__test/Meme/Meme";
 import {BrowserRouter, Route} from "react-router-dom";
 import Music from "./components/Music/Music";
+import News from "./components/News/News";
 
 const App = () => {
     return (
@@ -18,7 +19,7 @@ const App = () => {
             <div className='app-wrapper-content'>
                 <Route path='/dialogs' component={Dialogs} />
                 <Route path='/profile' component={Profile} />
-                <Route path='/news' component={Profile} />
+                <Route path='/news' component={News} />
                 <Route path='/music' component={Music} />
                 <Route path='/todo' component={Todo} />
                 <Route path='/meme' component={Meme} />
