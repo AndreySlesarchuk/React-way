@@ -1,14 +1,13 @@
 import React from "react";
 import c from './News.module.css';
+import {NavLink} from "react-router-dom";
 
 
 const  News = (props) => {
     return (
         <div className={c.news}>
-            <div className={c.dialogsItems}>
-                <div className={c.dialog + ' ' + c.activeDialog}>
-                    Tana
-                </div>
+            <div className={c.headlines}>
+                    <NavLink to={'/tana'}> Tana</NavLink>
                 <div className={c.news}>
                     Andrey
                 </div>
