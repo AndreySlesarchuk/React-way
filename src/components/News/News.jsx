@@ -6,8 +6,8 @@ import {NavLink} from "react-router-dom";
 const  News = (props) => {
     return (
         <div className={c.news}>
-            <div className={c.headlines}>
-                    <NavLink to={'/tana'}> Tana</NavLink>
+            <div className={c.newsItem}>
+                    <NavLink to={'news/tana'}>Tana</NavLink>
                 <div className={c.news}>
                     Andrey
                 </div>

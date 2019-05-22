@@ -5,10 +5,19 @@
 }
 
 .headlines .news {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
     padding: 5px;
 }
 
-.newsItems .activeNews {
+.newsItem a {
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
     color: gold;
 }
 
