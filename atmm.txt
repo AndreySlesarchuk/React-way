@@ -32,3 +32,6 @@ __05/15/2019
 - Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
 - Объекты
 - BLL - Buisness Logic Layer      UI - User Interface SOLID
+__05/23/2019
+-- Прокидываем props
+ -  <Route path='/dialogs' component={Dialogs} /> changing to <Route path='/dialogs' render={ () => {<Dialogs />} />
