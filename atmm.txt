@@ -5,8 +5,10 @@ __5/11/2019
 - npm start
 - index.js точка входа --> /public/index.html
 - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
+-- WebStorm keyboard shortcut
 - alignment - Ctrl+A+Ctrl+Alt+L
 - comments - Crtl+Shift+/
+- find files(classes...) Ctrl+Shift+N
 - передвижение по словам - Crtl+->, с выделением слова Crtl+Shift->
 - Все места вызова тэга Alt+F7
 - https://codepen.io/anon/pen/oJNVJW
