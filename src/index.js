@@ -22,7 +22,8 @@ let messages = [
     {id:2, message: 'Hello World!'},
     {id:3, message: 'How is your react-way?'},
     {id:4, message: 'Yup'},
-    {id:5, message: 'Good day'}
+    {id:5, message: 'Good day'},
+    {id:6, message: 'Good night'}
 ]
 
 ReactDOM.render(<App posts={posts} dialogs={dialogs} messages={messages}/>, document.getElementById('root'));
