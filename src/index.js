@@ -5,9 +5,9 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 let posts = [
-    {id:1, message: 'Study hard my friend', likesCount: 13},
-    {id:2, message: 'Ok my world!!!', likesCount: 7},
-    {id:3, message: 'Yup!', likesCount: 11}]
+    {id:1, message: 'Study good my friend', likesCount: 13},
+    {id:2, message: 'Hello my world!!!', likesCount: 7},
+    {id:3, message: 'Yups!', likesCount: 11}]
 
 let dialogs = [
     {id:1, name: 'Tana'},
