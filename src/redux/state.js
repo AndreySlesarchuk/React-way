@@ -21,3 +21,5 @@ let state = {
         {id: 6, message: 'Good night'}
     ]
 }
+
+export default state;
