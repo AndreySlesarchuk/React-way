@@ -39,7 +39,7 @@ __05/23/2019
 -- Прокидываем props
  -  <Route path='/dialogs' component={Dialogs} /> changing to <Route path='/dialogs' render={ () => {<Dialogs />} />
  -  move data up
-__05/24/2019 - 05/27/2019
+__05/24/2019
 -- state.js in redux
     - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png
     - Функциональная компонента (presentational, stateless, dumb) функция которая возвращает JSX разметку (только
@@ -48,4 +48,6 @@ __05/24/2019 - 05/27/2019
     - MAP метод массива, для преобразования массивов
     - ROUTE - vfhihens
     - BLL - Buisness Logic Layer данные
+__05/27/2019 31 (onClick, ref, VirtualDOM)
+
 

@@ -9,13 +9,13 @@ const MyPosts = (props) => {
 
     return (
         <div className={c.postsBlock}>
-            My posts
+            <h3>My posts</h3>
             <div>
                 <div>
                     <textarea></textarea>
                 </div>
                 <div>
-                    <button>Add post</button>
+                    <button onClick={ () => { alert('atmm.by') } }>Add post</button>
                 </div>
             </div>
             <div className={c.posts}>
