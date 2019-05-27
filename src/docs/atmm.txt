@@ -39,3 +39,5 @@ __05/23/2019
  -  <Route path='/dialogs' component={Dialogs} /> changing to <Route path='/dialogs' render={ () => {<Dialogs />} />
  -  move data up
 __05/24/2019
+-- state.js in redux
+    NodeJS  SPA (Single Page Application)
