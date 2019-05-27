@@ -40,4 +40,7 @@ __05/23/2019
  -  move data up
 __05/24/2019
 -- state.js in redux
-    NodeJS  SPA (Single Page Application)
+    - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png
+    - Функциональная компонента (presentational, stateless, dumb) функция которая возвращает JSX разметку
+    - PROPS - 'это объект' в тэги которые в свою очередь в другие тэги
+    - MAP метод массива, для преобразования массивов
