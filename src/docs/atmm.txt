@@ -49,5 +49,7 @@ __05/24/2019
     - ROUTE - vfhihens
     - BLL - Buisness Logic Layer данные
 __05/27/2019 31 (onClick, ref, VirtualDOM)
+    - callback
+    <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 
 
