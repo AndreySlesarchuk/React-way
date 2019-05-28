@@ -53,6 +53,6 @@ __05/27/2019 31 (onClick, ref, VirtualDOM)
     - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 __05/28/2019 32 (прокидываем callback через props) функция обратного вызова
     - FLUX концепции rerendererEntireTree
-    - render.js
+    - render.js index.js state.js
 
 
