@@ -2,7 +2,6 @@ import React from "react";
 import c from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
-import {addPost} from "../../redux/state";
 
 const  Dialogs = (props) => {
 
@@ -26,7 +25,7 @@ const  Dialogs = (props) => {
                     <textarea ref={newMessageElement}></textarea>
                 </div>
                 <div>
-                    <button onClick={addPost}>Add post</button>
+                    <button onClick={props.state.addPost}>Add post</button>
                 </div>
             </div>
         </div>

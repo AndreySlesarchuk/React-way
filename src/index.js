@@ -6,11 +6,11 @@ import * as serviceWorker from './serviceWorker';
 import state, {addPost} from './redux/state';
 import {BrowserRouter} from "react-router-dom";
 
-addPost('Skorsa forever!')
+//addPost('Skorsa forever!')
 
 ReactDOM.render(
     <BrowserRouter>
-        <App data={state}/>
+        <App state={state} addPost={addPost}/>
     </BrowserRouter>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
