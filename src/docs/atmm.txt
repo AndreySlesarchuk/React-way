@@ -51,6 +51,7 @@ __05/24/2019
 __05/27/2019 31 (onClick, ref, VirtualDOM)
     - callback
     - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
+__05/28/2019 32 (прокидываем callback через props) функция обратного вызова
 
 
 
