@@ -51,8 +51,9 @@ __05/24/2019
 __05/27/2019 31 (onClick, ref, VirtualDOM)
     - callback
     - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
-__05/28/2019 32 (прокидываем callback через props) функция обратного вызова
+__05/28/2019 32,33 (прокидываем callback через props) функция обратного вызова
     - FLUX концепции rerendererEntireTree
     - render.js index.js state.js
-
+__05/29/2019
+    - 34 (FLUX-круговорот на каждый символ) https://monosnap.com/file/Qw162Jl9wng3jjFqAAZSDvB27FYHgG
 
