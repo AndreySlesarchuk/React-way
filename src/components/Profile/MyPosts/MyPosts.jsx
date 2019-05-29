@@ -14,12 +14,14 @@ const MyPosts = (props) => {
         props.addPost(text);
     }
 
+
+
     return (
         <div className={c.postsBlock}>
             <h3>My posts</h3>
             <div>
                 <div>
-                    <textarea ref={newPostElement}></textarea>
+                    <textarea ref={newPostElement} value={props.newPostText}/>
                 </div>
                 <div>
                     <button onClick={ addPost }>Add post</button>
