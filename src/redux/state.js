@@ -7,7 +7,8 @@ let state = {
         posts: [
             {id: 1, message: 'Study good my friend', likesCount: 13},
             {id: 2, message: 'Hello my world!!!', likesCount: 7},
-            {id: 3, message: 'Good night', likesCount: 11}
+            {id: 3, message: 'Good night', likesCount: 11},
+            {id: 4, message: 'Yo yo yo', likesCount: 8}
         ],
         newPostText: 'atmm.by'
     },
@@ -18,7 +19,8 @@ let state = {
             {id: 3, name: 'Mike'},
             {id: 4, name: 'Vasily'},
             {id: 5, name: 'Andrey'},
-            {id: 6, name: 'Natasha'}
+            {id: 6, name: 'Natasha'},
+            {id: 7, name: 'Seva'}
 
         ],
         messages: [
@@ -27,7 +29,8 @@ let state = {
             {id: 3, message: 'How is your react-way?'},
             {id: 4, message: 'Yup'},
             {id: 5, message: 'Good day'},
-            {id: 6, message: 'Good night'}
+            {id: 6, message: 'Good night'},
+            {id: 7, message: 'How are you?'},
         ]
     },
     sidebar: {}
@@ -37,7 +40,7 @@ window.state = state;
 
 export const addPost = () => {
     let newPost = {
-        id: 4,
+        id: 5,
         message: state.profilePage.newPostText,
         likesCount: 0
     };
