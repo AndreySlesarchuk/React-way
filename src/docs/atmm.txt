@@ -59,6 +59,6 @@ __05/29/2019
         video https://www.youtube.com/watch?v=bpEy10oJSCg&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=35
         image https://monosnap.com/file/Qw162Jl9wng3jjFqAAZSDvB27FYHgG
         console.log(text); https://monosnap.com/file/HrJKmHqyikGA8uZ0aRylzwOOpQk0oa
-
+        window.state = state; https://monosnap.com/file/1peMRi2ojcXuVK1gynPfPgZ7qiEGI4
 
 
