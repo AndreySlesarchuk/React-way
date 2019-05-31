@@ -33,27 +33,27 @@ let store = {
         sidebar: {}
     },
     getState() {
-        return _state;
+        return this._state;
     },
-    rerenderEntireTree() {
+    _callSubscriber() {
         console.log('State was changed');
     },
     addPost() {
-        newPost: {
+        let newPost = {
             id: 5,
-            message: state.profilePage.newPostText,
+            message: this._state.profilePage.newPostText,
             likesCount: 0
         };
-        state.profilePage.posts.push(newPost);
-        state.profilePage.newPostText = '';
-        rerenderEntireTree(state);
+        this._state.profilePage.posts.push(newPost);
+        this._state.profilePage.newPostText = '';
+        this._callSubscriber(this._state);
     },
     updateNewPostText(newText) {
-        state.profilePage.newPostText = newText;
-        rerenderEntireTree(state);
+        this._state.profilePage.newPostText = newText;
+        this._callSubscriber(this._state);
     },
     subscribe (observer) {
-        rerenderEntireTree = observer;
+        this._callSubscriber = observer;
     }
 }
 
