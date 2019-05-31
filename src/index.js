@@ -5,14 +5,16 @@ import {BrowserRouter} from "react-router-dom";
 import App from "./App";
 import React from "react";
 
-let rerenderEntireTree = (state) => {
+let rerenderEntireTree = (store) => {
     ReactDOM.render(
         <BrowserRouter>
-            <App state={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
+            <App state={store.getState()}
+                 addPost={store.addPost}
+                 updateNewPostText={store.updateNewPostText}/>
         </BrowserRouter>, document.getElementById('root'));
 }
 
-rerenderEntireTree(state);
+rerenderEntireTree(state.getState());
 
 subscribe(rerenderEntireTree);
 
