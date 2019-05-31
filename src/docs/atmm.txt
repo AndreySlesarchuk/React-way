@@ -65,7 +65,8 @@ __05/30/2019
         window.state = state; https://monosnap.com/file/1peMRi2ojcXuVK1gynPfPgZ7qiEGI4
     - 36 // store - OOP
         video https://www.youtube.com/watch?v=s1n24A2Xr0M&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=37
-
+__05/30/2019
+    - image for github https://avatars0.githubusercontent.com/u/25076693?s=400&v=4
 
 
 
