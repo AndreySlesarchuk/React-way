@@ -5,8 +5,8 @@ import Message from "./Message/Message";
 
 const  Dialogs = (props) => {
 
-    let dialogsElements = props.state.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
-    let messagesElements = props.state.messages.map(m => <Message message={m.message}/>);
+    let dialogsElements = props.store.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
+    let messagesElements = props.store.messages.map(m => <Message message={m.message}/>);
 
     let newMessageElement = React.createRef();
 
@@ -25,7 +25,7 @@ const  Dialogs = (props) => {
                     <textarea ref={newMessageElement}></textarea>
                 </div>
                 <div>
-                    <button onClick={props.state.addPost}>Add post</button>
+                    <button onClick={props.store.addPost}>Add post</button>
                 </div>
             </div>
         </div>
