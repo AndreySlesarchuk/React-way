@@ -1,4 +1,4 @@
-let state = {
+let store = {
     _state: {
         profilePage: {
             posts: [
@@ -61,5 +61,5 @@ let state = {
         this._callSubscriber = observer;
     }
 }
-export default state;
-window.store = state;
+export default store;
+window.store = store;
