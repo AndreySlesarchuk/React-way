@@ -33,12 +33,12 @@ let store = {
         sidebar: {}
     },
 
-    _callSubscriber() {
-        console.log('State was changed');
-    },
-
     getState() {
         return this._state;
+    },
+
+    _callSubscriber() {
+        console.log('State was changed');
     },
 
     addPost() {
