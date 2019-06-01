@@ -58,8 +58,20 @@ let store = {
         this._callSubscriber(this._state);
     },
 
-    dispatch() {
-
+    dispatch(action){ // { type: 'ADD-POST' }
+        if (action.type === 'ADD-POST' ) {
+            let newPost = {
+                id: 5,
+                message: this._state.profilePage.newPostText,
+                likesCount: 0
+            };
+            this._state.profilePage.posts.push(newPost);
+            this._state.profilePage.newPostText = '';
+            this._callSubscriber(this._state);
+        } else if (action.type === 'UPDATE-NEW-POST-TEXT') {
+            this._state.profilePage.newPostText = newText;
+            this._callSubscriber(this._state);
+        }
     }
 }
 export default store;
