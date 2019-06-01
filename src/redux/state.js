@@ -32,6 +32,7 @@ let state = {
         },
         sidebar: {}
     },
+
     _callSubscriber() {
         console.log('State was changed');
     },
@@ -50,14 +51,15 @@ let state = {
         this._state.profilePage.newPostText = '';
         this._callSubscriber(this._state);
     },
+
     updateNewPostText(newText) {
         this._state.profilePage.newPostText = newText;
         this._callSubscriber(this._state);
     },
+
     subscribe(observer) {
         this._callSubscriber = observer;
     }
 }
-
 export default state;
 window.store = state;
