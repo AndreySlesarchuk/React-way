@@ -70,4 +70,6 @@ __05/30/2019
     - React JS - The Samurai's way, 36 lesson - base OOP principles https://codepen.io/dimych-the-scripter/pen/gEeJVp
         https://www.youtube.com/watch?v=spTyL4QK1KI
     bind  почитать!!!
+__06/01/2019 lesson 38
+    - dispatch and action
 

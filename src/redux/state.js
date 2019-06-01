@@ -32,15 +32,12 @@ let store = {
         },
         sidebar: {}
     },
-
-    getState() {
-        return this._state;
-    },
-
     _callSubscriber() {
         console.log('State was changed');
     },
-
+    getState() {
+        return this._state;
+    },
     addPost() {
         let newPost = {
             id: 5,
@@ -51,15 +48,14 @@ let store = {
         this._state.profilePage.newPostText = '';
         this._callSubscriber(this._state);
     },
-
     updateNewPostText(newText) {
         this._state.profilePage.newPostText = newText;
         this._callSubscriber(this._state);
     },
-
     subscribe(observer) {
-        this._callSubscriber = observer;
+        this._callSubscriber = observer; //observer
     }
 }
 export default store;
 window.store = store;
+//store = OOP
