@@ -35,9 +35,14 @@ let store = {
     _callSubscriber() {
         console.log('State was changed');
     },
+
     getState() {
         return this._state;
     },
+    subscribe(observer) {
+        this._callSubscriber = observer; //observer
+    },
+
     addPost() {
         let newPost = {
             id: 5,
@@ -52,8 +57,9 @@ let store = {
         this._state.profilePage.newPostText = newText;
         this._callSubscriber(this._state);
     },
-    subscribe(observer) {
-        this._callSubscriber = observer; //observer
+
+    dispatch() {
+
     }
 }
 export default store;
