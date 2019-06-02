@@ -74,3 +74,8 @@ __06/01/2019 lesson 38
     - dispatch and action
     - API application program interface
 
+    - https://map.worldweatheronline.com/
+    - https://leafletjs.com/examples/quick-start/
+    - https://www.openstreetmap.org/#map=6/54.008/28.191
+    - http://localhost:9081/master
+
