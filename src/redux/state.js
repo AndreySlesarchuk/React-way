@@ -44,6 +44,7 @@ let store = {
     },
 
     addPost() {
+        debugger;
         let newPost = {
             id: 5,
             message: this._state.profilePage.newPostText,
@@ -60,6 +61,7 @@ let store = {
 
     dispatch(action){ // { type: 'ADD-POST' }
         if (action.type === 'ADD-POST' ) {
+            debugger;
             let newPost = {
                 id: 5,
                 message: this._state.profilePage.newPostText,
