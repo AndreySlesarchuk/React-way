@@ -59,9 +59,8 @@ let store = {
         this._callSubscriber(this._state);
     },
 
-    dispatch(action){ // { type: 'ADD-POST' }
-        if (action.type === 'ADD-POST' ) {
-            debugger;
+    dispatch(action) { // { type: 'ADD-POST' }
+        if (action.type === 'ADD-POST') {
             let newPost = {
                 id: 5,
                 message: this._state.profilePage.newPostText,
