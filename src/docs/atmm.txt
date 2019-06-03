@@ -73,11 +73,11 @@ __05/30/2019
 __06/01/2019 lesson 38
     - dispatch and action
     - API application program interface
-    vvvvvvvvvvvvvv-TODO-asseble-vvvvvvvvvvvvvv
+    vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
     - https://leafletjs.com/examples/quick-start/
     - https://www.openstreetmap.org/#map=6/54.008/28.191
     - http://localhost:9081/master
     ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
-__06/02/2019 lesson 38 type action
-
+__06/02/2019 lesson 38 DISPATCH (отправка методов) type action
+    - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39

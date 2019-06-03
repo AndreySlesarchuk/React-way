@@ -42,7 +42,7 @@ let store = {
     subscribe(observer) {
         this._callSubscriber = observer; //observer
     },
-    
+
     dispatch(action) { // { type: 'ADD-POST' }
         if (action.type === 'ADD-POST') {
             let newPost = {
