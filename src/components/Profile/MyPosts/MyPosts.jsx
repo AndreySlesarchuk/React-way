@@ -2,17 +2,7 @@ import React from 'react';
 //import classes from ... changed to c
 import c from './MyPosts.module.css'
 import Post from "./Post/Post";
-
-let addPostActionCreator = () => {
-    return {
-        type: 'ADD-POST'
-    }
-}
-let updateNewPostActionCreator = (text) => {
-    return {
-        type: 'UPDATE-NEW-POST-TEXT', newText: text
-    }
-}
+import {addPostActionCreator, updateNewPostActionCreator} from "../../../redux/state";
 
 const MyPosts = (props) => {
 
