@@ -1,29 +1,32 @@
-import React from "react";
-import {Marker, Popup, TileLayer} from 'react-leaflet'
+const React = window.React;
+const { Map, TileLayer, Marker, Popup } = window.ReactLeaflet;
 
-const MyMap = () => {
-    let position = [53.9, 27.5];
-    let positionPinsk = [52.12, 26.09];
-    debugger;
-    return (
-        <div>
-            <MyMap center={position} zoom={7}>
+class SimpleExample extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            lat: 51.505,
+            lng: -0.09,
+            zoom: 13,
+        };
+    }
+
+    render() {
+        const position = [this.state.lat, this.state.lng];
+        return (
+            <Map center={position} zoom={this.state.zoom}>
                 <TileLayer
                     attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-                    url='https://{s}.tile.osm.org/{z}/{x}/{y}.png'
+                    url='http://{s}.tile.osm.org/{z}/{x}/{y}.png'
                 />
-                <Marker position={positionPinsk}>
-
-
+                <Marker position={position}>
                     <Popup>
-                        <img src='https://my-calend.ru/data/source/pinsk-gerb.png'/>
-
-                        A pretty CSS3 popup with Pinsk logo. <br/> Easily customizable.
+                        <span>A pretty CSS3 popup. <br/> Easily customizable.</span>
                     </Popup>
                 </Marker>
-            </MyMap>
-        </div>
-    )
+            </Map>
+        );
+    }
 }
-
-export default MyMap;
+export default SimpleExample;
+window.ReactDOM.render(<SimpleExample />, document.getElementById('container'));
