@@ -78,17 +78,24 @@ __06/01/2019 lesson 38
     vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
     - https://leafletjs.com/examples/quick-start/
+        https://codepen.io/PaulLeCam/pen/gzVmGw
+
     - https://www.openstreetmap.org/#map=6/54.008/28.191
     - http://localhost:9081/master
     ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
 __06/02/2019 lesson 38 DISPATCH (отправка методов) type action
     - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39
-__06/03/2019 lesson 39 action creator action type
+__06/03/2019
+-- lesson 39 action creator action type
     - video https://www.youtube.com/watch?v=EW8cEDyYAYM&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=40
     - action это объект который формируется в компонентах для передачи объекта через метод dispatch
         - https://monosnap.com/file/J8Mzif8St3NCRnLrmPfVLRdaA3qMrN
         - https://monosnap.com/file/M0JbDCimr562hn4RC8gVfmJfHIlfTS
         - управление состояниями REDUX
         - let action = actionCreator()
+    - 24.30 Хорошие слова о мотивации и Беларуси )))
+-- lesson 40 adding messages
+    - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
+
 
 

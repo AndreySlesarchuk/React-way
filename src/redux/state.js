@@ -33,6 +33,11 @@ let store = {
                 {id: 7, message: 'How are you?'},
             ]
         },
+        mapPage: {
+            lat: 53.9,
+            lng: 27.5,
+            zoom: 7
+        },
         sidebar: {}
     },
     _callSubscriber() {

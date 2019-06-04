@@ -9,10 +9,12 @@ import Meme from "./__test/Meme/Meme";
 import {Route} from "react-router-dom";
 import Music from "./components/Music/Music";
 import News from "./components/News/News";
+import MyMap from "./components/MyMap/MyMap"
 
 const App = (props) => {
 
     return (
+
         <div className='app-wrapper'>
             <Header/>
             <Navbar/>
@@ -27,6 +29,9 @@ const App = (props) => {
                 <Route path='/music' render={() => <Music />} />
                 <Route path='/todo' render={() => <Todo />} />
                 <Route path='/meme' render={() => <Meme />} />
+                <Route path='/map' render={() => <MyMap
+                    state={props.state.mapPage}
+                />} />
                 <Route path='/settings' render={() => <Todo />} />
             </div>
         </div>
