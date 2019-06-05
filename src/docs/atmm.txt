@@ -1,4 +1,4 @@
-!!! 30 lesson for fixing
+!!! 30, 40 lesson for fixing
 __5/11/2019
 - nodejs https://nodejs.org/en/
 - npx create-react-app my-app  https://github.com/facebook/create-react-app
@@ -94,7 +94,7 @@ __06/03/2019
         - управление состояниями REDUX
         - let action = actionCreator()
     - 24.30 Хорошие слова о мотивации и Беларуси )))
--- lesson 40 adding messages
+-- lesson 40 adding message
     - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
 
 
