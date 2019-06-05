@@ -9,6 +9,7 @@ import Meme from "./__test/Meme/Meme";
 import {Route} from "react-router-dom";
 import Music from "./components/Music/Music";
 import News from "./components/News/News";
+import Geomap from "./components/Geomap/Geomap";
 
 
 const App = (props) => {
@@ -28,6 +29,7 @@ const App = (props) => {
                 <Route path='/music' render={() => <Music />} />
                 <Route path='/todo' render={() => <Todo />} />
                 <Route path='/meme' render={() => <Meme />} />
+                <Route path='/geomap' render={() => <Geomap />} />
                 <Route path='/settings' render={() => <Todo />} />
             </div>
         </div>

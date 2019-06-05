@@ -1,11 +1,13 @@
 !!! 30, 40 lesson for fixing
 __5/11/2019
 - nodejs https://nodejs.org/en/
+- start node .js command prompt C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"
 - npx create-react-app my-app  https://github.com/facebook/create-react-app
 - cd my-app
 - npm start
 - index.js точка входа --> /public/index.html
 - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
+!   -  В браузер разметка jsx не попадает
 -- WebStorm keyboard shortcut
     - alignment - Ctrl+A+Ctrl+Alt+L
     - comments - Crtl+Shift+/
