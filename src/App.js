@@ -29,7 +29,7 @@ const App = (props) => {
                 <Route path='/music' render={() => <Music />} />
                 <Route path='/todo' render={() => <Todo />} />
                 <Route path='/meme' render={() => <Meme />} />
-                <Route path='/geomap' render={() => <Geomap style={{height: '1000px'}} />} />
+                <Route path='/geomap' render={() => <Geomap />} />
                 <Route path='/settings' render={() => <Todo />} />
             </div>
         </div>
