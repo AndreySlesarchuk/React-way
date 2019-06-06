@@ -3,13 +3,10 @@ import c from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
 
-const  Dialogs = (props) => {
+const Dialogs = (props) => {
 
     let dialogsElements = props.state.dialogs.map(d => <DialogItem name={d.name} id={d.id}/>);
     let messagesElements = props.state.messages.map(m => <Message message={m.message}/>);
-
-    let newMessageElement = React.createRef();
-
 
     return (
         <div className={c.dialogs}>
@@ -17,15 +14,12 @@ const  Dialogs = (props) => {
                 {dialogsElements}
             </div>
             <div className={c.messages}>
-                {messagesElements}
-            </div>
-            <h3> Message </h3>
-            <div>
+                <div>{messagesElements}</div>
                 <div>
-                    <textarea ref={newMessageElement}></textarea>
-                </div>
-                <div>
-                    <button >Add post</button>
+                    <div><textarea placeholder='Enter your message'></textarea></div>
+                    <div>
+                        <button>Send</button>
+                    </div>
                 </div>
             </div>
         </div>
