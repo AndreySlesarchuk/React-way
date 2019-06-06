@@ -1,5 +1,6 @@
 const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
+const UPDATE_NEW_MESSAGE_BODY = 'UPDATE_NEW_MESSAGE_BODY';
 
 let store = {
     _state: {
@@ -31,7 +32,8 @@ let store = {
                 {id: 5, message: 'Good day'},
                 {id: 6, message: 'Good night'},
                 {id: 7, message: 'How are you?'},
-            ]
+            ],
+            newMessageBody: ""
         },
         mapPage: {
             lat: 53.9,
@@ -64,14 +66,20 @@ let store = {
         } else if (action.type === UPDATE_NEW_POST_TEXT) {
             this._state.profilePage.newPostText = action.newText;
             this._callSubscriber(this._state);
+        } else if (action.type === UPDATE_NEW_MESSAGE_BODY) {
+            this._state.dialogsPage.newMessageBody = action.body;
+            this._callSubscriber(this._state);
         }
+
     }
 }
 
 // if only returns value
 export const addPostActionCreator = () => ({type: ADD_POST})
 
-export const updateNewPostActionCreator = (text) => { return {type: UPDATE_NEW_POST_TEXT, newText: text} }
+export const updateNewPostActionCreator = (text) => {
+    return {type: UPDATE_NEW_POST_TEXT, newText: text}
+}
 
 export default store;
 window.store = store;
