@@ -81,10 +81,10 @@ let store = {
 
 // if only returns value
 export const addPostActionCreator = () => ({type: ADD_POST})
-
 export const updateNewPostActionCreator = (text) => {
-    return {type: UPDATE_NEW_POST_TEXT, newText: text}
-}
+    return {type: UPDATE_NEW_POST_TEXT, newText: text}}
+export const sendMessageCreator = () => ({type: SEND_MESSAGE})
+export const updateNewMessageBodyCreator = (body) => ({type: UPDATE_NEW_MESSAGE_BODY, body: body})
 
 export default store;
 window.store = store;
