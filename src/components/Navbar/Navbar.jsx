@@ -25,6 +25,9 @@ const Navbar = () => {
             <NavLink to="/meme" activeClassName={c.activeLink}>Meme</NavLink>
         </div>
         <div className={c.item}>
+            <NavLink to="/map" activeClassName={c.activeLink}>MyMap</NavLink>
+        </div>
+        <div className={c.item}>
             <NavLink to="/geomap" activeClassName={c.activeLink}>Geomap</NavLink>
         </div>
         <div><p> </p></div>
