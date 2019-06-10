@@ -8,19 +8,19 @@ let store = {
         profilePage: {
             posts: [
                 {id: 1, message: 'Study good my friend', likesCount: 13},
-                {id: 2, message: 'Hello my world!!!', likesCount: 7},
-                {id: 3, message: 'Good night', likesCount: 11},
-                {id: 4, message: 'Yo yo yo', likesCount: 8}
+                {id: 2, message: 'Hello my world!', likesCount: 7},
+                {id: 3, message: 'Good morning', likesCount: 11},
+                {id: 4, message: 'Yup yup yup', likesCount: 8}
             ],
             newPostText: 'atmm.by'
         },
         dialogsPage: {
             dialogs: [
-                {id: 1, name: 'Tana'},
-                {id: 2, name: 'Masha'},
-                {id: 3, name: 'Mike'},
-                {id: 4, name: 'Vasily'},
-                {id: 5, name: 'Andrey'},
+                {id: 1, name: 'Masha'},
+                {id: 2, name: 'Mike'},
+                {id: 3, name: 'Tana'},
+                {id: 4, name: 'Andrey'},
+                {id: 5, name: 'Vasiliy'},
                 {id: 6, name: 'Natasha'},
                 {id: 7, name: 'Seva'}
 
