@@ -107,6 +107,7 @@ __06/10/2019
     - action - объект с минимум type
     - reducer - функция которая принимает state, action и применяет по необходимости действия и возвращает новый стейт
         https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY
+        https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
 
 
 
