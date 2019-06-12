@@ -44,7 +44,7 @@ __05/23/2019
  -  <Route path='/dialogs' component={Dialogs} /> changing to <Route path='/dialogs' render={ () => {<Dialogs />} />
  -  move data up
 __05/24/2019
--- state.js in redux
+-- store.js in redux
     - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png
     - Функциональная компонента (presentational, stateless, dumb) функция которая возвращает JSX разметку (только
         отрисовывает, нужны props
@@ -57,7 +57,7 @@ __05/27/2019 31 (onClick, ref, VirtualDOM)
     - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 __05/28/2019 32,33 (прокидываем callback через props) функция обратного вызова
     - FLUX концепции rerendererEntireTree
-    - render.js index.js state.js
+    - render.js index.js store.js
 __05/29/2019
     - 34 (FLUX-> Redux круговорот на каждый символ) REDUX MobX...
         video https://www.youtube.com/watch?v=bpEy10oJSCg&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=35
@@ -103,9 +103,14 @@ __06/06/2019
 __06/10/2019
     ! компоненте давать только необходимое
 -- lesson 41 reducer (почти redux)
-    - video https://www.youtube.com/watch?v=EW8cEDyYAYM&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=40
+    - video https://www.youtube.com/watch?v=GPabDsMyceU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=42
     - action - объект с минимум type
-    - reducer - функция которая принимает state, action и применяет по необходимости действия и отдает
+    - reducer - функция которая принимает state, action и применяет по необходимости действия и возвращает новый стейт
+        https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY
+        https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
+__06/11/2019
+-- lesson 42 redux
+    - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
 
 
 
