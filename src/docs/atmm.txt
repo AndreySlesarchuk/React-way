@@ -112,5 +112,7 @@ __06/11/2019
 -- lesson 42 redux
     - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
 __06/13/2019
+    - npm install redux --save
+    - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
 
 
