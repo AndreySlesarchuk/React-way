@@ -114,5 +114,7 @@ __06/11/2019
 __06/13/2019
     - npm install redux --save
     - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
+-- lesson 43 redux
+    - video https://www.youtube.com/watch?v=cbnExb3GSFM
 
 
