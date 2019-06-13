@@ -13,10 +13,10 @@ let initialState = {
 
     ],
     messages: [
-        {id: 1, message: 'Hi all'},
+        {id: 1, message: 'Good morning'},
         {id: 2, message: 'Hello World!'},
-        {id: 3, message: 'How is your react-way?'},
-        {id: 4, message: 'Yup'},
+        {id: 3, message: 'How is your react?'},
+        {id: 4, message: 'Yes'},
         {id: 5, message: 'Good day'},
         {id: 6, message: 'Good night'},
         {id: 7, message: 'How are you?'},
