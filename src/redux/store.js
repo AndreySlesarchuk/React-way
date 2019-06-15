@@ -4,7 +4,7 @@ import sidebarReducer from "./sidebar-reducer";
 
 let store = {
     _state: {
-        profilePage: {
+/*        profilePage: {
             posts: [
                 {id: 1, message: 'Study good my friend!!', likesCount: 13},
                 {id: 2, message: 'Hello my world!!', likesCount: 7},
@@ -34,7 +34,7 @@ let store = {
                 {id: 7, message: 'How are you?'},
             ],
             newMessageBody: ""
-        },
+        },*/
         mapPage: {
             lat: 53.9,
             lng: 27.5,
