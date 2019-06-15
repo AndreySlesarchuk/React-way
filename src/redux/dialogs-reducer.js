@@ -10,10 +10,10 @@ let initialState = {
 
     ],
     messages: [
-        {id: 1, message: 'Good morning'},
-        {id: 2, message: 'Hello World!'},
-        {id: 3, message: 'How is your react?'},
-        {id: 4, message: 'Yes'},
+        {id: 1, message: 'Hi'},
+        {id: 2, message: 'Hello my friend!'},
+        {id: 3, message: 'How are you?'},
+        {id: 4, message: 'Yup'},
         {id: 5, message: 'Good day'}
     ],
     newMessageBody: ""
