@@ -4,9 +4,9 @@ const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
 let initialState = {
     posts: [
         {id: 1, message: 'Hi my friend!!', likesCount: 13},
-        {id: 2, message: 'Study is good', likesCount: 7},
-        {id: 3, message: 'Good  evening!', likesCount: 11},
-        {id: 4, message: 'Go go go', likesCount: 8}
+        {id: 2, message: 'Go go go', likesCount: 8},
+        {id: 3, message: 'Study is good', likesCount: 7},
+        {id: 4, message: 'Good  evening!', likesCount: 11}
     ],
     newPostText: 'www.atmm.by'
 }
