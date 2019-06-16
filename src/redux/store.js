@@ -25,13 +25,13 @@ let store = {
 
             ],
             messages: [
-                {id: 1, message: 'Hi all'},
-                {id: 2, message: 'Hello World!'},
-                {id: 3, message: 'How is your react-way?'},
+                {id: 7, message: 'Hi all'},
+                {id: 6, message: 'Hello World!'},
+                {id: 5, message: 'How is your react-way?'},
                 {id: 4, message: 'Yup'},
-                {id: 5, message: 'Good day'},
-                {id: 6, message: 'Good night'},
-                {id: 7, message: 'How are you?'},
+                {id: 3, message: 'Good day'},
+                {id: 2, message: 'Good night'},
+                {id: 1, message: 'How are you?'},
             ],
             newMessageBody: ""
         },
