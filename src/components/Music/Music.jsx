@@ -23,7 +23,7 @@ const  Music = (props) => {
                 <div className={c.song}>Solo Tu</div>
                 <div className={c.song}>Autumn</div>
                 <div className={c.song}>Кomance</div>
-                <div className={c.song}>Will and mind</div>
+                <div className={c.song}>Rose Street</div>
             </div>
         </div>
 
