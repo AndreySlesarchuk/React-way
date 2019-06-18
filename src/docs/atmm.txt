@@ -111,10 +111,12 @@ __06/10/2019
 __06/11/2019
 -- lesson 42 redux
     - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
-__06/13/2019
+__06/13/2019 __06/13/2019
     - npm install redux --save
     - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
 -- lesson 43 redux first step
     - video https://www.youtube.com/watch?v=cbnExb3GSFM
-
+-- Контейнерная компонента
+    - как можно меньше лишней информации
+    - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
 
