@@ -116,7 +116,9 @@ __06/13/2019 __06/13/2019
     - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
 -- lesson 43 redux first step
     - video https://www.youtube.com/watch?v=cbnExb3GSFM
--- Контейнерная компонента
+-- Контейнерная компонента создается над презентационной
     - как можно меньше лишней информации
     - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
+        https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
+
 
