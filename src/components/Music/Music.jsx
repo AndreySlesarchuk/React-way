@@ -10,7 +10,7 @@ const  Music = (props) => {
                     Highland
                 </div>
                 <div className={c.album}>
-                    Elza's ocean
+                    Black coffe
                 </div>
                 <div className={c.album}>
                     Splin
@@ -21,7 +21,7 @@ const  Music = (props) => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Solo Tu</div>
-                <div className={c.song}>Autumn</div>
+                <div className={c.song}>Russian wooden churches</div>
                 <div className={c.song}>Кomance</div>
                 <div className={c.song}>Rose Street</div>
             </div>
