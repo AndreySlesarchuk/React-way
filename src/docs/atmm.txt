@@ -126,5 +126,6 @@ __06/20/2019
     https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
     https://ru.reactjs.org/docs/context.html Контекст позволяет передавать данные через дерево компонентов без
      необходимости передавать пропмсы на промежуточных уровнях
+    https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
     ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
 
