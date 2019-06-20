@@ -5,7 +5,7 @@ import Dialogs from "./Dialogs";
 
 const DialogsContainer = (props) => {
 
-    let state = props.store.getState().dialogsPage;
+    let state = props.store.getState();
 
     let onSendMessageClick = () => {
         props.store.dispatch(sendMessageCreator());
@@ -16,7 +16,10 @@ const DialogsContainer = (props) => {
 
     return <Dialogs updateNewMessageBody={onNewMessageChange}
                     sendMessage={onSendMessageClick}
-                    dialogPage={state} />
+                    dialogs={state.dialogsPage.dialogs}
+                    messages={state.dialogsPage.messages}
+                    newMessageBoby={state.dialogsPage.newMessageBody}
+    />
 }
 
 export default DialogsContainer;
