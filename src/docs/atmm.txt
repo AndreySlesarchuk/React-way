@@ -129,4 +129,6 @@ __06/20/2019
      необходимости передавать пропмсы на промежуточных уровнях
     https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
     ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
+    ! Error: render is not a function https://github.com/facebook/react/issues/12241
+        !braces on the new line
 
