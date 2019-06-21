@@ -6,8 +6,7 @@ import StoreContext from "../../../StoreContext"
 const MyPostsContainer = () => {
 
     return <StoreContext.Consumer>
-        {
-        (store) => {
+        {(store) => {
             let state = store.getState();
             let addPost = () => {
                 store.dispatch(addPostActionCreator());
@@ -22,7 +21,7 @@ const MyPostsContainer = () => {
                             posts={state.profilePage.posts}
                             newPostText={state.profilePage.newPostText}/>
         }
-    }
+        }
     </StoreContext.Consumer>
 }
 

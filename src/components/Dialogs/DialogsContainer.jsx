@@ -7,8 +7,7 @@ import StoreContext from "../../StoreContext"
 const DialogsContainer = () => {
 
     return <StoreContext.Consumer>
-        {
-        (store) => {
+        {(store) => {
             let state = store.getState();
 
             let onSendMessageClick = () => {
@@ -23,7 +22,7 @@ const DialogsContainer = () => {
                             messages={state.dialogsPage.messages}
                             newMessageBoby={state.dialogsPage.newMessageBody}/>
         }
-    }
+        }
     </StoreContext.Consumer>
 }
 
