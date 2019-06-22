@@ -7,7 +7,7 @@ import StoreContext from "../../StoreContext"
 const DialogsContainer = () => {
 
     return <StoreContext.Consumer>
-        {(store) => {
+        {(store) => { // ! braces for StoreContext on the new line !
             let state = store.getState();
 
             let onSendMessageClick = () => {
