@@ -6,7 +6,7 @@ import StoreContext from "../../../StoreContext"
 const MyPostsContainer = () => {
 
     return <StoreContext.Consumer>
-        {(store) => {
+        {(store) => {  // ! braces for StoreContext on the new line !
             let state = store.getState();
             let addPost = () => {
                 store.dispatch(addPostActionCreator());
