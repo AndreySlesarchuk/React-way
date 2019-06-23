@@ -120,7 +120,7 @@ __06/13/2019 __06/13/2019 __06/19/2019
     - как можно меньше лишней информации
     - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
         https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
-__06/20/2019
+__06/20/2019 __06/21/2019 __06/22/2019 __06/23/2019
 -- lesson 44 React JS Практика Context API
 -- https://www.youtube.com/watch?v=Q_UvAaKSK90
     https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ
