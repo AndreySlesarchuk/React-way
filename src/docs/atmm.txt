@@ -131,4 +131,6 @@ __06/20/2019 __06/21/2019 __06/22/2019 __06/23/2019
     ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
     ! Error: render is not a function https://github.com/facebook/react/issues/12241
         !braces on the new line
-
+-- React Redux library, connect
+-- lesson 45 connect, mapStateToProps, mapDispatchToProps
+    https://www.youtube.com/watch?v=SYaHe-lP7eY
