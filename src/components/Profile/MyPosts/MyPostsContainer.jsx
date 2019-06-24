@@ -5,7 +5,8 @@ import {connect} from "react-redux";
 
 let mapStateToProps = (state) => {
     return {
-        state: state.profilePage
+        posts: state.profilePage.posts,
+        newPostText: state.profilePage.newPostText
     }
 }
 let mapDispatchToProps = (dispatch) => {
@@ -14,7 +15,8 @@ let mapDispatchToProps = (dispatch) => {
             dispatch(addPostActionCreator());
         },
         updateNewPostText: (text) => {
-            dispatch(updateNewPostActionCreator(text));
+            let action = updateNewPostActionCreator(text);
+            dispatch(action);
         }
     }
 }
