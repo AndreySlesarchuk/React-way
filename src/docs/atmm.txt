@@ -143,3 +143,5 @@ __06/24/2019
     https://www.youtube.com/watch?v=L2SSsOmqiig
     чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
     детерминированность, демпотентность, инмютабельность
+-- lesson 48 Копия состояние в DialogReducer
+    https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
