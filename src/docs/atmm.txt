@@ -138,7 +138,7 @@ __06/24/2019
     npm install react-redux --save
 -- lesson 46 deep copy vs shallow copy
     var b = {...a}; https://monosnap.com/file/k9d44KTCCB8QFkz5StIh93oPwDFpQN
-    спред оператор ...
+    спрэд оператор ...
 -- lesson 47 Копия состояние в ProfileReducer
     https://www.youtube.com/watch?v=L2SSsOmqiig
     чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
