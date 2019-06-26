@@ -3,9 +3,9 @@ const SEND_MESSAGE = 'SEND_MESSAGE';
 
 let initialState = {
     dialogs: [
-        {id: 1, name: 'Masha'},
-        {id: 2, name: 'Mike'},
-        {id: 3, name: 'Tana'},
+        {id: 1, name: 'Tana'},
+        {id: 2, name: 'Masha'},
+        {id: 3, name: 'Mike'},
         {id: 4, name: 'Andrey'},
 
     ],
