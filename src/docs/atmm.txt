@@ -147,5 +147,5 @@ __06/24/2019
     https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
     npm update --save react
 __06/24/2019
--- lesson 49 Страница пользователей AJAX 
+-- lesson 49 Страница пользователей AJAX
     https://www.youtube.com/watch?v=ceSZUZZaW30&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50
