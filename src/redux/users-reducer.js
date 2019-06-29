@@ -2,8 +2,8 @@ const ADD_POST = 'ADD-POST';
 const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
 
 let initialState = {
-    posts: [
-        {id: 1, message: 'Hello world!', likesCount: 13},
+    users: [
+        {id: 1, fullname: 'Andrey', status: 'I am a boss', location: {city: 'Minsk', country:'Belarus'}},
         {id: 2, message: 'Good morning', likesCount: 8},
         {id: 3, message: 'Yup', likesCount: 7},
         {id: 4, message: 'Hug', likesCount: 11}
