@@ -20,8 +20,13 @@ const App = () => {
             <Header/>
             <Navbar/>
             <div className='app-wrapper-content'>
-                <Route path='/profile' render={() => <Profile /> }/>
-                <Route path='/dialogs' render={() => <DialogsContainer /> }/>
+                <Route path='/profile'
+                       render={() => <Profile /> }/>
+                <Route path='/dialogs'
+                       render={() => <DialogsContainer /> }/>
+                <Route path='/users'
+                       render={() => <div>users</div>} />
+
                 <Route path='/news' render={() => <News />} />
                 <Route path='/music' render={() => <Music />} />
                 <Route path='/todo' render={() => <Todo />} />
