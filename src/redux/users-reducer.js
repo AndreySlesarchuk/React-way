@@ -4,11 +4,10 @@ const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
 let initialState = {
     users: [
         {id: 1, fullname: 'Andrey', status: 'I am a boss', location: {city: 'Minsk', country:'Belarus'}},
-        {id: 2, message: 'Good morning', likesCount: 8},
-        {id: 3, message: 'Yup', likesCount: 7},
-        {id: 4, message: 'Hug', likesCount: 11}
-    ],
-    newPostText: 'www.atmm.by'
+        {id: 2, fullname: 'Bogdan', status: 'I am a boss', location: {city: 'Kiev', country:'Ukraine'}},
+        {id: 3, fullname: 'Andrey', status: 'I am a boss', location: {city: 'Moskow', country:'Russia'}},
+        {id: 4, fullname: 'Fedor', status: 'I am a boss', location: {city: 'Pinsk', country:'Belarus'}},
+    ]
 }
 
 
