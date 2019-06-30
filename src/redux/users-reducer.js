@@ -5,8 +5,8 @@ let initialState = {
     users: [
         {id: 1, fullname: 'Andrey', status: 'I am a boss', location: {city: 'Minsk', country:'Belarus'}},
         {id: 2, fullname: 'Bogdan', status: 'I am a boss', location: {city: 'Kiev', country:'Ukraine'}},
-        {id: 3, fullname: 'Andrey', status: 'I am a boss', location: {city: 'Moskow', country:'Russia'}},
-        {id: 4, fullname: 'Fedor', status: 'I am a boss', location: {city: 'Pinsk', country:'Belarus'}},
+        {id: 3, fullname: 'Valya', status: 'I am a boss', location: {city: 'Moskow', country:'Russia'}},
+        {id: 4, fullname: 'Mike', status: 'I am a boss', location: {city: 'Pinsk', country:'Belarus'}},
     ]
 }
 
