@@ -1,4 +1,5 @@
-const ADD_POST = 'ADD-POST';
+const FOLLOW = 'FOLLOW';
+const UNFOLLOW = 'UNFOLLOW';
 const UPDATE_NEW_POST_TEXT = 'UPDATE_NEW_POST_TEXT';
 
 let initialState = {
@@ -18,7 +19,8 @@ const usersReducer = (state = initialState, action) => {
     }
 }
 // if only returns value
-export const addPostActionCreator = () => ({type: ADD_POST})
+export const followActionCreator = () => ({type: FOLLOW})
+export const unfollowActionCreator = () => ({type: UNFOLLOW})
 export const updateNewPostActionCreator = (text) => {
     return {type: UPDATE_NEW_POST_TEXT, newText: text}
 }
