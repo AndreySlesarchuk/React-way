@@ -154,3 +154,9 @@ __06/24/2019 __06/29/2019
     транспилятор Babel переводит из jsx в js
     разработку важнее начинать с бизнес уровня STATE
 !   DDD Domain Driven Design https://habr.com/ru/post/334126/
+__07/01/2019
+-- lesson 50 REST API (краткая теория) Application Programm[-ing] Interface
+    https://www.youtube.com/watch?v=c34P8-9YVMQ
+    Interface - https://www.youtube.com/watch?v=c34P8-9YVMQ
+    Server API https://monosnap.com/file/Dbizjl0M1djY7i31oWIvXc460EYdQa
+        https://monosnap.com/file/hEq853r6WDDyM4g155rKO0QpFpJKHN
