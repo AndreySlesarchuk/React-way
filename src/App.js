@@ -11,7 +11,7 @@ import News from "./components/News/News";
 import Geomap from "./components/Geomaps/Geomap";
 import MyMap from "./components/Geomaps/MyMap";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
-import Users from "./components/Users/Users";
+import UsersContainer from "./components/Users/UsersContainer";
 
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
                 <Route path='/dialogs'
                        render={() => <DialogsContainer /> }/>
                 <Route path='/users'
-                       render={() => <Users/>} />
+                       render={() => <UsersContainer/>} />
 
                 <Route path='/news' render={() => <News />} />
                 <Route path='/music' render={() => <Music />} />
