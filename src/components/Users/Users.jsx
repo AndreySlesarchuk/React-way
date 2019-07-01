@@ -1,23 +1,69 @@
 import React from 'react';
+import styles from './Users.module.css';
 
 let Users = (props) => {
+
+    if (props.users.length === 0) {
+        props.setUsers([
+                {
+                    id: 1,
+                    photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
+                    followed: true,
+                    fullname: 'Andrey',
+                    status: 'I am a boss',
+                    location: {city: 'Minsk', country: 'Belarus'}
+                },
+                {
+                    id: 2,
+                    photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
+                    followed: false,
+                    fullname: 'Bogdan',
+                    status: 'I am a boss',
+                    location: {city: 'Kiev', country: 'Ukraine'}
+                },
+                {
+                    id: 3,
+                    photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
+                    followed: true,
+                    fullname: 'Valya',
+                    status: 'I am a boss',
+                    location: {city: 'Moskow', country: 'Russia'}
+                },
+                {
+                    id: 4,
+                    photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
+                    followed: true,
+                    fullname: 'Mike',
+                    status: 'I am a boss',
+                    location: {city: 'Pinsk', country: 'Belarus'}
+                }
+            ]
+        )
+    }
     return <div>
         {
             props.users.map(u => <div key={u.id}>
                 <span>
                     <div>
-                        <img/>
+                        <img src={u.photoUrl} className={styles.userPhoto}/>
                     </div>
                     <div>
-                        <button>Follow</button>
+                        {u.followed
+                            ? <button onClick={() => {
+                                props.unfollow(u.id)
+                            }}>Unfollow</button>
+                            : <button onClick={() => {
+                                props.follow(u.id)
+                            }}>Follow</button>}
                     </div>
                 </span>
                 <span>
                     <span>
-                        <div></div><div></div>
+                        <div>{u.fullname}</div><div>{u.status}</div>
                     </span>
                     <span>
-                        <div></div><div></div>
+                        <div>{u.location.country}</div>
+                        <div>{u.location.city}</div>
                     </span>
                 </span>
             </div>)
