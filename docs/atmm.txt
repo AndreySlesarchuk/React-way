@@ -165,3 +165,7 @@ __07/01/2019
 -- lesson 51 Users API
     https://www.youtube.com/watch?v=n9op6xgJMFo
 !   axios https://monosnap.com/file/bEkFcuE03d7Tplasl9jfUdnw2ev2Ml
+    npm install axios --save
+    http://social-network.samuraijs.com/docs#
+        https://social-network.samuraijs.com/api/1.0/users
+    http://jsonviewer.stack.hu/

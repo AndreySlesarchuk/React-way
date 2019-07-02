@@ -1,10 +1,16 @@
 import React from 'react';
 import styles from './Users.module.css';
+import {AxiosInstance as axios} from "axios";
 
 let Users = (props) => {
 
     if (props.users.length === 0) {
-        props.setUsers([
+
+        axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
+            props.setUsers()
+        });
+
+        /*props.setUsers([
                 {
                     id: 1,
                     photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
@@ -37,8 +43,7 @@ let Users = (props) => {
                     status: 'I am a boss',
                     location: {city: 'Pinsk', country: 'Belarus'}
                 }
-            ]
-        )
+            ])*/
     }
     return <div>
         {
