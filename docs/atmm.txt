@@ -167,5 +167,6 @@ __07/01/2019
 !   axios https://monosnap.com/file/bEkFcuE03d7Tplasl9jfUdnw2ev2Ml
     npm install axios --save
     http://social-network.samuraijs.com/docs#
+    https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
         https://social-network.samuraijs.com/api/1.0/users
     http://jsonviewer.stack.hu/

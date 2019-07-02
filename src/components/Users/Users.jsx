@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './Users.module.css';
-import {AxiosInstance as axios} from "axios";
+import * as axios from "axios";
 
 let Users = (props) => {
-
     if (props.users.length === 0) {
 
         axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
-            props.setUsers()
+            props.setUsers(response.data.items);
         });
 
         /*props.setUsers([
@@ -64,11 +63,12 @@ let Users = (props) => {
                 </span>
                 <span>
                     <span>
-                        <div>{u.fullname}</div><div>{u.status}</div>
+                        <div>{u.name}</div>
+                        <div>{u.status}</div>
                     </span>
                     <span>
-                        <div>{u.location.country}</div>
-                        <div>{u.location.city}</div>
+                        <div>{"u.location.country"}</div>
+                        <div>{"u.location.city"}</div>
                     </span>
                 </span>
             </div>)
