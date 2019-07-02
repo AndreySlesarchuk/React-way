@@ -160,8 +160,8 @@ __07/01/2019
     Interface - https://www.youtube.com/watch?v=c34P8-9YVMQ
     Server API https://monosnap.com/file/Dbizjl0M1djY7i31oWIvXc460EYdQa
         https://monosnap.com/file/hEq853r6WDDyM4g155rKO0QpFpJKHN
-!   axios https://monosnap.com/file/bEkFcuE03d7Tplasl9jfUdnw2ev2Ml
     Ajax в деталях (get, post, rest api, axios, jquery, options, cors):
         https://www.youtube.com/watch?v=wXKTQXLblwY&list=PLcvhF2Wqh7DNDDIp2MGbv8cMYsoUO1lew
 -- lesson 51 Users API
     https://www.youtube.com/watch?v=n9op6xgJMFo
+!   axios https://monosnap.com/file/bEkFcuE03d7Tplasl9jfUdnw2ev2Ml
