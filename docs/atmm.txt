@@ -170,3 +170,6 @@ __07/01/2019
     https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
         https://social-network.samuraijs.com/api/1.0/users
     http://jsonviewer.stack.hu/
+__07/02/2019
+-- lesson 51 Side Effect
+    https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
