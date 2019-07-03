@@ -8,7 +8,7 @@ let initialState = {
         {id: 3, message: 'Victory day', likesCount: 7},
         {id: 4, message: 'summer evening', likesCount: 11}
     ],
-    newPostText: 'www.atmm.ru'
+    newPostText: 'atmm.by'
 }
 
 
