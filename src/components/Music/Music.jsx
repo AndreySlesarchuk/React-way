@@ -10,7 +10,7 @@ const  Music = (props) => {
                     WOLF HOFFMANN (Accept)
                 </div>
                 <div className={c.album}>
-                    Пикник
+                    ACCEPT
                 </div>
                 <div className={c.album}>
                     Кукрыниксы
@@ -24,7 +24,7 @@ const  Music = (props) => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Pathetique [2017]</div>
-                <div className={c.song}>Там на самом на краю земли</div>
+                <div className={c.song}>Shadow Soldiers - Restless And Live</div>
                 <div className={c.song}>Акварели</div>
                 <div className={c.song}>Russian's roulet</div>
                 <div className={c.song}>Crying soldier</div>
