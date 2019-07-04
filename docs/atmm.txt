@@ -176,4 +176,6 @@ __07/02/2019
 __07/04/2019
 -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть
     https://www.youtube.com/watch?v=vO63wxg4aKY
+-- lesson 54 жизненный цикл, life cycle methods, componentDidMount
+    https://www.youtube.com/watch?v=auAtFC5nfTs
 
