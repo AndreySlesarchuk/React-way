@@ -3,55 +3,23 @@ import styles from './Users.module.css';
 import * as axios from "axios";
 import userPhoto from '../../assets/images/user.png';
 
-let Users = (props) => {
+class Users extends React.Component {
 
-    let getUsers = () => {
-        if (props.users.length === 0) {
+    getUsers = () =>
+    {
+        if (this.props.users.length === 0) {
 
             axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
-                props.setUsers(response.data.items);
+                this.props.setUsers(response.data.items);
             });
-
-            /*props.setUsers([
-                        {
-                            id: 1,
-                            photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
-                            followed: true,
-                            fullname: 'Andrey',
-                            status: 'I am a boss',
-                            location: {city: 'Minsk', country: 'Belarus'}
-                        },
-                        {
-                            id: 2,
-                            photoUrl: 'https://scontent-frx5-1.xx.fbcdn.net/v/t1.0-1/p160x160/20375969_2123357487891108_7861845126847512805_n.jpg?_nc_cat=111&_nc_oc=AQm-AdUM7bQpERJlKFfUaP9WZrAK3mZZq5ErrhgJFCeT6NnijdBGHQk240fLZbDvbO8&_nc_ht=scontent-frx5-1.xx&oh=7f0e401ff816a57acae0a6421ac8f2d9&oe=5DAF13D6',
-                            followed: false,
-                            fullname: 'Bogdan',
-                            status: 'I am a boss',
-                            location: {city: 'Kiev', country: 'Ukraine'}
-                        },
-                        {
-                            id: 3,
-                            photoUrl: 'https://pp.userapi.com/vcYmvWu65RQR8ThH4H4onUQTCDkPQH3--Ma9Iw/gJkvd0aS6Jg.jpg?ava=1',
-                            followed: true,
-                            fullname: 'Valya',
-                            status: 'I am a boss',
-                            location: {city: 'Moskow', country: 'Russia'}
-                        },
-                        {
-                            id: 4,
-                            photoUrl: 'https://pp.userapi.com/c629115/v629115031/45724/HIYYl-pdsfA.jpg?ava=1',
-                            followed: true,
-                            fullname: 'Mike',
-                            status: 'I am a boss',
-                            location: {city: 'Pinsk', country: 'Belarus'}
-                        }
-                    ])*/
         }
     }
-    return <div>
-        <button onClick={getUsers}>Get Users</button>
-        {
-            props.users.map(u => <div key={u.id}>
+
+    render() {
+        return <div>
+            <button onClick={this.getUsers}>Get Users</button>
+            {
+                this.props.users.map(u => <div key={u.id}>
                 <span>
                     <div>
                         <img src={u.photos.small != null ? u.photos.small : userPhoto} className={styles.userPhoto}/>
@@ -59,14 +27,14 @@ let Users = (props) => {
                     <div>
                         {u.followed
                             ? <button onClick={() => {
-                                props.unfollow(u.id)
+                                this.props.unfollow(u.id)
                             }}>Unfollow</button>
                             : <button onClick={() => {
-                                props.follow(u.id)
+                                this.props.follow(u.id)
                             }}>Follow</button>}
                     </div>
                 </span>
-                <span>
+                    <span>
                     <span>
                         <div>{u.name}</div>
                         <div>{u.status}</div>
@@ -76,9 +44,10 @@ let Users = (props) => {
                         <div>{"u.location.city"}</div>
                     </span>
                 </span>
-            </div>)
-        }
-    </div>
+                </div>)
+            }
+        </div>
+    }
 }
 
 export default Users;
