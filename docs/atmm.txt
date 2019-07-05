@@ -186,5 +186,7 @@ __07/04/2019
 __07/05/2019
 -- lesson 55 pagination, постраничный вывод пользователей
     https://www.youtube.com/watch?v=ap8HxJPwJhY
+        https://social-network.samuraijs.com/
+        https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
 
 
