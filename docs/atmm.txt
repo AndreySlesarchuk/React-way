@@ -169,7 +169,7 @@ __07/01/2019
     http://social-network.samuraijs.com/docs#
     https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
         https://social-network.samuraijs.com/api/1.0/users
-    http://jsonviewer.stack.hu/
+    https://jsoneditoronline.org/ http://jsonviewer.stack.hu/
 __07/02/2019
 -- lesson 52 Side Effect (Побочный эффект)
     https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
@@ -188,5 +188,5 @@ __07/05/2019
     https://www.youtube.com/watch?v=ap8HxJPwJhY
         https://social-network.samuraijs.com/
         https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
-
+! JSON EDITOR https://jsoneditoronline.org/ http://jsonviewer.stack.hu/
 
