@@ -180,5 +180,8 @@ __07/04/2019
     https://www.youtube.com/watch?v=auAtFC5nfTs
     componentDidMount() componentDidUpdate()
 !    default constructor not need  constructor(props) {super(props);}
+!   классовая компонента
+        1. обязателен метод render возвращающий jsx
+        2. props внутри объекта, обращение через this
 
 
