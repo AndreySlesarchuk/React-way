@@ -2,7 +2,12 @@ import React from "react";
 import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogs-reducer";
 import Users from "./Users";
 import {connect} from "react-redux";
-import {followActionCreator, setUsersActionCreator, unfollowActionCreator} from "../../redux/users-reducer";
+import {
+    followActionCreator,
+    setCurrentPageActionCreator,
+    setUsersActionCreator,
+    unfollowActionCreator
+} from "../../redux/users-reducer";
 
 let mapStateToProps = (state) => {
     return {
@@ -22,6 +27,9 @@ let mapDispatchToProps = (dispatch) => {
         },
         setUsers: (users) => {
             dispatch(setUsersActionCreator(users));
+        },
+        setCurrentPage: (pageNumber) => {
+            dispatch(setCurrentPageActionCreator(pageNumber));
         }
     }
 }
