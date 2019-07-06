@@ -183,10 +183,10 @@ __07/04/2019
 !   классовая компонента
         1. обязателен метод render возвращающий jsx
         2. props внутри объекта, обращение через this
-__07/05/2019
+__07/05/2019 __07/06/2019
 -- lesson 55 pagination, постраничный вывод пользователей
     https://www.youtube.com/watch?v=ap8HxJPwJhY
         https://social-network.samuraijs.com/
         https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
-! JSON EDITOR https://jsoneditoronline.org/ http://jsonviewer.stack.hu/
+! JSON EDITOR https://jsoneditoronline.org/
 
