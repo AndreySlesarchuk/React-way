@@ -26,7 +26,7 @@ const  Music = (props) => {
                 <div className={c.song}>Kill The Pain</div>
                 <div className={c.song}>Soldier Of Fortune (Live in Paris 2006) HD</div>
                 <div className={c.song}>The Temple Of The King(Rainbow´s cover, Live Over Europe)</div>
-                <div className={c.song}>Russian's roulet</div>
+                <div className={c.song}>Symphony No. 40 (OFFICIAL LIVE VIDEO)</div>
                 <div className={c.song}>Crying soldier</div>
             </div>
         </div>
