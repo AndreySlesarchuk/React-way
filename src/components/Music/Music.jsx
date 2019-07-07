@@ -13,7 +13,7 @@ const  Music = (props) => {
                     Blackmore's Night
                 </div>
                 <div className={c.album}>
-                    Axel Rudi Pell
+                    ARIA
                 </div>
                 <div className={c.album}>
                     Accept
@@ -25,7 +25,7 @@ const  Music = (props) => {
             <div className={c.songs}>
                 <div className={c.song}>Kill The Pain</div>
                 <div className={c.song}>Soldier Of Fortune (Live in Paris 2006) HD</div>
-                <div className={c.song}>The Temple Of The King(Rainbow´s cover, Live Over Europe)</div>
+                <div className={c.song}>1100</div>
                 <div className={c.song}>Symphony No. 40 (OFFICIAL LIVE VIDEO)</div>
                 <div className={c.song}>Crying soldier</div>
             </div>
