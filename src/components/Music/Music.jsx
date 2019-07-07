@@ -13,7 +13,7 @@ const  Music = (props) => {
                     ACCEPT
                 </div>
                 <div className={c.album}>
-                    Кукрыниксы
+                    Axel Rudi Pell
                 </div>
                 <div className={c.album}>
                     Accept
@@ -25,7 +25,7 @@ const  Music = (props) => {
             <div className={c.songs}>
                 <div className={c.song}>Kill The Pain</div>
                 <div className={c.song}>Shadow Soldiers - Restless And Live</div>
-                <div className={c.song}>Акварели</div>
+                <div className={c.song}>The Temple Of The King(Rainbow´s cover, Live Over Europe)</div>
                 <div className={c.song}>Russian's roulet</div>
                 <div className={c.song}>Crying soldier</div>
             </div>
