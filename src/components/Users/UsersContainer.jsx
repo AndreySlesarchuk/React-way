@@ -1,6 +1,6 @@
 import React from "react";
 import {sendMessageCreator, updateNewMessageBodyCreator} from "../../redux/dialogs-reducer";
-import UsersAPIComponent from "./Users";
+import UsersAPIComponent from "./UsersAPIComponent";
 import {connect} from "react-redux";
 import {
     followActionCreator,
