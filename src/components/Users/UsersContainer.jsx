@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
-import {followActionCreator, setCurrentPageActionCreator, setUsersActionCreator, setUsersTotalCountActionCreator,
-    unfollowActionCreator} from "../../redux/users-reducer";
+import {followAC, setCurrentPageAC, setUsersAC, setUsersTotalCountAC,
+    unfollowAC} from "../../redux/users-reducer";
 import * as axios from 'axios';
 import Users from './Users';
 import preloader from '../../assets/images/Pacman-1s-200px.svg';
@@ -51,19 +51,19 @@ let mapStateToProps = (state) => {
 let mapDispatchToProps = (dispatch) => {
     return {
         follow: (userId) => {
-            dispatch(followActionCreator(userId));
+            dispatch(followAC(userId));
         },
         unfollow: (userId) => {
-            dispatch(unfollowActionCreator(userId));
+            dispatch(unfollowAC(userId));
         },
         setUsers: (users) => {
-            dispatch(setUsersActionCreator(users));
+            dispatch(setUsersAC(users));
         },
         setCurrentPage: (pageNumber) => {
-            dispatch(setCurrentPageActionCreator(pageNumber));
+            dispatch(setCurrentPageAC(pageNumber));
         },
         setTotalUserCount: (totalCount) => {
-            dispatch(setUsersTotalCountActionCreator(totalCount))
+            dispatch(setUsersTotalCountAC(totalCount))
         }
 
     }
