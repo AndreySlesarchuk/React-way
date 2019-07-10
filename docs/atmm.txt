@@ -184,10 +184,8 @@ __07/04/2019
         1. обязателен метод render возвращающий jsx
         2. props внутри объекта, обращение через this
 __07/05/2019 __07/06/2019
--- lesson 55 pagination, постраничный вывод пользователей
-    https://www.youtube.com/watch?v=ap8HxJPwJhY
-        https://social-network.samuraijs.com/
-        https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
+-- lesson 55 pagination, постраничный вывод пользователей    https://www.youtube.com/watch?v=ap8HxJPwJhY
+        https://social-network.samuraijs.com/       https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
 ! JSON EDITOR https://jsoneditoronline.org/
 __07/07/2019 __07/08/2019
 -- lesson 56  Презентационная и Контейнерная компоненты и чистая функциональная компонента
@@ -197,3 +195,4 @@ __07/09/2019
 -- lesson 57  пример Preloader, loader-gif, isFetching indication
     https://www.youtube.com/watch?v=qE8ThPt1EIM
         loader gif
+        https://loading.io/
