@@ -32,7 +32,10 @@ class UsersContainer extends React.Component {
 
     render() {
         return <>
-            { this.props.isFetching ? <img src={preloader} /> : null}
+            { this.props.isFetching ?
+                <div style={{backgroundColor: 'white'}} >
+                    <img src={preloader} />
+                </div>: null}
             <Users totalUsersCount={this.props.totalUsersCount}
                    pageSize={this.props.pageSize}
                    currentPage={this.props.currentPage}
