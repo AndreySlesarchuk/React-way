@@ -1,6 +1,8 @@
+__07/11/2019
+    -- lesson 59 profile page, ajax, api  https://www.youtube.com/watch?v=MM02LsZqssQ
 __07/10/2019
     -- lesson 58  mapDispatchToProps лайф-хак  https://www.youtube.com/watch?v=_LZXisuCluw
-    mapStateToProps и mapDispatchToProps коннектятся в props
+    mapStateToProps и mapDispatchToProps коннектятся в props | mapDispatchToProps reformat
 
 !!! 30, 40 lesson for fixing
 __5/11/2019
