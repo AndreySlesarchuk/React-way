@@ -1,6 +1,6 @@
 __07/10/2019
     -- lesson 58  mapDispatchToProps лайф-хак  https://www.youtube.com/watch?v=_LZXisuCluw
-
+    mapStateToProps и mapDispatchToProps коннектятся в props
 
 !!! 30, 40 lesson for fixing
 __5/11/2019
