@@ -1,12 +1,8 @@
 import React from "react";
 import {connect} from "react-redux";
-import {
-    followAC, setCurrentPageAC, setUsersAC, setUsersTotalCountAC, toggleIsFetchingAC,
-    unfollowAC
-} from "../../redux/users-reducer";
+import {followAC, setCurrentPageAC, setUsersAC, setUsersTotalCountAC, toggleIsFetchingAC, unfollowAC} from "../../redux/users-reducer";
 import * as axios from 'axios';
 import Users from './Users';
-import preloader from '../../assets/images/Pacman-1s-200px.svg';
 import Preloader from "../common/Preloader/Preloader";
 
 class UsersContainer extends React.Component {
