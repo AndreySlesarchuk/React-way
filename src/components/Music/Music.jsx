@@ -10,7 +10,7 @@ const  Music = (props) => {
                     Technology
                 </div>
                 <div className={c.album}>
-                    Blackmore's Night
+                    Alliance
                 </div>
                 <div className={c.album}>
                     ARIA
@@ -24,7 +24,7 @@ const  Music = (props) => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Push the button</div>
-                <div className={c.song}>Soldier Of Fortune (Live in Paris 2006) HD</div>
+                <div className={c.song}>At dawn</div>
                 <div className={c.song}>1100</div>
                 <div className={c.song}>Symphony No. 40 (OFFICIAL LIVE VIDEO)</div>
                 <div className={c.song}>Crying soldier</div>
