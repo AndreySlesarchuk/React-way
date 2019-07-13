@@ -1,15 +1,15 @@
 import * as React from "react";
+import {connect} from "react-redux";
 import Profile from "./Profile";
 import * as axios from "axios";
+import {setUserProfile} from "../../redux/profile-reducer";
 
 class ProfileContainer extends React.Component {
 
     componentDidMount = () => {
         axios.get(`https://social-network.samuraijs.com/api/1.0/profile/2`)
             .then(response => {
-                this.props.toggleIsFetching(false);
-                this.props.setUsers(response.data.items);
-                this.props.setTotalUsersCount(response.data.totalCount);
+                this.props.setUserProfile(response.data);
             });
     }
 
@@ -22,4 +22,15 @@ class ProfileContainer extends React.Component {
     }
 }
 
-export default ProfileContainer;
+let mapStateToProps = (state) => {
+    return {
+        users: state.usersPage.users,
+        pageSize: state.usersPage.pageSize,
+        totalUsersCount: state.usersPage.totalUsersCount,
+        currentPage: state.usersPage.currentPage,
+        isFetching: state.usersPage.isFetching
+    }
+}
+
+
+export default connect(mapStateToProps, {setUserProfile})(ProfileContainer);
