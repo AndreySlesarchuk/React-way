@@ -1,4 +1,6 @@
-__07/11/2019    -- lesson 59 profile page, ajax, api  https://www.youtube.com/watch?v=MM02LsZqssQ
+
+__07/11-13/2019    -- lesson 59 profile page, ajax, api  https://www.youtube.com/watch?v=MM02LsZqssQ
+    https://social-network.samuraijs.com/api/1.0/profile/2
 __07/10/2019    -- lesson 58  mapDispatchToProps лайф-хак  https://www.youtube.com/watch?v=_LZXisuCluw
     mapStateToProps и mapDispatchToProps коннектятся в props | mapDispatchToProps reformat
 __07/09/2019    -- lesson 57  пример Preloader, loader-gif, isFetching indication  https://www.youtube.com/watch?v=qE8ThPt1EIM
