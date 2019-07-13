@@ -11,4 +11,4 @@ class ProfileContainer extends React.Component {
     }
 }
 
-export default Profile;
+export default ProfileContainer;
