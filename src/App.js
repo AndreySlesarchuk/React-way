@@ -14,7 +14,6 @@ import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 
-
 const App = () => {
 
     return (
@@ -28,7 +27,6 @@ const App = () => {
                        render={() => <DialogsContainer /> }/>
                 <Route path='/users'
                        render={() => <UsersContainer/>} />
-
                 <Route path='/music' render={() => <Music />} />
                 <Route path='/news' render={() => <News />} />
                 <Route path='/todo' render={() => <Todo />} />
