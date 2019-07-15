@@ -1,5 +1,5 @@
 
-__07/11-15/2019     Отпуск 
+__07/11-15/2019     Отпуск
 __07/11-14/2019    -- lesson 60 withRouter https://www.youtube.com/watch?v=e6SpHkb0E3I
 __07/11-13/2019    -- lesson 59 profile page, ajax, api  https://www.youtube.com/watch?v=MM02LsZqssQ
     https://social-network.samuraijs.com/api/1.0/profile/2

@@ -29,8 +29,8 @@ const App = () => {
                 <Route path='/users'
                        render={() => <UsersContainer/>} />
 
-                <Route path='/news' render={() => <News />} />
                 <Route path='/music' render={() => <Music />} />
+                <Route path='/news' render={() => <News />} />
                 <Route path='/todo' render={() => <Todo />} />
                 <Route path='/meme' render={() => <Meme />} />
                 <Route path='/map' render={() => <MyMap />} />
