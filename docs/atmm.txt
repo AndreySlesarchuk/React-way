@@ -101,29 +101,6 @@ __06/01/2019 lesson 38
     - https://www.openstreetmap.org/#map=6/54.008/28.191
     - http://localhost:9081/master
     ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
-__06/02/2019 lesson 38 DISPATCH (отправка методов) type action
-    - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39
-__06/03/2019
--- lesson 39 action creator action type
-    - video https://www.youtube.com/watch?v=EW8cEDyYAYM&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=40
-    - action это объект который формируется в компонентах для передачи объекта через метод dispatch
-        - https://monosnap.com/file/J8Mzif8St3NCRnLrmPfVLRdaA3qMrN
-        - https://monosnap.com/file/M0JbDCimr562hn4RC8gVfmJfHIlfTS
-        - управление состояниями REDUX
-        - let action = actionCreator()
-    - 24.30 Хорошие слова о мотивации и Беларуси )))
--- lesson 40 adding message
-    - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
-__06/06/2019
--- #Leaflet : it's time to leave GoogleMaps by Guillaume Soldera https://www.youtube.com/watch?v=_Jm-UPOEE0o
-__06/10/2019
-    ! компоненте давать только необходимое
--- lesson 41 reducer (почти redux)
-    - video https://www.youtube.com/watch?v=GPabDsMyceU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=42
-    - action - объект с минимум type
-    - reducer - функция которая принимает state, action и применяет по необходимости действия и возвращает новый стейт
-        https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY
-        https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
 __07/04/2019 -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть
     https://www.youtube.com/watch?v=vO63wxg4aKY
 -- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
@@ -176,5 +153,24 @@ __06/13/2019 __06/13/2019 __06/19/2019
             https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
 __06/11/2019
     -- lesson 42 redux - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
+__06/10/2019  ! компоненте давать только необходимое
+    -- lesson 41 reducer (почти redux)
+        - video https://www.youtube.com/watch?v=GPabDsMyceU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=42
+        - action - объект с минимум type - reducer - функция которая принимает state, action и применяет по необходимости действия и возвращает новый стейт
+        https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
+    -- lesson 40 adding message
+        - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
+__06/06/2019 #Leaflet : it's time to leave GoogleMaps by Guillaume Soldera https://www.youtube.com/watch?v=_Jm-UPOEE0o
+__06/03/2019
+    -- lesson 39 action creator action type
+        - video https://www.youtube.com/watch?v=EW8cEDyYAYM&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=40
+        - action это объект который формируется в компонентах для передачи объекта через метод dispatch
+            - https://monosnap.com/file/J8Mzif8St3NCRnLrmPfVLRdaA3qMrN
+            - https://monosnap.com/file/M0JbDCimr562hn4RC8gVfmJfHIlfTS
+            - управление состояниями REDUX - let action = actionCreator()
+        - 24.30 Хорошие слова о мотивации и Беларуси )))
+__06/02/2019
+    -- lesson 38 DISPATCH (отправка методов) type action
+        - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39
 
 
