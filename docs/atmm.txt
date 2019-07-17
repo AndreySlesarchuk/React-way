@@ -101,12 +101,14 @@ __06/01/2019 lesson 38
     - https://www.openstreetmap.org/#map=6/54.008/28.191
     - http://localhost:9081/master
     ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
-__07/04/2019 -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть
-    https://www.youtube.com/watch?v=vO63wxg4aKY
--- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
-    componentDidMount() componentDidUpdate()
-!    default constructor not need  constructor(props) {super(props);}
-!   классовая компонента 1. обязателен метод render возвращающий jsx  2. props внутри объекта, обращение через this
+
+
+__07/04/2019
+    -- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
+        componentDidMount() componentDidUpdate()
+        ! default constructor not need  constructor(props) {super(props);}
+        ! классовая компонента 1. обязателен метод render возвращающий jsx  2. props внутри объекта, обращение через this
+    -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть https://www.youtube.com/watch?v=vO63wxg4aKY
 __07/02/2019
     -- lesson 52 Side Effect (Побочный эффект) https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
 __07/01/2019
@@ -134,7 +136,7 @@ __06/24/2019 __06/29/2019
         детерминированность, демпотентность, инмютабельность
 __06/24/2019 npm install react-redux --save
     -- lesson 46 deep copy vs shallow copy  var b = {...a}; https://monosnap.com/file/k9d44KTCCB8QFkz5StIh93oPwDFpQN
-    спрэд оператор ...
+        спрэд оператор ...
 __06/20/2019
     -- lesson 45 connect, mapStateToProps, mapDispatchToProps https://www.youtube.com/watch?v=SYaHe-lP7eY
 __06/21/2019 __06/22/2019 __06/23/2019
