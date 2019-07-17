@@ -124,18 +124,6 @@ __06/10/2019
     - reducer - функция которая принимает state, action и применяет по необходимости действия и возвращает новый стейт
         https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY
         https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
-__06/11/2019
--- lesson 42 redux
-    - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
-__06/13/2019 __06/13/2019 __06/19/2019
-    - npm install redux --save
-    - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
--- lesson 43 redux first step
-    - video https://www.youtube.com/watch?v=cbnExb3GSFM
--- Контейнерная компонента создается над презентационной
-    - как можно меньше лишней информации
-    - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
-        https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
 __07/04/2019 -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть
     https://www.youtube.com/watch?v=vO63wxg4aKY
 -- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
@@ -155,27 +143,38 @@ __07/01/2019 -- lesson 50 REST API (краткая теория) Application Pro
     http://social-network.samuraijs.com/docs#
       https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
     https://social-network.samuraijs.com/api/1.0/users    https://jsoneditoronline.org/ http://jsonviewer.stack.hu/
-__06/24/2019 __06/29/2019 -- lesson 49 Страница пользователей AJAX
-    https://www.youtube.com/watch?v=ceSZUZZaW30&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50
-    <Route />route следит за строкой в браузере, если есть открывает, если нет окно по умолчанию
-    jsx расширение только для компонент, js для редьюсеров и всего остального транспилятор Babel переводит из jsx в js
-    разработку важнее начинать с бизнес уровня STATE !   DDD Domain Driven Design https://habr.com/ru/post/334126/
--- lesson 48 Копия состояние в DialogReducer    npm update --save react
-    https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
--- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
-    чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
-    детерминированность, демпотентность, инмютабельность
+__06/24/2019 __06/29/2019
+    -- lesson 49 Страница пользователей AJAX
+        https://www.youtube.com/watch?v=ceSZUZZaW30&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50
+        <Route />route следит за строкой в браузере, если есть открывает, если нет окно по умолчанию
+        jsx расширение только для компонент, js для редьюсеров и всего остального транспилятор Babel переводит из jsx в js
+        разработку важнее начинать с бизнес уровня STATE !   DDD Domain Driven Design https://habr.com/ru/post/334126/
+    -- lesson 48 Копия состояние в DialogReducer    npm update --save react
+        https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
+    -- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
+        чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
+        детерминированность, демпотентность, инмютабельность
 __06/24/2019 npm install react-redux --save
     -- lesson 46 deep copy vs shallow copy  var b = {...a}; https://monosnap.com/file/k9d44KTCCB8QFkz5StIh93oPwDFpQN
     спрэд оператор ...
-__06/21/2019 __06/22/2019 __06/23/2019 -- lesson 44 React JS Практика Context API
-    -- https://www.youtube.com/watch?v=Q_UvAaKSK90
-    https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
-    https://ru.reactjs.org/docs/context.html Контекст позволяет передавать данные через дерево компонентов без
-     необходимости передавать пропмсы на промежуточных уровнях https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
-    ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
-    ! Error: render is not a function https://github.com/facebook/react/issues/12241 !braces on the new line
-    -- React Redux library, connect
-__06/20/2019 -- lesson 45 connect, mapStateToProps, mapDispatchToProps https://www.youtube.com/watch?v=SYaHe-lP7eY
+__06/20/2019
+    -- lesson 45 connect, mapStateToProps, mapDispatchToProps https://www.youtube.com/watch?v=SYaHe-lP7eY
+__06/21/2019 __06/22/2019 __06/23/2019
+    -- lesson 44 React JS Практика Context API  -- https://www.youtube.com/watch?v=Q_UvAaKSK90
+        https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
+        https://ru.reactjs.org/docs/context.html Контекст позволяет передавать данные через дерево компонентов без
+        необходимости передавать пропмсы на промежуточных уровнях https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
+        ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
+        ! Error: render is not a function https://github.com/facebook/react/issues/12241 !braces on the new line
+        -- React Redux library, connect
+__06/13/2019 __06/13/2019 __06/19/2019
+    -- lesson 43 redux first step - video https://www.youtube.com/watch?v=cbnExb3GSFM
+        - npm install redux --save
+        - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
+    -- Контейнерная компонента создается над презентационной  - как можно меньше лишней информации
+        - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
+            https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
+__06/11/2019
+    -- lesson 42 redux - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
 
 
