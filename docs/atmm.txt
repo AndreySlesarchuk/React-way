@@ -138,7 +138,6 @@ __06/03/2019
 __06/02/2019
     -- lesson 38 DISPATCH (отправка методов) type action
         - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39
-
 __06/01/2019
     -- lesson 38
     - dispatch and action
