@@ -51,10 +51,6 @@ __05/14/2019
     -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
     - <NavLink to="/dialogs">Messages</NavLink>
     - History API html5  | preventDefault
-__05/15/2019
-    - Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
-    - Объекты
-    - BLL - Buisness Logic Layer      UI - User Interface SOLID
 
     vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
@@ -177,4 +173,7 @@ __05/23/2019
     -- Прокидываем props
         -  <Route path='/dialogs' component={Dialogs} /> changing to
             <Route path='/dialogs' render={ () => {<Dialogs />} />  -  move data up
+__05/15/2019
+    -- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
+        - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
 
