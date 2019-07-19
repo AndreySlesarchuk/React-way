@@ -1,53 +1,5 @@
 
-_
-!!! 30, 40 lesson for fixing
-__5/11/2019
-- nodejs https://nodejs.org/en/
-- start node .js command prompt C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"
-- npx create-react-app my-app  https://github.com/facebook/create-react-app
-- cd my-app
-- npm start
-- index.js точка входа --> /public/index.html
-- Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
-!   -  В браузер разметка jsx не попадает
--- WebStorm keyboard shortcut
-    - alignment - Ctrl+A+Ctrl+Alt+L
-    - comments - Crtl+Shift+/
-    - find files(classes...) Ctrl+Shift+N
-    - create variable Ctrl-Alt-V
-
-- передвижение по словам - Crtl+->, с выделением слова Crtl+Shift->
-- Все места вызова тэга Alt+F7
-- https://codepen.io/anon/pen/oJNVJW
-- image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
-- model https://marvelapp.com/39ef033/screen/50996553
-__05/12/2019
-- Бэм методология https://ru.bem.info/methodology/
-- Не используем в названиях стилей дефис - из-за сложной реализации в className={c["header-n"]} - неудобно?!
-- Два стиля для класса {'${c.item} ${c.active}'}
-__05/13/2019
-    - Git https://github.com/it-kamasutra/react-way-of-samurai
-    - /node_modules not stored in the git  >npm install
-    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
-    - debugger; останавливается выполнение и смотрим все необходимое
-    - console.log(c);
-__05/14/2019
-    - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
-    -- npm install - for project from git for refresh
-    -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
-    - <NavLink to="/dialogs">Messages</NavLink>
-    - History API html5  | preventDefault
-
-    vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
-    - https://map.worldweatheronline.com/
-    - https://leafletjs.com/examples/quick-start/
-        https://codepen.io/PaulLeCam/pen/gzVmGw
-
-    - https://www.openstreetmap.org/#map=6/54.008/28.191
-    - http://localhost:9081/master
-    ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
-
-_07/11-15/2019     Отпуск
+__07/11-15/2019     Отпуск
 __07/11-14/2019    -- lesson 60 withRouter https://www.youtube.com/watch?v=e6SpHkb0E3I
 __07/11-13/2019    -- lesson 59 profile page, ajax, api  https://www.youtube.com/watch?v=MM02LsZqssQ
     https://social-network.samuraijs.com/api/1.0/profile/2
@@ -174,4 +126,53 @@ __05/23/2019
 __05/15/2019
     -- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
         - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
+
+
+_
+!!! 30, 40 lesson for fixing
+__5/11/2019
+- nodejs https://nodejs.org/en/
+- start node .js command prompt C:\Windows\System32\cmd.exe /k "C:\Program Files\nodejs\nodevars.bat"
+- npx create-react-app my-app  https://github.com/facebook/create-react-app
+- cd my-app
+- npm start
+- index.js точка входа --> /public/index.html
+- Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
+!   -  В браузер разметка jsx не попадает
+-- WebStorm keyboard shortcut
+    - alignment - Ctrl+A+Ctrl+Alt+L
+    - comments - Crtl+Shift+/
+    - find files(classes...) Ctrl+Shift+N
+    - create variable Ctrl-Alt-V
+
+- передвижение по словам - Crtl+->, с выделением слова Crtl+Shift->
+- Все места вызова тэга Alt+F7
+- https://codepen.io/anon/pen/oJNVJW
+- image https://cdn-images-1.medium.com/max/1600/1*CvjclMDwgh9AqED_h5UVCA.jpeg
+- model https://marvelapp.com/39ef033/screen/50996553
+__05/12/2019
+- Бэм методология https://ru.bem.info/methodology/
+- Не используем в названиях стилей дефис - из-за сложной реализации в className={c["header-n"]} - неудобно?!
+- Два стиля для класса {'${c.item} ${c.active}'}
+__05/13/2019
+    - Git https://github.com/it-kamasutra/react-way-of-samurai
+    - /node_modules not stored in the git  >npm install
+    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
+    - debugger; останавливается выполнение и смотрим все необходимое
+    - console.log(c);
+__05/14/2019
+    - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
+    -- npm install - for project from git for refresh
+    -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
+    - <NavLink to="/dialogs">Messages</NavLink>
+    - History API html5  | preventDefault
+
+    vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
+    - https://map.worldweatheronline.com/
+    - https://leafletjs.com/examples/quick-start/
+        https://codepen.io/PaulLeCam/pen/gzVmGw
+
+    - https://www.openstreetmap.org/#map=6/54.008/28.191
+    - http://localhost:9081/master
+    ^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
 
