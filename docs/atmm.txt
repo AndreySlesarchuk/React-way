@@ -126,6 +126,18 @@ __05/23/2019
 __05/15/2019
     -- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
         - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
+__05/14/2019
+    - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
+    -- npm install - for project from git for refresh
+    -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
+    - <NavLink to="/dialogs">Messages</NavLink>
+    - History API html5  | preventDefault
+__05/13/2019
+    - Git https://github.com/it-kamasutra/react-way-of-samurai
+    - /node_modules not stored in the git  >npm install
+    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
+    - debugger; останавливается выполнение и смотрим все необходимое
+    - console.log(c);
 
 
 _
@@ -154,18 +166,6 @@ __05/12/2019
 - Бэм методология https://ru.bem.info/methodology/
 - Не используем в названиях стилей дефис - из-за сложной реализации в className={c["header-n"]} - неудобно?!
 - Два стиля для класса {'${c.item} ${c.active}'}
-__05/13/2019
-    - Git https://github.com/it-kamasutra/react-way-of-samurai
-    - /node_modules not stored in the git  >npm install
-    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
-    - debugger; останавливается выполнение и смотрим все необходимое
-    - console.log(c);
-__05/14/2019
-    - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
-    -- npm install - for project from git for refresh
-    -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
-    - <NavLink to="/dialogs">Messages</NavLink>
-    - History API html5  | preventDefault
 
     vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
