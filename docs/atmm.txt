@@ -6,6 +6,8 @@ __07/21/2019 чеснок логинизация
         *Куки: https://youtu.be/KcAKrtr4qyg
         *Авторизация через Куки: https://youtu.be/MFhbPi5UtCU
         *Как сервер хранит пароль: https://youtu.be/g1WqXr1Gxws
+        CORS Cross-origin resource sharing — технология современных браузеров, которая позволяет предоставить
+            веб-странице доступ к ресурсам другого домена.
 __07/12-20/2019 props.match.params
     -- lesson 60 withRouter https://www.youtube.com/watch?v=e6SpHkb0E3I
         withRouter (из маршрута) компонента высшего порядка
