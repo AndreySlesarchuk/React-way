@@ -31,6 +31,6 @@ let mapStateToProps = (state) => {
     }
 }
 
-let WithUrlDataContainerComponent = withRouter(ProfileContainer);
-
-export default connect(mapStateToProps, {setUserProfile})(WithUrlDataContainerComponent);
+//let WithUrlDataContainerComponent = withRouter(ProfileContainer);
+//export default connect(mapStateToProps, {setUserProfile})(WithUrlDataContainerComponent);
+export default connect(mapStateToProps, {setUserProfile})(withRouter(ProfileContainer));
