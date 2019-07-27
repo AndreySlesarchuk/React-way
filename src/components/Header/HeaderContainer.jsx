@@ -2,6 +2,7 @@ import React from 'react';
 import Header from "./Header";
 import * as axios from "axios";
 import {connect} from "react-redux";
+import setAuthUserData from "../../redux/auth-reducer"
 
 class HeaderContainer extends React.Component {
     componentDidMount = () => {
@@ -9,7 +10,8 @@ class HeaderContainer extends React.Component {
             withCredentials: true
         })
             .then(response => {
-                debugger;
+                //debugger;
+                if 
             });
     }
 
@@ -18,4 +20,4 @@ class HeaderContainer extends React.Component {
     }
 }
 const mapStateToProps = (state) => ({});
-export default connect(mapStateToProps, {}) (HeaderContainer);
+export default connect(mapStateToProps, {setAuthUserData}) (HeaderContainer);
