@@ -7,11 +7,11 @@ let initialState = {
         {id: 2, name: 'Masha'},
         {id: 3, name: 'Mike'},
         {id: 4, name: 'Andrey'},
-        {id: 4, name: 'Sergey'},
+        {id: 4, name: 'Valentina'},
 
     ],
     messages: [
-        {id: 1, message: 'Hello!!!'},
+        {id: 1, message: 'Good night'},
         {id: 2, message: 'Hi!'},
         {id: 3, message: 'Hello my dear friend!'},
         {id: 4, message: 'Good morning'},
