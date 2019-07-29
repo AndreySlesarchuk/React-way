@@ -5,7 +5,7 @@ __07/25/2019
 
 __07/24/2019
     -- lesson 62 follow-unfollow api https://www.youtube.com/watch?v=oLIrtUrm5us
-__07/21/2019 __07/27/2019 __07/27/2019 authorization error   чеснок логинизация
+__07/21/2019 __07/27/2019 __07/27/2019 __07/28/2019 authorization error   чеснок логинизация
     -- lesson 61 cookie, login в теории, auth/me https://www.youtube.com/watch?v=b3pU3hsJlNk
         https://social-network.samuraijs.com/api/1.0/auth/me
         *Куки: https://youtu.be/KcAKrtr4qyg
