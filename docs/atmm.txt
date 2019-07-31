@@ -1,7 +1,7 @@
 __07/25/2019
     -- Odesa Zatoka Favorit
-__07/25/2019
-    -- lesson 63
+__07/31/2019
+    -- lesson 63 практика, DAL, axios.create https://www.youtube.com/watch?v=tZahQsOc9Jk
 
 __07/30/2019
     -- lesson 62 follow-unfollow api https://www.youtube.com/watch?v=oLIrtUrm5us
