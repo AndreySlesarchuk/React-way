@@ -2,7 +2,7 @@ __07/25/2019
     -- Odesa Zatoka Favorit
 __07/31/2019
     -- lesson 63 практика, DAL, axios.create https://www.youtube.com/watch?v=tZahQsOc9Jk
-    UI - react, BLL - redux, DAL - data access layer
+    UI - react, BLL - redux, DAL - data access layer (api)
 
 __07/30/2019
     -- lesson 62 follow-unfollow api https://www.youtube.com/watch?v=oLIrtUrm5us
