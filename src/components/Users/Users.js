@@ -9,7 +9,7 @@ let Users = (props) => {
     let pagesCount = Math.ceil(props.totalUsersCount / props.pageSize);
 
     let pages = [];
-    for (let i=1; i <= pagesCount; i++) {
+    for (let i = 1; i <= pagesCount; i++) {
         pages.push(i);
     }
 
@@ -26,7 +26,7 @@ let Users = (props) => {
             props.users.map(u => <div key={u.id}>
                 <span>
                     <div>
-                        <NavLink to={'/profile/'+ u.id}>
+                        <NavLink to={'/profile/' + u.id}>
                             <img src={u.photos.small != null ? u.photos.small : userPhoto}
                                  className={styles.userPhoto}/>
                         </NavLink>
@@ -36,7 +36,7 @@ let Users = (props) => {
                             ? <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
                                 props.toggleFollowingProgress(true, u.id);
                                 axios.delete(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {
-                                    withCredentials:true,
+                                    withCredentials: true,
                                     headers: {
                                         "API-KEY": "02b51016-fda9-413b-96e5-32697749202c"
                                     }
@@ -51,7 +51,7 @@ let Users = (props) => {
                             : <button disabled={props.followingInProgress.some(id => id === u.id)} onClick={() => {
                                 props.toggleFollowingProgress(true, u.id);
                                 axios.post(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {}, {
-                                    withCredentials:true,
+                                    withCredentials: true,
                                     headers: {
                                         "API-KEY": "02b51016-fda9-413b-96e5-32697749202c"
                                     }
