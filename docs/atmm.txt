@@ -1,7 +1,7 @@
 __07/25/2019
     -- Odesa Zatoka Favorit
 
-__08/02/2019
+__08/02/2019 САНКИ - thunk
     -- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
 __08/01/2019
     -- lesson 64 практика, button disabled (follow\unfollow) https://www.youtube.com/watch?v=iobMksCYGHE&t=347s
