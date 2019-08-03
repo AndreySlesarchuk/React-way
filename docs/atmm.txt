@@ -1,6 +1,8 @@
 __07/25/2019
     -- Odesa Zatoka Favorit
 
+__08/02/2019
+    -- lesson 66 - React JS - урок redux-thunk в деталях (практика) https://www.youtube.com/watch?v=dtKX3JyeVts&t=2136s
 __08/02/2019 САНКИ - thunk
     -- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
     thunk , Noun thunk / thunks , преобразователь thunk ,
