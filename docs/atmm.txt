@@ -201,7 +201,8 @@ __5/11/2019
     - comments - Crtl+Shift+/
     - find files(classes...) Ctrl+Shift+N
     - create variable Ctrl-Alt-V
-
+    - The Ctrl+Shift+Backspace (Navigate | Last Edit Location) brings you back to the last place where you made changes in the code.
+        Pressing Ctrl+Shift+Backspace several times moves you deeper into your changes history.
     - передвижение по словам - Crtl+->, с выделением слова Crtl+Shift->
     - Все места вызова тэга Alt+F7
     - https://codepen.io/anon/pen/oJNVJW
