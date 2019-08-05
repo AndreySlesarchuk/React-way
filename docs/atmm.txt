@@ -1,8 +1,8 @@
 
-
 __08/05/2019
     -- lesson 66: React JS - урок redux-thunk 2 в деталях (практика) https://www.youtube.com/watch?v=18hAMlMkQks&t=26s
 ! Как только появляется работа с данными(базой данных) сразу создаем DAL (api.js)
+    промисы https://learn.javascript.ru/promise-basics
 
 __08/04/2019
 !   Все запросы должны быть в одном места, в
