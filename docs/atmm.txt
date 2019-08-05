@@ -2,7 +2,7 @@
 
 __08/05/2019
     -- lesson 66: React JS - урок redux-thunk 2 в деталях (практика) https://www.youtube.com/watch?v=18hAMlMkQks&t=26s
-
+! Как только появляется работа с данными(базой данных) сразу создаем DAL (api.js)
 
 __08/04/2019
 !   Все запросы должны быть в одном места, в
@@ -15,7 +15,6 @@ __08/03/2019
         applyMiddleware()
 !   npm i redux-thunk
 !   yarn внедрить - npm i yarn | + yarn@1.17.3 added 1 package and audited 878714 packages in 10.824s
-
 __08/02/2019 САНКИ - thunk
     -- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
     thunk , Noun thunk / thunks , преобразователь thunk ,
