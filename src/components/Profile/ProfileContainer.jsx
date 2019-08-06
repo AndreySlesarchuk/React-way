@@ -8,16 +8,18 @@ class ProfileContainer extends React.Component {
 
     componentDidMount = () => {
         let userId = this.props.match.params.userId;
-        if (!userId) { userId = 2;}
+        if (!userId) {
+            userId = 2;
+        }
         this.props.getUserProfile(userId);
     }
 
     render() {
-        if (this.props.isAuth == false) return <Redirect to={"/login"} />;
+        if (!this.props.isAuth) return <Redirect to={"/login"}/>;
 
         return (
             <div>
-                <Profile {...this.props} profile={this.props.profile} />
+                <Profile {...this.props} profile={this.props.profile}/>
             </div>
         )
     }
