@@ -2,7 +2,6 @@ __08/05/2019
     -- lesson 68 - React JS - Redirect https://www.youtube.com/watch?v=_X3dVadZp2U&t=14s
     
 
-
 __08/05/2019
     -- lesson 67: React JS - урок redux-thunk 2 в деталях (практика) https://www.youtube.com/watch?v=18hAMlMkQks&t=26s
 ! Как только появляется работа с данными(базой данных) сразу создаем DAL (api.js)
