@@ -1,7 +1,8 @@
 __08/07/2019
 -- lesson 69 - React JS - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
-!   - HOC - функция которая принимает компоненту и возвращает другую переработанную компоненту
+!   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
 !   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
+!   - JSX this HTML in JavaScript
 
 __08/06/2019
 -- lesson 68 - React JS - Redirect https://www.youtube.com/watch?v=_X3dVadZp2U&t=14s
