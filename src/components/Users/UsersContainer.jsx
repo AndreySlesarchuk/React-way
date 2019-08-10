@@ -42,10 +42,8 @@ let mapStateToProps = (state) => {
     }
 }
 
-let withRedirect = withAuthRedirect(UsersContainer);
-
 export default connect(mapStateToProps,
     {follow, unfollow, setCurrentPage,
         //propotype thunk
         //toggleFollowingProgress, getUsers: getUsersThunkCreator})(UsersContainer);
-        toggleFollowingProgress, getUsers})(withRedirect);
+        toggleFollowingProgress, getUsers})(withAuthRedirect(UsersContainer));
