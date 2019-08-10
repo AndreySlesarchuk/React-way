@@ -1,5 +1,5 @@
 
-__08/09/2019 practice
+__08/09/2019 practice and go to way
     compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
         second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
             https://jaketrent.com/post/ways-to-compose-react-components/
@@ -15,6 +15,7 @@ __08/08/2019
 __08/07/2019
 -- lesson 69 - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
 !   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
+    ! hocs - is called with the prefix with. example: withAuthRedirect(Dialogs)
 !   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
 !   - JSX this HTML in JavaScript
 
