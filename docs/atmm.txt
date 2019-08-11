@@ -1,17 +1,19 @@
 
-__08/09/2019 practice and go to way
-    compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
-        second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
-            https://jaketrent.com/post/ways-to-compose-react-components/
-    https://monsterlessons.com/project/categories/react?page=3
+__08/11/2019
+    npm install -g npm
 
-__08/08/2019
+__08/10/2019
 -- lesson 70 -  функция compose https://www.youtube.com/watch?v=tf4E6tw8ZVw&t=
     Функция compose позволяет нам писать более компактный и читаемый код.
     Идея простая: мы делаем композицию (комбинацию) каких-то функций.
     Первая в очереди функция (последняя переданная в compose) получает аргумент и обрабатывает его,
     возвращая результат, который передаётся в следюущую функцию в цепочке.
     И так происходит до самого конца. Что-то типа конвейера
+__08/09/2019 practice and go to way
+    compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
+        second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
+            https://jaketrent.com/post/ways-to-compose-react-components/
+    https://monsterlessons.com/project/categories/react?page=3
 __08/07/2019
 -- lesson 69 - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
 !   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
