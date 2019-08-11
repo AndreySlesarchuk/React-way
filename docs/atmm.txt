@@ -1,7 +1,7 @@
 
 __08/11/2019
     npm install -g npm
-    Compose Композиция нативном javascript нет
+    Compose Композиция в нативном javascript нет
 !!  connect - a function that returns hoc
 __08/10/2019
 -- lesson 70 -  функция compose https://www.youtube.com/watch?v=tf4E6tw8ZVw&t=
