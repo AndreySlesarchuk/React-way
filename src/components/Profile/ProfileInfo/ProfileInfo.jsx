@@ -12,9 +12,9 @@ const ProfileInfo = (props) => {
     }
     return (
         <div>
-            <div className={c.content}>
+            {/*<div className={c.content}>
                 <img src={backgroundImage}/>
-            </div>
+            </div>*/}
             <div className={c.descriptionBlock}>
                 <img src={props.profile.photos.large} />
                 ava + description
