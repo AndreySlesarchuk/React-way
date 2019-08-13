@@ -6,7 +6,7 @@ __08/13/2019
      editMode: false - span or if true input
 !   Локальный стейт - дополнение к глобальному стейту. Идея такая - не замусоривать основной стейт
     this.forceUpdate();
-
+! raml.raml
 __08/11/2019
     npm install -g npm
     Compose Композиция в нативном javascript нет
