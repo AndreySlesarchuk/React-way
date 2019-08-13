@@ -1,16 +1,18 @@
 import React from 'react';
 
-const ProfileStatus = (props) => {
-    return (
-        <div>
+class ProfileStatus extends React.Component {
+    render() {
+        return (
             <div>
-                <span>{props.status}</span>
+                <div>
+                    <span>{this.props.status}</span>
+                </div>
+                <div>
+                    <input value={this.props.status}/>
+                </div>
             </div>
-            <div>
-                <input value={props.status}/>
-            </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default ProfileStatus;
