@@ -11,12 +11,12 @@ class ProfileStatus extends React.Component {
             <div>
                 {!this.state.editMode &&
                     <div>
-                        <span>{this.props.status}</span>
+                        <span onDoubleClick={()=>{alert('hey')}}>{this.props.status}</span>
                     </div>
                 }
                 {this.state.editMode &&
                     <div>
-                        <input value={this.props.status}/>
+                        <input onDoubleClick={()=>{alert('hey')}} value={this.props.status}/>
                     </div>
                 }
             </div>
