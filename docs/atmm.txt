@@ -1,6 +1,7 @@
 
 __08/14/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
+    create-react-app update to new version
 
 __08/13/2019
 -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
