@@ -2,6 +2,9 @@
 __08/14/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
     create-react-app update to new version https://create-react-app.dev/docs/updating-to-new-releases
+    1. npm install --save --save-exact react-scripts@3.0.1
+    2. npm install --save --save-exact react-scripts@3.1.0
+    3. npm install --save --save-exact react-scripts@3.1.1
 
 __08/13/2019
 -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
