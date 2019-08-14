@@ -1,4 +1,6 @@
 
+__08/14/2019
+-- lesson 71 -  setState, local state https://www.youtube.com/watch?v=lrP3mV9cNF4&t=16s
 __08/13/2019
 -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
     Но... Локальный стейт всё равно можно и нужно применять для каких-то локальных вещей,
