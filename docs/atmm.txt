@@ -1,7 +1,7 @@
 __08/15/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
     npm check-updates
-
+    npm install -g npm-check-updates
 __08/14/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
     create-react-app update to new version https://create-react-app.dev/docs/updating-to-new-releases
