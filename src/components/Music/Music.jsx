@@ -25,7 +25,7 @@ const  Music = (props) => {
             <div className={c.songs}>
                 <div className={c.song}>Blood group</div>
                 <div className={c.song}>Russian wooden church</div>
-                <div className={c.song}>Wild and reason</div>
+                <div className={c.song}>Hero of asphalt</div>
                 <div className={c.song}>Russian winter</div>
                 <div className={c.song}>Crying soldier</div>
             </div>
