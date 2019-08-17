@@ -14,7 +14,7 @@ let initialState = {
     ],
     newPostText: 'pam.by',
     profile: null,
-    status: ""
+    status: "Hello my great world"
 }
 
 const profileReducer = (state = initialState, action) => {
