@@ -1,6 +1,8 @@
 __08/16/2019
 -- lesson 73 http put, local state https://www.youtube.com/watch?v=1faxVHNBnsU
-    request pay load
+    request payload
+    ref - uses bad - use local state
+
 __08/15/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
     npm check-updates
