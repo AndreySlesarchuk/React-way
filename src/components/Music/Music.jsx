@@ -10,7 +10,7 @@ const  Music = (props) => {
                     Аукцион
                 </div>
                 <div className={c.album}>
-                    Kris de Burg
+                    Crematory
                 </div>
                 <div className={c.album}>
                     ARIA
@@ -24,7 +24,7 @@ const  Music = (props) => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Летел и таял https://www.youtube.com/watch?v=jq4O145-jCg</div>
-                <div className={c.song}>Ladie in red</div>
+                <div className={c.song}>garbage wind</div>
                 <div className={c.song}>Hero of asphalt</div>
                 <div className={c.song}>Frank</div>
                 <div className={c.song}>UUU eee</div>
