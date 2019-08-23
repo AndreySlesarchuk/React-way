@@ -16,7 +16,7 @@ const  Music = (props) => {
                     Accept
                 </div>
                 <div className={c.album}>
-                    Frank Duval
+                    Iron maiden
                 </div>
                 <div className={c.album}>
                     Chelentano
@@ -26,7 +26,7 @@ const  Music = (props) => {
                 <div className={c.song}>The legend</div>
                 <div className={c.song}>I will never forget you</div>
                 <div className={c.song}>Kill the pain</div>
-                <div className={c.song}>Frank</div>
+                <div className={c.song}>Seven son of the seven son</div>
                 <div className={c.song}>UUU eee</div>
             </div>
         </div>
