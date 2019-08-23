@@ -10,7 +10,7 @@ const  Music = (props) => {
                     KINO
                 </div>
                 <div className={c.album}>
-                    Crematory
+                    Yunona i avos
                 </div>
                 <div className={c.album}>
                     ARIA
@@ -24,7 +24,7 @@ const  Music = (props) => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>The legend</div>
-                <div className={c.song}>garbage wind</div>
+                <div className={c.song}>I will never forget you</div>
                 <div className={c.song}>Hero of asphalt</div>
                 <div className={c.song}>Frank</div>
                 <div className={c.song}>UUU eee</div>
