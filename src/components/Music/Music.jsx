@@ -19,15 +19,15 @@ const  Music = (props) => {
                     Family
                 </div>
                 <div className={c.album}>
-
+                    Family
                 </div>
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Just</div>
                 <div className={c.song}>The legend</div>
                 <div className={c.song}>Do It</div>
-                <div className={c.song}>Цe are looking at you</div>
-                <div className={c.song}> </div>
+                <div className={c.song}>We are looking at you</div>
+                <div className={c.song}>don't let down and don't disappoint</div>
             </div>
         </div>
 
