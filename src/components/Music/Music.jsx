@@ -16,18 +16,18 @@ const  Music = (props) => {
                     I
                 </div>
                 <div className={c.album}>
-                    Iron maiden
+                    Family
                 </div>
                 <div className={c.album}>
-                    Auction
+
                 </div>
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Just</div>
                 <div className={c.song}>The legend</div>
                 <div className={c.song}>Do It</div>
-                <div className={c.song}>Seven son of the seven son</div>
-                <div className={c.song}>flew and melted</div>
+                <div className={c.song}>Цe are looking at you</div>
+                <div className={c.song}> </div>
             </div>
         </div>
 
