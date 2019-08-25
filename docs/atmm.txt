@@ -1,6 +1,6 @@
-
+__08/23/2019
 -- lesson 74 componentDidUpdate   https://youtu.be/wcwG-pofoZk?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
-__08/16/2019 __08/17/2019 __08/18/2019 __08/19/2019 __08/20/2019 __08/21/2019 __08/22/2019 __08/22/2019
+__08/16/2019 __08/17/2019 __08/18/2019 __08/19/2019 __08/20/2019 __08/21/2019 __08/22/2019
 -- lesson 73 http put, local state https://www.youtube.com/watch?v=1faxVHNBnsU
     request payload
     ref - uses bad - use local state
