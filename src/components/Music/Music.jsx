@@ -16,7 +16,7 @@ const  Music = (props) => {
                     ARIA
                 </div>
                 <div className={c.album}>
-                    Family
+                    Black coffe
                 </div>
                 <div className={c.album}>
                     Family
@@ -26,7 +26,7 @@ const  Music = (props) => {
                 <div className={c.song}>The Night</div>
                 <div className={c.song}>We are waiting for changes </div>
                 <div className={c.song}>Careless Angel</div>
-                <div className={c.song}>We are looking at you</div>
+                <div className={c.song}>Wooden churchs of russia</div>
                 <div className={c.song}>don't let down and don't disappoint</div>
             </div>
         </div>
