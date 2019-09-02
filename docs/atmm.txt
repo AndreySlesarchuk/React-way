@@ -1,6 +1,6 @@
 __09/01/2019 __09/03/2019
     getDerivedStateFromProps() нам не нужен этот метод
-    componentDidUpdate
+    componentDidUpdate адекватный метод
 __08/28/2019 __08/29/2019 __08/30/2019 __08/31/2019
 __08/27/2019 Happy birthday __08/26/2019 08/23/2019 __08/24/2019 __08/25/2019
 -- lesson 74 componentDidUpdate   https://youtu.be/wcwG-pofoZk?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
