@@ -29,6 +29,8 @@ class ProfileStatus extends React.Component {
     }
 
     componentDidUpdate(prevProps, prevState) {
+        let a = this.state;
+        let b = this.props;
         console.log("componentDidUpdate")
     }
 
