@@ -1,6 +1,6 @@
 
 __09/06/2019 -- lesson 75 - redux-form https://www.youtube.com/watch?v=yhBYEM3VDTk
-
+    Добавляем формы redux
 
 __09/01/2019 __09/03/2019 __09/04/2019 __09/05/2019
     prevProps, prevState
