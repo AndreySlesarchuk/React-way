@@ -1,24 +1,29 @@
-import  React from 'react';
+import React from 'react';
 
-const Login = (props) => {
-    return <div>
-        <h1>LOGIN</h1>
+
+const LoginForm = (props) => {
+    return (
         <form>
             <div>
-                <input placeholder={"Login"} />
+                <input placeholder={"Login"}/>
             </div>
             <div>
-                <input placeholder={"Password"} />
+                <input placeholder={"Password"}/>
             </div>
             <div>
-                <input type={"checkbox"} /> rememeber me
+                <input type={"checkbox"}/> rememeber me
             </div>
             <div>
                 <button>Login</button>
             </div>
         </form>
+    )
+}
 
-
+const Login = (props) => {
+    return <div>
+        <h1>Login</h1>
+        <LoginForm />
     </div>
 }
 
