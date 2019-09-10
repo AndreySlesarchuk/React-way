@@ -2,6 +2,7 @@ import React from "react";
 import c from './Dialogs.module.css';
 import DialogItem from "./DialogItem/DialogItem";
 import Message from "./Message/Message";
+import {Field} from "redux-form";
 
 const Dialogs = (props) => {
 
@@ -26,16 +27,23 @@ const Dialogs = (props) => {
             </div>
             <div className={c.messages}>
                 <div>{messagesElements}</div>
-                <div>
-                    <div><textarea value={newMessageBody}
-                                   onChange={onNewMessageChange}
-                                   placeholder='Enter your message'></textarea></div>
-                    <div>
-                        <button onClick={ onSendMessageClick }>Send</button>
-                    </div>
-                </div>
+
             </div>
+            <AddMessageForm />
         </div>
+    )
+}
+
+const AddMessageForm = (props) => {
+    return (
+        <form onSubmit={props.handleSubmit}>
+            <div>
+                <Field component="textarea" name="newMessageBody" placeholder='Enter your message' />
+            </div>
+            <div>
+                <button onClick={ onSendMessageClick }>Send</button>
+            </div>
+        </form>
     )
 }
 
