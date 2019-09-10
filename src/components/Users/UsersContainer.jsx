@@ -5,7 +5,6 @@ import Users from './Users';
 import Preloader from "../common/Preloader/Preloader";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
-import {getUserProfile} from "../../redux/profile-reducer";
 
 class UsersContainer extends React.Component {
 

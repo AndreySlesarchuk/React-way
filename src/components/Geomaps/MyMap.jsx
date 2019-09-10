@@ -28,14 +28,14 @@ class MyMap extends Component {
                 />
                 <Marker position={position} icon={myIcon}>
                     <Popup className="popup">
-                        <img src='https://img-fotki.yandex.ru/get/18/owen1141952.1a/0_cbce_3310fda0_-1-L' />
+                        <img src='https://img-fotki.yandex.ru/get/18/owen1141952.1a/0_cbce_3310fda0_-1-L' alt=''/>
                         Минск - столица. <br/> Хоккейных клубов и площадок много.
                     </Popup>
                 </Marker>
 
                 <Marker position={this.state.Pinsk} icon={myIcon}>
                     <Popup className="popup">
-                        <img src='https://my-calend.ru/data/source/pinsk-gerb.png' />
+                        <img src='https://my-calend.ru/data/source/pinsk-gerb.png' alt=''/>
                         Пинск - столица Полесья. <br/> Хоккейный клуб - Пинские ястребы.
                     </Popup>
                 </Marker>
