@@ -1,3 +1,5 @@
+__09/10/2019 -- lesson 76 - redux-form base conceptions https://www.youtube.com/watch?v=FCvOFaqvYPQ
+
 
     https://youtu.be/yhBYEM3VDTk?t=1303
 __09/08/2019 __09/07/2019 __09/06/2019 -- lesson 75 - redux-form https://www.youtube.com/watch?v=yhBYEM3VDTk
