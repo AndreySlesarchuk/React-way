@@ -1,5 +1,4 @@
 import React from 'react';
-//import classes from ... changed to c
 import c from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
 console.log(c);
