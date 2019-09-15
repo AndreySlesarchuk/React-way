@@ -7,5 +7,6 @@ const Message = (props) => {
         <div className={c.dialog}>{props.message}</div>
     )
 }
+
 export default Message;
 
