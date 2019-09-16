@@ -2,6 +2,17 @@ import React from 'react';
 import c from './MyPosts.module.css'
 import Post from "./Post/Post";
 
+function AddNewPostForm(props) {
+    return <form>
+        <div>
+           <textarea onChange={props.onChange} ref={props.ref} value={props.value}/>
+        </div>
+        <div>
+            <button onClick={props.onClick}>Add post</button>
+        </div>
+    </form>;
+}
+
 const MyPosts = (props) => {
 
     let postElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id} />);
@@ -20,7 +31,7 @@ const MyPosts = (props) => {
     return (
         <div className={c.postsBlock}>
             <h3>My posts</h3>
-
+            <AddNewPostForm onChange={onPostChange} ref={newPostElement} value={props.newPostText} onClick={onAddPost}/>
             <div className={c.posts}>
                 {postElements}
             </div>
@@ -28,20 +39,6 @@ const MyPosts = (props) => {
     )
 }
 
-const AddNewPostForm = (props) => {
-    return (
-        <form>
-            <div>
-                    <textarea onChange={onPostChange} ref={newPostElement}
-                              value={props.newPostText}/>
-            </div>
-            <div>
-                <button onClick={onAddPost}>Add post</button>
-            </div>
 
-
-        </form>
-    )
-}
 
 export default MyPosts;
