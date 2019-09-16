@@ -20,19 +20,27 @@ const MyPosts = (props) => {
     return (
         <div className={c.postsBlock}>
             <h3>My posts</h3>
-            <div>
-                <div>
-                    <textarea onChange={onPostChange} ref={newPostElement}
-                              value={props.newPostText}/>
-                </div>
-                <div>
-                    <button onClick={ onAddPost }>Add post</button>
-                </div>
-            </div>
+
             <div className={c.posts}>
                 {postElements}
             </div>
         </div>
+    )
+}
+
+const AddNewPostForm = (props) => {
+    return (
+        <form>
+            <div>
+                    <textarea onChange={onPostChange} ref={newPostElement}
+                              value={props.newPostText}/>
+            </div>
+            <div>
+                <button onClick={onAddPost}>Add post</button>
+            </div>
+
+
+        </form>
     )
 }
 
