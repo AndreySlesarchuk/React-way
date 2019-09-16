@@ -31,14 +31,12 @@ const MyPosts = (props) => {
     return (
         <div className={c.postsBlock}>
             <h3>My posts</h3>
-            <AddNewPostForm onChange={onPostChange} ref={newPostElement} value={props.newPostText} onClick={onAddPost}/>
+            <AddNewPostForm onSubmit={onAddPost}/>
             <div className={c.posts}>
                 {postElements}
             </div>
         </div>
     )
 }
-
-
 
 export default MyPosts;
