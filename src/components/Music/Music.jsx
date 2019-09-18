@@ -9,12 +9,8 @@ const  Music = (props) => {
                 <div className={c.album}>
                     KINO
                 </div>
-                <div className={c.album}>
-                    Пикник
-                </div>
-                <div className={c.album}>
-                    ACCEPT
-                </div>
+                <div className={c.album}> Пикник </div>
+                <div className={c.album}> ACCEPT </div>
                 <div className={c.album}> Черный кофе </div>
 
                 <div className={c.album}>
