@@ -14,7 +14,7 @@ let AddNewPostForm = (props) => {
     </form>;
 }
 
-AddNewPostForm = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
+let AddNewPostForm = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
 const MyPosts = (props) => {
 
