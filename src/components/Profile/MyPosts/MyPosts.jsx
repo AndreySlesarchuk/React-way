@@ -3,7 +3,7 @@ import c from './MyPosts.module.css'
 import Post from "./Post/Post";
 import {Field, reduxForm} from "redux-form";
 
-function AddNewPostForm(props) {
+let AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>
         <div>
            <Field name = "newPostText" />
