@@ -1,6 +1,7 @@
 import React from 'react';
 import c from './MyPosts.module.css'
 import Post from "./Post/Post";
+import {reduxForm} from "redux-form";
 
 function AddNewPostForm(props) {
     return <form onSubmit={props.handleSubmit}>
@@ -12,6 +13,8 @@ function AddNewPostForm(props) {
         </div>
     </form>;
 }
+
+AddNewPostForm = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
 const MyPosts = (props) => {
 
