@@ -6,7 +6,7 @@ import {Field, reduxForm} from "redux-form";
 let AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>
         <div>
-           <Field name = "newPostText" />
+           <Field name = "newPostText" component="textarea"/>
         </div>
         <div>
             <button>Add post</button>
@@ -14,14 +14,12 @@ let AddNewPostForm = (props) => {
     </form>;
 }
 
-let AddNewPostForm = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
+let AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
 const MyPosts = (props) => {
 
     let postElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id} />);
-
     let newPostElement = React.createRef();
-
     let onAddPost = (values) => {
         props.addPost(values.newPostText);
     }
@@ -29,7 +27,7 @@ const MyPosts = (props) => {
     return (
         <div className={c.postsBlock}>
             <h3>My posts</h3>
-            <AddNewPostForm onSubmit={onAddPost}/>
+            <AddNewPostFormRedux onSubmit={onAddPost}/>
             <div className={c.posts}>
                 {postElements}
             </div>

@@ -1,7 +1,7 @@
 
+
 __09/19/2019 __09/18/2019 __09/17/2019 __09/16/2019 __09/15/2019  __09/14/2019 __09/13/2019 __09/12/2019 __09/11/2019 __09/10/2019
-
-
+!! Field need component <Field name = "newPostText" component="textarea"/>
 !! menu - Refactor -> Extract -> Component -> Function - newName...
     -- lesson 76 - redux-form base conceptions https://www.youtube.com/watch?v=FCvOFaqvYPQ
     https://youtu.be/FCvOFaqvYPQ?t=660  https://youtu.be/yhBYEM3VDTk?t=1303
