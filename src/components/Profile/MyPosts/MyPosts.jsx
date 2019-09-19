@@ -3,7 +3,7 @@ import c from './MyPosts.module.css'
 import Post from "./Post/Post";
 
 function AddNewPostForm(props) {
-    return <form>
+    return <form onSubmit={props.onSubmit}>
         <div>
            <textarea onChange={props.onChange} ref={props.ref} value={props.value}/>
         </div>
