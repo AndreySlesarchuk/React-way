@@ -9,10 +9,10 @@ const LoginForm = (props) => {
                 <Field placeholder={"Login"} name={"login"} component={"input"} />
             </div>
             <div>
-                <Field placeholder={"Password"} name={"password"} component={"input"}/>
+                <Field placeholder={"Password"} name={"password"} component={"input"} />
             </div>
             <div>
-                <Field  component={"input"} name={"rememberMe"} type={"checkbox"}/> rememeber me
+                <Field name={"rememberMe"} type={"checkbox"} component={"input"} /> rememeber me
             </div>
             <div>
                 <button>Login</button>
@@ -23,7 +23,7 @@ const LoginForm = (props) => {
 
 const LoginReduxForm = reduxForm({ form: 'login' }) (LoginForm)
 
-const Login = (props) => {
+const Login = () => {
     const onSubmit = (formData) => {
         console.log(formData);
     }
