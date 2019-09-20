@@ -1,6 +1,7 @@
 
-__09/20/2019
+__09/20/2019 lesson 77 : - redux-form field validation
     
+
 __09/19/2019 __09/18/2019 __09/17/2019 __09/16/2019 __09/15/2019  __09/14/2019 __09/13/2019 __09/12/2019 __09/11/2019 __09/10/2019
 !! Field need component <Field name = "newPostText" component="textarea"/>
 !! menu - Refactor -> Extract -> Component -> Function - newName...
