@@ -2,8 +2,7 @@ import React from "react";
 import c from './News.module.css';
 import {NavLink} from "react-router-dom";
 
-
-const  News = (props) => {
+const  News = () => {
     return (
         <div className={c.news}>
             <div className={c.newsItem}>
