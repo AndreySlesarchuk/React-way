@@ -11,8 +11,7 @@ __09/08/2019 __09/07/2019 __09/06/2019 -- lesson 75 - redux-form https://www.you
     console -> store.getState().form
  !  yarn add redux-form
     https://redux-form.com
-    Добавляем формы redux, стейт для обслуживания форм
-
+    
 __09/01/2019 __09/03/2019 __09/04/2019 __09/05/2019
     prevProps, prevState
     getDerivedStateFromProps() нам не нужен этот метод
