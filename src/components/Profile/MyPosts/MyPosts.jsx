@@ -2,9 +2,10 @@ import React from 'react';
 import c from './MyPosts.module.css'
 import Post from "./Post/Post";
 import {Field, reduxForm} from "redux-form";
-import {maxLengthCreator, minLength2, required} from "../../../utils/validators/validators";
+import {maxLengthCreator, minLengthCreator, required} from "../../../utils/validators/validators";
 
 const maxLength30 = maxLengthCreator(30);
+const minLength2 = minLengthCreator(2);
 
 let AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>

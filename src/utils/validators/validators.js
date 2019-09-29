@@ -9,8 +9,7 @@ export const maxLengthCreator = (maxLength) => (value) =>{
     return undefined;
 }
 
-export const minLength2 = value => {
-    if (value && value.length < 2) return "Mix length is 2 symbols";
-
+export const minLengthCreator = (minLength) => (value) => {
+    if (value.length < minLength) return `Mix length is ${minLength} symbols`;
     return undefined;
 }
