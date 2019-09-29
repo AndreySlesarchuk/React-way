@@ -11,7 +11,7 @@ const minLength2 = minLengthCreator(2);
 let AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>
         <div>
-           <Field name = "newPostText" component={Textarea}
+           <Field name = "newPostText" component={Textarea} placeholder={"Post message"}
                   validate={[required, maxLength30, minLength2]}/>
         </div>
         <div>
