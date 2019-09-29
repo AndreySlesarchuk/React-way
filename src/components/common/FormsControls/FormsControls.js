@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./FormsControl.module.css"
+import styles from "./FormsControls.module.css"
 
 export const Textarea = ({input, meta, ...props}) => {
     return (
