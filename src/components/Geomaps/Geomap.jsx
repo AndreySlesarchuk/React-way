@@ -36,9 +36,7 @@ class Geomap extends React.Component {
         const {className, style} = this.props;
         return (
             <div>
-
                 <div ref='mount' className={className} style={style}/>
-
             </div>
         )
     }
