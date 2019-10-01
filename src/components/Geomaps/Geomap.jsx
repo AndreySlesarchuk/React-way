@@ -1,8 +1,8 @@
 import React from 'react';
-import c from './Geomap.module.css';
+//import c from './Geomap.module.css';
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import {map, marker, tileLayer} from "leaflet/dist/leaflet-src.esm";
+//import {map, marker, tileLayer} from "leaflet/dist/leaflet-src.esm";
 
 const initialTiles = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
 const initialAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
