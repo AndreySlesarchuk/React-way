@@ -1,8 +1,6 @@
 __10/02/2019 __10/01/2019  with new forces
-
 __09/30/2019 __09/29/2019 __09/28/2019 -- lesson 77 - redux-form field validation https://youtu.be/WCNuRH66lEQ
     Валидация формы (полей) Filed validation ! Осторожно Замыкание!
-
 __09/22/2019 __09/21/2019 __09/20/2019 lesson 77 : - redux-form field validation
     https://youtu.be/WCNuRH66lEQ
     ! validation functions
