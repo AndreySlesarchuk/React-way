@@ -26,8 +26,7 @@ __08/27/2019 Happy birthday __08/26/2019 08/23/2019 __08/24/2019 __08/25/2019
      перерисовать компонент и закинуть в него новые пропсы.. То срабатывает метод жизненного цикла componentDidMount
 __08/16/2019 __08/17/2019 __08/18/2019 __08/19/2019 __08/20/2019 __08/21/2019 __08/22/2019
 -- lesson 73 http put, local state https://www.youtube.com/watch?v=1faxVHNBnsU
-    request payload
-    ref - uses bad - use local state
+    request payload     ref - uses bad - use local state
 __08/15/2019
 -- lesson 72 - обновляем create-react-app https://www.youtube.com/watch?v=lrP3mV9cNF4
     npm check-updates
