@@ -39,7 +39,6 @@ __08/14/2019
     1. npm install --save --save-exact react-scripts@3.0.1
     2. npm install --save --save-exact react-scripts@3.1.0
     3. npm install --save --save-exact react-scripts@3.1.1
-
 __08/13/2019
 -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
     Но... Локальный стейт всё равно можно и нужно применять для каких-то локальных вещей,
