@@ -35,14 +35,14 @@ __08/15/2019
         ncu -u
     npm install -g npm-check-updates
 __08/14/2019
--- lesson 72 - обновляем create-react-app https://youtu.be/lrP3mV9cNF4
+    -- lesson 72 - обновляем create-react-app https://youtu.be/lrP3mV9cNF4
     create-react-app update to new version https://create-react-app.dev/docs/updating-to-new-releases
     https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md
     1. npm install --save --save-exact react-scripts@3.0.1
     2. npm install --save --save-exact react-scripts@3.1.0
     3. npm install --save --save-exact react-scripts@3.1.1
 __08/13/2019
--- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
+    -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
     Но... Локальный стейт всё равно можно и нужно применять для каких-то локальных вещей,
      которые с натяжкой можно отнести к бизнес-логике. Мы начнём потиху этот нюанс изучать с вами!
      editMode: false - span or if true input
