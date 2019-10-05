@@ -1,5 +1,5 @@
 __10/05/2019 __10/04/2019 __10/03/2019 __10/02/2019 __10/01/2019  with new forces
-    
+
 __09/30/2019 __09/29/2019 __09/28/2019 -- lesson 77 - redux-form field validation https://youtu.be/WCNuRH66lEQ
     Валидация формы (полей) Filed validation ! Осторожно Замыкание!
 __09/22/2019 __09/21/2019 __09/20/2019
@@ -8,14 +8,14 @@ __09/22/2019 __09/21/2019 __09/20/2019
     ! validation functions
 __09/19/2019 __09/18/2019 __09/17/2019 __09/16/2019 __09/15/2019
 __09/14/2019 __09/13/2019 __09/12/2019 __09/11/2019 __09/10/2019
-!! Field need component <Field name = "newPostText" component="textarea"/>
-!! menu - Refactor -> Extract -> Component -> Function - newName...
+    !! Field need component <Field name = "newPostText" component="textarea"/>
+    !! menu - Refactor -> Extract -> Component -> Function - newName...
     -- lesson 76 - redux-form base conceptions https://www.youtube.com/watch?v=FCvOFaqvYPQ
     https://youtu.be/FCvOFaqvYPQ?t=660  https://youtu.be/yhBYEM3VDTk?t=1303
 __09/08/2019 __09/07/2019 __09/06/2019
     -- lesson 75 - redux-form https://www.youtube.com/watch?v=yhBYEM3VDTk
     console -> store.getState().form
- !  yarn add redux-form
+    !  yarn add redux-form
     https://redux-form.com
 __09/01/2019 __09/03/2019 __09/04/2019 __09/05/2019
     prevProps, prevState
