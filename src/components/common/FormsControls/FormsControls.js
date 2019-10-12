@@ -11,7 +11,6 @@ const FormControl = ({input, meta, child, elem, ...props}) => {
             { hasError && <span>{meta.error}</span> }
         </div>
     )
-
 }
 
 export const Textarea = (props) => {
