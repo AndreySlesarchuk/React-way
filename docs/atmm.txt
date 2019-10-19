@@ -1,5 +1,5 @@
 __10/18/2019__ __10/19/2019__
--- lesson 78 - login и logout api
+-- lesson 78 - login и logout api - final lesson on this chapter
     https://www.youtube.com/watch?v=FCvOFaqvYPQ
     https://youtu.be/oWeSh6-Mrvg
 __10/17/2019 __10/14/2019 __10/15/2019 __10/16/2019
