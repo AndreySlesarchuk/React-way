@@ -22,7 +22,7 @@ const authReducer = (state = initialState, action) => {
     }
 }
 
-export const setAuthUserData = (userId, email, login) => ({type: SET_USER_DATA, payload: {userId, email, login}});
+export const setAuthUserData = (userId, email, login, isAuth) => ({type: SET_USER_DATA, payload: {userId, email, login, isAuth}});
 
 //thunk creator - function that returns another function - dispatch
 export const getAuthUserData = () => (dispatch) => {
