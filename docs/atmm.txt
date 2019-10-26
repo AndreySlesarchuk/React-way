@@ -1,8 +1,10 @@
+__10/26/2019__
+-- lesson 79 - stopSubmit (redux-form)
+    https://www.youtube.com/watch?v=nvhFGeSrWx0
+
 __10/25/2019__ __10/24/2019__ __10/23/2019__ __10/22/2019__ __10/21/2019__ __10/20/2019__ __10/19/2019__ __10/18/2019__
 -- lesson 78 - login и logout api - final lesson on this chapter added redux-form into login
     https://www.youtube.com/watch?v=FCvOFaqvYPQ   |   https://youtu.be/oWeSh6-Mrvg : exit
-
-
 __10/17/2019 __10/14/2019 __10/15/2019 __10/16/2019
     new appointments amount    linguoleo new age and new password
 __10/13/2019    birthday of our beloved daughter Maria
