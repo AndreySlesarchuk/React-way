@@ -1,6 +1,6 @@
 __10/27/2019__
 -- lesson 80 - инициализация приложения https://www.youtube.com/watch?v=GFN1D81sBEw
-    
+
 
 __10/26/2019__
 -- lesson 79 - stopSubmit (redux-form) https://www.youtube.com/watch?v=nvhFGeSrWx0
@@ -296,7 +296,8 @@ __5/11/2019
 !   -  В браузер разметка jsx не попадает
 
 -- WebStorm keyboard shortcut
-    _ duplicate blok(or line) - Ctrl-D
+    - refactor this - Ctrl+Alt+Shift+T - convert to class component
+    - duplicate blok(or line) - Ctrl-D
     - alignment - Ctrl+A+Ctrl+Alt+L
     - comments - Crtl+Shift+/
     - find files(classes...) Ctrl+Shift+N
