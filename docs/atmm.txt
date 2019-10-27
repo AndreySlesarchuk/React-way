@@ -1,6 +1,6 @@
 __10/27/2019__
 -- lesson 80 - инициализация приложения https://www.youtube.com/watch?v=GFN1D81sBEw
-
+ !  When connecting component - broke routing
 
 __10/26/2019__
 -- lesson 79 - stopSubmit (redux-form) https://www.youtube.com/watch?v=nvhFGeSrWx0

@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Todo from "./__test/Todo/Todo";
 import Meme from "./__test/Meme/Meme";
-import {Route} from "react-router-dom";
+import {Route, withRouter} from "react-router-dom";
 import Music from "./components/Music/Music";
 import News from "./components/News/News";
 import Geomap from "./components/Geomaps/Geomap";
@@ -15,6 +15,7 @@ import HeaderContainer from "./components/Header/HeaderContainer";
 import LoginPage from "./components/Login/Login";
 import {connect} from "react-redux";
 import {getAuthUserData} from "./redux/auth-reducer";
+import {compose} from "redux";
 
 class App extends Component {
     componentDidMount = () => {
@@ -48,5 +49,7 @@ class App extends Component {
     }
 }
 
-export default connect(null, {getAuthUserData}) (App);
+export default compose(
+    withRouter,
+    connect(null, {getAuthUserData})) (App);
 
