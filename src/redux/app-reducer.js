@@ -19,9 +19,9 @@ const appReducer = (state = initialState, action) => {
     }
 }
 
-export const initializedSuccess = () => ({ type: INITIALIZED_SUCCESS });
+export const initializedSuccess = () => ({type: INITIALIZED_SUCCESS});
 
-export const initialize = () => (dispatch) => {
+export const initializeApp = () => (dispatch) => {
 
 }
 
