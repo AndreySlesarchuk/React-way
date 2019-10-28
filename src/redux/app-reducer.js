@@ -1,7 +1,7 @@
 import {authAPI} from "../api/api";
 import {stopSubmit} from "redux-form";
 
-const SET_USER_DATA = 'SET_USER_DATA';
+const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
 
 let initialState = {
     initialized: false
@@ -9,18 +9,17 @@ let initialState = {
 
 const appReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SET_USER_DATA:
+        case INITIALIZED_SUCCESS:
             return {
-                ...state,
-                ...action.payload
+                ...state, // the strategic thing
+                initialized: true
             }
         default:
             return state;
     }
 }
 
-export const setAuthUserData = (userId, email, login, isAuth) => (
-    { type: SET_USER_DATA, payload: {userId, email, login, isAuth} });
+export const initializedSuccess = () => ({ type: INITIALIZED_SUCCESS });
 
 //thunk creator - function that returns another function - dispatch
 export const getAuthUserData = () => (dispatch) => {
