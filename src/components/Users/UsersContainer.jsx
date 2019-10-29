@@ -3,10 +3,15 @@ import {connect} from "react-redux";
 import {follow, requestUsers, setCurrentPage, toggleFollowingProgress, unfollow} from "../../redux/users-reducer";
 import Users from './Users';
 import Preloader from "../common/Preloader/Preloader";
-import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
-import {getUsers,getCurrentPage, getPageSize, getTotalUsersCount, getIsFetching, getFollowingInProgress}
-    from "../../redux/users-selectors";
+import {
+    getCurrentPage,
+    getFollowingInProgress,
+    getIsFetching,
+    getPageSize,
+    getTotalUsersCount,
+    getUsers
+} from "../../redux/users-selectors";
 
 class UsersContainer extends React.Component {
 
@@ -15,7 +20,7 @@ class UsersContainer extends React.Component {
     }
 
     onPageChanged = (pageNumber) => {
-        this.props.getUsers(pageNumber, this.props.pageSize);
+        this.props.requestUsers(pageNumber, this.props.pageSize);
     }
 
     render() {
