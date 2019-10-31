@@ -1,4 +1,4 @@
-__10/30/2019__
+__10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
 __10/29/2019__
