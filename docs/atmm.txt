@@ -1,3 +1,7 @@
+__11/01/2019__
+-- lesson 83 - библиотека reselect (reselect часть 3)
+    https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
+
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
