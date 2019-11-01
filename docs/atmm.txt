@@ -2,10 +2,14 @@ __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
     https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
  ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла
+    библиотека reselect https://github.com/reduxjs/reselect
+        https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
+ !  npm install reselect
+
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
-    библиотека reselect https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
+
 __10/29/2019__
 -- lesson 81 - - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
     Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут UI) но ты думай
