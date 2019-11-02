@@ -1,45 +1,6 @@
 import React from 'react';
 
-class ProfileStatus extends React.Component {
-
-    state = {
-        editMode: false,
-        status: this.props.status
-    }
-
-    activateEditMode = () => {
-        this.setState({
-            editMode: true
-        });
-        //this.props.updateStatus(this.state.status);
-        /*this.state.editMode = true;
-        this.forceUpdate();*/
-    }
-
-    deactivateEditMode = () => {
-        this.setState({
-            editMode: false});
-        this.props.updateStatus(this.state.status);
-    }
-
-    onStatusChange = (e) => {
-        this.setState({
-            status: e.currentTarget.value
-        });
-    }
-
-    componentDidUpdate(prevProps, prevState) {
-        if (prevProps.status !== this.props.status) {
-            this.setState({
-                status: this.props.status
-            })
-        }
-        //debugger;
-        console.log("componentDidUpdate")
-    }
-
-    render() {
-        console.log("render")
+const ProfileStatusWithHooks = (props) => {
         return (
             <div>
                 {!this.state.editMode &&
@@ -55,7 +16,6 @@ class ProfileStatus extends React.Component {
                 }
             </div>
         )
-    }
 }
 
-export default ProfileStatus;
+export default ProfileStatusWithHooks;
