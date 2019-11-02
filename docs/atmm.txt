@@ -1,3 +1,7 @@
+__11/02/2019__
+-- lesson 84 - hook, useState, хуки
+    https://www.youtube.com/watch?v=EbqQg0K4wbo
+
 __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
     https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
@@ -5,7 +9,6 @@ __11/01/2019__
     библиотека reselect https://github.com/reduxjs/reselect
         https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
  !  npm install reselect OR yarn add reselect
-
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
