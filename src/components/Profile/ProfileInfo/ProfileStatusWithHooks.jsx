@@ -4,14 +4,16 @@ const ProfileStatusWithHooks = (props) => {
 
         let stateWithSetState = useState(false);
         let editMode = stateWithSetState[0];
+        let setEditMode = stateWithSetState[1];
 
         return (
             <div>
-                {<div>
+                { !editMode &&
+                <div>
                     <span>{props.status || "------------"}</span>
                 </div>
                 }
-                {false &&
+                { editMode &&
                 <div>
                     <input autoFocus={true}/>
                 </div>
