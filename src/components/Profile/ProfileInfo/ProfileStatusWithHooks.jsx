@@ -1,10 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 const ProfileStatusWithHooks = (props) => {
+
+        let stateWithSetState = useState(false);
+        let editMode = stateWithSetState[0];
+
         return (
             <div>
-                {true &&
-                <div>
+                {<div>
                     <span>{props.status || "------------"}</span>
                 </div>
                 }
