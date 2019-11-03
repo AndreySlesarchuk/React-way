@@ -2,6 +2,7 @@ __11/02/2019__ __11/03/2019__
 -- lesson 84 - hook, useState, хуки
     https://www.youtube.com/watch?v=EbqQg0K4wbo
     хуки это функции
+    Полное руководство по useEffect https://habr.com/ru/company/ruvds/blog/445276/
 
 __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
