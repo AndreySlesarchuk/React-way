@@ -69,7 +69,6 @@ export default compose(
     //withAuthRedirect
 )(UsersContainer); //target component
 
-
 /*
 export default withAuthRedirect(connect(mapStateToProps,
     {follow, unfollow, setCurrentPage, toggleFollowingProgress, requestUsers})(UsersContainer));
