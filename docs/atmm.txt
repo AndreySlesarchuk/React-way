@@ -14,7 +14,6 @@ __11/01/2019__
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
-
 __10/29/2019__
 -- lesson 81 - - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
     Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут UI) но ты думай
