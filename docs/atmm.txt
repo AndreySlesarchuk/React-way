@@ -1,3 +1,8 @@
+__11/06/2019__
+-- lesson 85 - hook, useEffect, хуки
+    https://www.youtube.com/watch?v=P1Y8GFJa_Io
+
+
 __11/05/2019__ __11/04/2019__ __11/03/2019__ __11/02/2019__
 -- lesson 84 - hook, useState, хуки
     https://www.youtube.com/watch?v=EbqQg0K4wbo
