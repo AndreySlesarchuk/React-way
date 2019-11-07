@@ -4,6 +4,7 @@ __11/07/2019__
     DOM - document object model Объектная модель документа
     Reconciliation https://learn-reactjs.ru/core/reconciliation
     Транспилятор Babel превращение языка один в другую версию языка
+        https://babeljs.io/repl/
 __11/06/2019__
 -- lesson 85 - hook, useEffect, хуки
     https://www.youtube.com/watch?v=P1Y8GFJa_Io
