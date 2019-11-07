@@ -10,7 +10,6 @@ let h1 = document.createElement("h1");
 h1.innerHTML = "Hello";
 document.querySelector("body").appendChild(h1);
 
-
 /*setInterval(()=>{
     store.dispatch({type: "FAKE"})
 }, 1000);*/
