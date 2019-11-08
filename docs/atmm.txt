@@ -2,6 +2,7 @@ __11/08/2019__
     -- lesson 87 - shouldComponentUpdate, PureComponent, memo
         https://www.youtube.com/watch?v=YEqCI9NMoLI
             shouldComponentUpdate - компонента, ты должна обновиться?
+            PureComponetnt - автоматическое применение shouldComponentUpdate
 __11/07/2019__
 -- lesson 86 - Virtual DOM
     https://www.youtube.com/watch?v=rsW9_UtF4jk
