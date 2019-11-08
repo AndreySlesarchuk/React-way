@@ -23,8 +23,13 @@ let AddNewPostForm = (props) => {
 let AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
 class MyPosts extends Component {
-    render() {
 
+    componentDidUpdate(prevProps, prevState, snapshot) {
+        console.log("componentDidUpdate");
+    }
+
+    render() {
+        console.log("RENDER YO");
         let postElements = this.props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id}/>);
         let newPostElement = React.createRef();
         let onAddPost = (values) => {
