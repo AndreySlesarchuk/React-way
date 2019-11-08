@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import c from './MyPosts.module.css'
 import Post from "./Post/Post";
 import {Field, reduxForm} from "redux-form";
@@ -22,23 +22,25 @@ let AddNewPostForm = (props) => {
 
 let AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostForm);
 
-const MyPosts = (props) => {
+class MyPosts extends Component {
+    render() {
 
-    let postElements = props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id} />);
-    let newPostElement = React.createRef();
-    let onAddPost = (values) => {
-        props.addPost(values.newPostText);
-    }
+        let postElements = this.props.posts.map(p => <Post message={p.message} likesCount={p.likesCount} key={p.id}/>);
+        let newPostElement = React.createRef();
+        let onAddPost = (values) => {
+            this.props.addPost(values.newPostText);
+        }
 
-    return (
-        <div className={c.postsBlock}>
-            <h3>My posts</h3>
-            <AddNewPostFormRedux onSubmit={onAddPost}/>
-            <div className={c.posts}>
-                {postElements}
+        return (
+            <div className={c.postsBlock}>
+                <h3>My posts</h3>
+                <AddNewPostFormRedux onSubmit={onAddPost}/>
+                <div className={c.posts}>
+                    {postElements}
+                </div>
             </div>
-        </div>
-    )
+        )
+    }
 }
 
 export default MyPosts;
