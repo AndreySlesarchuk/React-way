@@ -24,8 +24,8 @@ let AddNewPostFormRedux = reduxForm({form: "ProfileAddNewPostForm"})(AddNewPostF
 
 class MyPosts extends Component {
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
-        console.log("componentDidUpdate");
+    shouldComponentUpdate(nextProps, nextState) {
+        return nextProps != this.props || nextState !== this.state;
     }
 
     render() {
