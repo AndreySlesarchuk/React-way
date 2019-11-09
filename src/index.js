@@ -10,9 +10,7 @@ import {Provider} from "react-redux";
 //h1.innerHTML = "Hello";
 //document.querySelector("body").appendChild(h1);
 
-/*setInterval(()=>{
-    store.dispatch({type: "FAKE"})
-}, 1000);*/
+/*setInterval(()=>{ store.dispatch({type: "FAKE"})}, 1000);*/
 
 ReactDOM.render(
     <BrowserRouter>
