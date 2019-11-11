@@ -1,4 +1,4 @@
-__11/10/2019__ son's birthday __11/09/2019__
+__11/11/2019__ __11/10/2019__ son's birthday __11/09/2019__
     -- lesson 88
 __11/08/2019__
     -- lesson 87 - shouldComponentUpdate, PureComponent, memo
