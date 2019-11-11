@@ -1,31 +1,31 @@
 __11/11/2019__ __11/10/2019__ son's birthday __11/09/2019__
 -- lesson 88
     https://www.youtube.com/watch?v=KU81NnNcjmw
-    pure function - чистые функции
+        pure function - чистые функции
 __11/08/2019__
 -- lesson 87 - shouldComponentUpdate, PureComponent, memo
-        https://www.youtube.com/watch?v=YEqCI9NMoLI
-            shouldComponentUpdate - компонента, ты должна обновиться?
-            PureComponetnt - автоматическое применение shouldComponentUpdate
-            React.memo оптимизация вызхова компоненты по необходимости
+    https://www.youtube.com/watch?v=YEqCI9NMoLI
+        shouldComponentUpdate - компонента, ты должна обновиться?
+        PureComponetnt - автоматическое применение shouldComponentUpdate
+        React.memo оптимизация вызхова компоненты по необходимости
 __11/07/2019__
 -- lesson 86 - Virtual DOM
     https://www.youtube.com/watch?v=rsW9_UtF4jk
-    DOM - document object model Объектная модель документа
-    Reconciliation https://learn-reactjs.ru/core/reconciliation
-    Транспилятор Babel превращение языка один в другую версию языка
+        DOM - document object model Объектная модель документа
+        Reconciliation https://learn-reactjs.ru/core/reconciliation
+        Транспилятор Babel превращение языка один в другую версию языка
         https://babeljs.io/repl/
 __11/06/2019__
 -- lesson 85 - hook, useEffect, хуки
     https://www.youtube.com/watch?v=P1Y8GFJa_Io
-    хук useEffect - выполняет функцию после отрисовки на экране в зависимости от зависимостей
-    1. запрещено писать в условиях, циклах
+        хук useEffect - выполняет функцию после отрисовки на экране в зависимости от зависимостей
+        1. запрещено писать в условиях, циклах
 __11/05/2019__ __11/04/2019__ __11/03/2019__ __11/02/2019__
 -- lesson 84 - hook, useState, хуки
     https://www.youtube.com/watch?v=EbqQg0K4wbo
-    хуки это функции гармонично вплетающиеся в полотно проекта
-    Полное руководство по useEffect https://habr.com/ru/company/ruvds/blog/445276/
-    A Complete Guide to useEffect https://overreacted.io/a-complete-guide-to-useeffect/
+        хуки это функции гармонично вплетающиеся в полотно проекта
+        Полное руководство по useEffect https://habr.com/ru/company/ruvds/blog/445276/
+        A Complete Guide to useEffect https://overreacted.io/a-complete-guide-to-useeffect/
 __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
     https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
