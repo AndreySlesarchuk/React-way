@@ -33,9 +33,7 @@ const Navbar = () => {
             <NavLink to="/geomap" activeClassName={c.activeLink}>Geomap</NavLink>
         </div>
         <div><p> </p></div>
-        <div className={c.item}>
-            <NavLink to="/settings" activeClassName={c.activeLink}>Settings</NavLink>
-        </div>
+        <div className={c.item}><NavLink to="/settings" activeClassName={c.activeLink}>Settings</NavLink></div>
     </nav>
 }
 
