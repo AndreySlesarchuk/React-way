@@ -3,7 +3,7 @@ __11/15/2019__ __11/14/2019__ __11/13/2019__ __11/12/2019__ __11/11/2019__ __11/
     https://www.youtube.com/watch?v=KU81NnNcjmw
         pure function - чистая функция, данные неизменяемы, обязательно вернуть значение
         в редюсоре не меняем стейт, берем и работаем с кпией стейта
-        Array.splice()
+        Array.splice() мутирующий, а  slice() не мутирующий
 __11/08/2019__
 -- lesson 87 - shouldComponentUpdate, PureComponent, memo
     https://www.youtube.com/watch?v=YEqCI9NMoLI
