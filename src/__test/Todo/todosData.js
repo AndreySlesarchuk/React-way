@@ -6,7 +6,7 @@ const todosData = [
     },
     {
         id: 2,
-        text: "Learn React",
+        text: "Learn React Redux",
         completed: false
     },
     {
@@ -21,7 +21,7 @@ const todosData = [
     },
     {
         id: 5,
-        text: "Learn Redux",
+        text: "Learn Python",
         completed: false
     }
 ]
