@@ -1,5 +1,5 @@
 __11/17/2019__
--- lesson 89
+-- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS
     https://www.youtube.com/watch?v=fJlx8B9cU7w
 
 __11/16/2019__ __11/15/2019__ __11/14/2019__ __11/13/2019__ __11/12/2019__ __11/11/2019__ __11/10/2019__ son's birthday __11/09/2019__
