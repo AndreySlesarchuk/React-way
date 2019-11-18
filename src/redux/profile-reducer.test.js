@@ -1,7 +1,8 @@
 import profileReducer, {addPostActionCreator} from "./profile-reducer";
 import React from 'react';
 
-it('new post should be added', () => {
+it('length of post should be incremented', () => {
+    //1. test data
     let action = addPostActionCreator("it-kamasutra.com");
     let state = {
         posts: [
@@ -11,8 +12,11 @@ it('new post should be added', () => {
             {id: 4, message: 'summer evening', likesCount: 11}
         ]
     };
-
+    //2. action
     let newState = profileReducer(state, action);
+
+    //3. expectation
+    expect(newState.posts.length).toBe(5);
 });
 
 
