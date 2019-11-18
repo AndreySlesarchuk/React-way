@@ -1,3 +1,8 @@
 import profileReducer from "./profile-reducer";
+import React from 'react';
 
-let newState = profileReducer({},{});
+it('new post should be added', () => {
+    let newState = profileReducer({},{});
+});
+
+
