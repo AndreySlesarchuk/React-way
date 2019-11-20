@@ -18,7 +18,6 @@ var myIcon = L.icon ({
 });
 
 class Geomap extends React.Component {
-
     componentDidMount() {
         this.map = L.map(this.refs['mount']).setView(this.props.view || [0,0], 7);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
