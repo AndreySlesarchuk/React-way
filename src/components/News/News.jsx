@@ -20,7 +20,6 @@ const  News = () => {
                 <div className={c.message}>Yup</div>
             </div>
         </div>
-
     )
 }
 
