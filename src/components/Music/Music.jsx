@@ -2,7 +2,7 @@ import React from "react";
 import c from './Music.module.css';
 
 
-const  Music = (props) => {
+const  Music = () => {
     return (
         <div className={c.music}>
             <div className={c.musicAlbums}>
@@ -18,7 +18,6 @@ const  Music = (props) => {
                 <div className={c.song}>Rape me</div>
             </div>
         </div>
-
     )
 }
 
