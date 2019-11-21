@@ -56,7 +56,7 @@ export const deletePost = (postId) => ({type: DELETE_POST, postId})
 
 //thunk
 export const getUserProfile = (userId) => async (dispatch) => {
-    let response = await profileAPI.getProfile(userId);
+    const response = await profileAPI.getProfile(userId);
     dispatch(setUserProfile(response.data));
 }
 
@@ -66,7 +66,7 @@ export const getStatus = (userId) => async (dispatch) => {
 }
 
 export const updateStatus = (status) => async (dispatch) => {
-    let response = await profileAPI.updateStatus(status);
+    const response = await profileAPI.updateStatus(status);
     if (response.data.resultCode === 0) {
         dispatch(setStatus(status));
     }
