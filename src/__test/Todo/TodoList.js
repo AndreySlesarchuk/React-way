@@ -14,7 +14,7 @@ class TodoList extends Component {
     handleChange(id) {
         this.setState(prevState => {
             const updatedTodosList = prevState.todos.map(todo => {
-                if(todo.id === id) {
+                if (todo.id === id) {
                     todo.completed = !todo.completed
                 }
                 return todo
