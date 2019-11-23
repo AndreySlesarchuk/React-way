@@ -7,5 +7,4 @@ function Todo() {
         <TodoList className={c.todoList} />
     )
 }
-
 export default Todo
