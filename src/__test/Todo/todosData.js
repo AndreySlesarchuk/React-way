@@ -1,7 +1,7 @@
 const todosData = [
     {
         id: 1,
-        text: "Learn Java",
+        text: "Learn Java Spring",
         completed: false
     },
     {
