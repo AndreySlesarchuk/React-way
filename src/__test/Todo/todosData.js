@@ -1,22 +1,22 @@
 const todosData = [
     {
         id: 1,
-        text: "Learn Java Spring",
+        text: "Learn English",
         completed: false
     },
     {
         id: 2,
-        text: "Learn React Redux",
+        text: "Learn Java",
         completed: false
     },
     {
         id: 3,
-        text: "Learn Node JS",
+        text: "Learn React Redux",
         completed: false
     },
     {
         id: 4,
-        text: "Learn Grid",
+        text: "Learn Dokker",
         completed: false
     },
     {
