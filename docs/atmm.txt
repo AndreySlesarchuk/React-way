@@ -1,19 +1,22 @@
 __11/21/2019__ __11/22/2019__ __11/23/2019__ __11/24/2019__ __11/25/2019__
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
-    !   await and async
+        !   await and async
 __11/17/2019__ __11/18/2019__ __11/19/2019__ __11/20/2019__
 -- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS
         https://www.youtube.com/watch?v=fJlx8B9cU7w
         unit tests (модульные тесты) тестирование с помощью кода
         npm run test
         tdd - test driving development
-__11/16/2019__ __11/15/2019__ __11/14/2019__ __11/13/2019__ __11/12/2019__ __11/11/2019__ __11/10/2019__ son's birthday __11/09/2019__
+__11/16/2019__ - __11/09/2019__
 -- lesson 88 pure function (чистая функция) - React JS
         https://www.youtube.com/watch?v=KU81NnNcjmw
-        1. immutability (имьютабельность, неизменяемость) - входные данные, пришедшие в функцию, эта функция не должна менять (речь про объекты и массивы, так как по ссылке они передаются, поэтому делаем копию)
-        2. отсутствие side-effects (пункт 1 связан с этим, а так же использование глобальных переменных, их модификация, асинхронные операции и что-то может быть ещё)
-        3. детерменированность\идемпотентность  -  сколько бы раз на вход чистой функции не подавали одно и тоже, на выходе чистой функции должен быть один и тот же результат
+        1. immutability (имьютабельность, неизменяемость) - входные данные, пришедшие в функцию, эта функция не должна
+            менять (речь про объекты и массивы, так как по ссылке они передаются, поэтому делаем копию)
+        2. отсутствие side-effects (пункт 1 связан с этим, а так же использование глобальных переменных, их модификация,
+            асинхронные операции и что-то может быть ещё)
+        3. детерменированность\идемпотентность  -  сколько бы раз на вход чистой функции не подавали одно и тоже,
+            на выходе чистой функции должен быть один и тот же результат
         4. чистая функция должна вернуть (return) что-либо)))
         pure function - чистая функция, данные неизменяемы, имютабельная обязательно вернуть значение без изменения базовых
         в редюсоре не меняем стейт, берем и работаем с кпией стейта
@@ -22,49 +25,49 @@ __11/16/2019__ __11/15/2019__ __11/14/2019__ __11/13/2019__ __11/12/2019__ __11/
         санки - не чистые функции
 __11/08/2019__
 -- lesson 87 - shouldComponentUpdate, PureComponent, memo
-    https://www.youtube.com/watch?v=YEqCI9NMoLI
+        https://www.youtube.com/watch?v=YEqCI9NMoLI
         shouldComponentUpdate - компонента, ты должна обновиться?
         PureComponetnt - автоматическое применение shouldComponentUpdate
         React.memo оптимизация вызхова компоненты по необходимости
 __11/07/2019__
 -- lesson 86 - Virtual DOM
-    https://www.youtube.com/watch?v=rsW9_UtF4jk
+        https://www.youtube.com/watch?v=rsW9_UtF4jk
         DOM - document object model Объектная модель документа
         Reconciliation https://learn-reactjs.ru/core/reconciliation
         Транспилятор Babel превращение языка один в другую версию языка
         https://babeljs.io/repl/
 __11/06/2019__
 -- lesson 85 - hook, useEffect, хуки
-    https://www.youtube.com/watch?v=P1Y8GFJa_Io
+        https://www.youtube.com/watch?v=P1Y8GFJa_Io
         хук useEffect - выполняет функцию после отрисовки на экране в зависимости от зависимостей
         1. запрещено писать в условиях, циклах
 __11/05/2019__ __11/04/2019__ __11/03/2019__ __11/02/2019__
 -- lesson 84 - hook, useState, хуки
-    https://www.youtube.com/watch?v=EbqQg0K4wbo
+        https://www.youtube.com/watch?v=EbqQg0K4wbo
         хуки это функции гармонично вплетающиеся в полотно проекта
         Полное руководство по useEffect https://habr.com/ru/company/ruvds/blog/445276/
         A Complete Guide to useEffect https://overreacted.io/a-complete-guide-to-useeffect/
 __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
         https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
-    ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла и инкапсуляция
-        библиотека reselect https://github.com/reduxjs/reselect
-        https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
-    !  npm install reselect OR yarn add reselect
+        ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла и инкапсуляция
+            библиотека reselect https://github.com/reduxjs/reselect
+            https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
+        !  npm install reselect OR yarn add reselect
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
-    React React-Redux Redux -> connect Redux
+        React React-Redux Redux -> connect Redux
 __10/29/2019__
 -- lesson 81 - - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
-    Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут UI) но ты думай
-    Есть и подводные моменты селекторов
+        Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут UI) но ты думай
+        Есть и подводные моменты селекторов
 __10/28/2019__ __10/27/2019__
 -- lesson 80 - инициализация приложения https://www.youtube.com/watch?v=GFN1D81sBEw
- !  When connecting component - broke routing
- !  this.props.history.push("/login")
+        !  When connecting component - broke routing
+        !  this.props.history.push("/login")
 __10/26/2019__
 -- lesson 79 - stopSubmit (redux-form) https://www.youtube.com/watch?v=nvhFGeSrWx0
-    let action = stopSubmit("login", {_error: "Common error"})
+        let action = stopSubmit("login", {_error: "Common error"})
 __10/25/2019__ __10/24/2019__ __10/23/2019__ __10/22/2019__ __10/21/2019__ __10/20/2019__ __10/19/2019__ __10/18/2019__
 -- lesson 78 - login и logout api - final lesson on this chapter added redux-form into login
     https://www.youtube.com/watch?v=FCvOFaqvYPQ   |   https://youtu.be/oWeSh6-Mrvg : exit
