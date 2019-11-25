@@ -10,7 +10,7 @@ __11/17/2019__ __11/18/2019__ __11/19/2019__ __11/20/2019__
         tdd - test driving development
 __11/16/2019__ __11/15/2019__ __11/14/2019__ __11/13/2019__ __11/12/2019__ __11/11/2019__ __11/10/2019__ son's birthday __11/09/2019__
 -- lesson 88 pure function (чистая функция) - React JS
-    https://www.youtube.com/watch?v=KU81NnNcjmw
+        https://www.youtube.com/watch?v=KU81NnNcjmw
         1. immutability (имьютабельность, неизменяемость) - входные данные, пришедшие в функцию, эта функция не должна менять (речь про объекты и массивы, так как по ссылке они передаются, поэтому делаем копию)
         2. отсутствие side-effects (пункт 1 связан с этим, а так же использование глобальных переменных, их модификация, асинхронные операции и что-то может быть ещё)
         3. детерменированность\идемпотентность  -  сколько бы раз на вход чистой функции не подавали одно и тоже, на выходе чистой функции должен быть один и тот же результат
@@ -46,11 +46,11 @@ __11/05/2019__ __11/04/2019__ __11/03/2019__ __11/02/2019__
         A Complete Guide to useEffect https://overreacted.io/a-complete-guide-to-useeffect/
 __11/01/2019__
 -- lesson 83 - библиотека reselect (reselect часть 3)
-    https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
- ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла и инкапсуляция
-    библиотека reselect https://github.com/reduxjs/reselect
+        https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
+    ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла и инкапсуляция
+        библиотека reselect https://github.com/reduxjs/reselect
         https://medium.com/@parkerdan/react-reselect-and-redux-b34017f8194c
- !  npm install reselect OR yarn add reselect
+    !  npm install reselect OR yarn add reselect
 __10/30/2019__ __10/31/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
     React React-Redux Redux -> connect Redux
