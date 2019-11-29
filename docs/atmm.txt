@@ -131,7 +131,7 @@ __08/11/2019
     Compose Композиция в нативном javascript нет
     !!  connect - a function that returns hoc
 __08/10/2019
-    -- lesson 70 -  функция compose https://www.youtube.com/watch?v=tf4E6tw8ZVw&t=
+-- lesson 70 -  функция compose https://www.youtube.com/watch?v=tf4E6tw8ZVw&t=
     Функция compose позволяет нам писать более компактный и читаемый код.
     Идея простая: мы делаем композицию (комбинацию) каких-то функций.
     Первая в очереди функция (последняя переданная в compose) получает аргумент и обрабатывает его,
@@ -143,12 +143,11 @@ __08/09/2019 practice and go to way
             https://jaketrent.com/post/ways-to-compose-react-components/
     https://monsterlessons.com/project/categories/react?page=3
 __08/07/2019
-    -- lesson 69 - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
-!   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
+-- lesson 69 - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
+    !   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
     ! hocs - is called with the prefix with. example: withAuthRedirect(Dialogs)
-!   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
-!   - JSX this HTML in JavaScript
-
+    !   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
+    !   - JSX this HTML in JavaScript
 __08/06/2019
        -- lesson 68 - React JS - Redirect https://www.youtube.com/watch?v=_X3dVadZp2U&t=14s
     Если по дефолту экспортитуем с именем (Login) то в компоненте можем импортировать под любым именем LoginPage в App.js
