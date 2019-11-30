@@ -127,16 +127,16 @@ __08/13/2019
             this.forceUpdate();
         ! raml.raml
 __08/11/2019
-    npm install -g npm
-    Compose Композиция в нативном javascript нет
-    !!  connect - a function that returns hoc
+        npm install -g npm
+        Compose Композиция в нативном javascript нет
+        !!  connect - a function that returns hoc
 __08/10/2019
 -- lesson 70 -  функция compose https://www.youtube.com/watch?v=tf4E6tw8ZVw&t=
-    Функция compose позволяет нам писать более компактный и читаемый код.
-    Идея простая: мы делаем композицию (комбинацию) каких-то функций.
-    Первая в очереди функция (последняя переданная в compose) получает аргумент и обрабатывает его,
-    возвращая результат, который передаётся в следюущую функцию в цепочке.
-    И так происходит до самого конца. Что-то типа конвейера
+        Функция compose позволяет нам писать более компактный и читаемый код.
+        Идея простая: мы делаем композицию (комбинацию) каких-то функций.
+        Первая в очереди функция (последняя переданная в compose) получает аргумент и обрабатывает его,
+        возвращая результат, который передаётся в следюущую функцию в цепочке.
+        И так происходит до самого конца. Что-то типа конвейера
 __08/09/2019 practice and go to way
     compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
         second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
