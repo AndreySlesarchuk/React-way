@@ -138,16 +138,16 @@ __08/10/2019
         возвращая результат, который передаётся в следюущую функцию в цепочке.
         И так происходит до самого конца. Что-то типа конвейера
 __08/09/2019 practice and go to way
-    compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
-        second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
-            https://jaketrent.com/post/ways-to-compose-react-components/
-    https://monsterlessons.com/project/categories/react?page=3
+        compose recompose hoc https://habr.com/ru/company/raiffeisenbank/blog/354768/
+            second explanation https://smyt.ru/blog/komponenty-vysshego-poryadka-s-recompose/
+                https://jaketrent.com/post/ways-to-compose-react-components/
+        https://monsterlessons.com/project/categories/react?page=3
 __08/07/2019
 -- lesson 69 - Redirect https://www.youtube.com/watch?v=7W4PD4BN3eY&t=19s
-    !   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
-    ! hocs - is called with the prefix with. example: withAuthRedirect(Dialogs)
-    !   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
-    !   - JSX this HTML in JavaScript
+        !   - HOC - функция которая принимает компоненту и возвращает контейнерную компоненту
+        ! hocs - is called with the prefix with. example: withAuthRedirect(Dialogs)
+        !   - Component (Компонента) - функция которая принимает пропсы а возвращает разметку JSX
+        !   - JSX this HTML in JavaScript
 __08/06/2019
 -- lesson 68 - React JS - Redirect https://www.youtube.com/watch?v=_X3dVadZp2U&t=14s
     Если по дефолту экспортитуем с именем (Login) то в компоненте можем импортировать под любым именем LoginPage в App.js
