@@ -159,18 +159,18 @@ __08/05/2019
         ! Как только появляется работа с данными(базой данных) сразу создаем DAL (api.js)
             промисы https://learn.javascript.ru/promise-basics
 __08/04/2019
-    !   Все запросы должны быть в одном места, в
-        Санки и функции приходят из пропсов в презентационную компоненту
+        !   Все запросы должны быть в одном места, в
+            Санки и функции приходят из пропсов в презентационную компоненту
 __08/03/2019
 -- lesson 66 - React JS - урок redux-thunk в деталях (практика) https://www.youtube.com/watch?v=dtKX3JyeVts&t=2136s
         ! Санки создаем в редъюсерах так же как и актион креаторы
             Санка это функция которая внутри себя диспатчит другие обычные экшины и в основном диспатчит экшены
         ! Почитать про замыкания
         applyMiddleware()
-    !   npm i redux-thunk
-    !   yarn внедрить - npm i yarn | + yarn@1.17.3 added 1 package and audited 878714 packages in 10.824s
+        !   npm i redux-thunk
+        !   yarn внедрить - npm i yarn | + yarn@1.17.3 added 1 package and audited 878714 packages in 10.824s
 __08/02/2019 САНКИ - thunk
-    -- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
+-- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
     thunk , Noun thunk / thunks , преобразователь thunk ,
     Verb thunk / thunked /  thunked / thunking / thunks , преобразовывать
     Санка это функция которая умеет диспатчить обычные экшены
