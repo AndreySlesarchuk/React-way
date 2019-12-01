@@ -150,10 +150,10 @@ __08/07/2019
         !   - JSX this HTML in JavaScript
 __08/06/2019
 -- lesson 68 - React JS - Redirect https://www.youtube.com/watch?v=_X3dVadZp2U&t=14s
-    Если по дефолту экспортитуем с именем (Login) то в компоненте можем импортировать под любым именем LoginPage в App.js
-    insert import {Redirect} from "react-router-dom";
-    !   Самый главный грех - дублирование кода!
-    HOC - high order component
+        Если по дефолту экспортитуем с именем (Login) то в компоненте можем импортировать под любым именем LoginPage в App.js
+        insert import {Redirect} from "react-router-dom";
+        !   Самый главный грех - дублирование кода!
+        HOC - high order component
 __08/05/2019
 -- lesson 67: React JS - урок redux-thunk 2 в деталях (практика) https://www.youtube.com/watch?v=18hAMlMkQks&t=26s
     ! Как только появляется работа с данными(базой данных) сразу создаем DAL (api.js)
