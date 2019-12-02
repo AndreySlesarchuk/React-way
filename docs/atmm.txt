@@ -175,11 +175,11 @@ __08/02/2019 САНКИ - thunk
         Verb thunk / thunked /  thunked / thunking / thunks , преобразовывать
         Санка это функция которая умеет диспатчить обычные экшены
 __08/01/2019
-    -- lesson 64 практика, button disabled (follow\unfollow) https://www.youtube.com/watch?v=iobMksCYGHE&t=347s
-    function - some
+-- lesson 64 практика, button disabled (follow\unfollow) https://www.youtube.com/watch?v=iobMksCYGHE&t=347s
+        function - some
 __07/31/2019
-    -- lesson 63 практика, DAL, axios.create https://www.youtube.com/watch?v=tZahQsOc9Jk
-    UI - react, BLL - redux, DAL - data access layer (api)
+-- lesson 63 практика, DAL, axios.create https://www.youtube.com/watch?v=tZahQsOc9Jk
+        UI - react, BLL - redux, DAL - data access layer (api)
 __07/30/2019
     -- lesson 62 follow-unfollow api https://www.youtube.com/watch?v=oLIrtUrm5us
         pre fly request
