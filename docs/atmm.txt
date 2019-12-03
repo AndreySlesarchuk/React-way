@@ -216,13 +216,13 @@ __07/05/2019 __07/06/2019
         https://social-network.samuraijs.com/       https://social-network.samuraijs.com/api/1.0/users?page=2&count=2
         ! JSON EDITOR https://jsoneditoronline.org/        ! JSON Formatter
 __07/04/2019
-    -- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
+-- lesson 54 жизненный цикл, life cycle methods, componentDidMount  https://www.youtube.com/watch?v=auAtFC5nfTs
         componentDidMount() componentDidUpdate()
         ! default constructor not need  constructor(props) {super(props);}
         ! классовая компонента 1. обязателен метод render возвращающий jsx  2. props внутри объекта, обращение через this
-    -- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть https://www.youtube.com/watch?v=vO63wxg4aKY
+-- lesson 53 классовый компонент (extends React.Component) 7 и 36 уроки пересмотреть https://www.youtube.com/watch?v=vO63wxg4aKY
 __07/02/2019
-    -- lesson 52 Side Effect (Побочный эффект) https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
+-- lesson 52 Side Effect (Побочный эффект) https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
 __07/01/2019
     -- lesson 50 REST API (краткая теория) Application Programm[-ing] Interface
         https://www.youtube.com/watch?v=c34P8-9YVMQ    Interface - https://www.youtube.com/watch?v=c34P8-9YVMQ
