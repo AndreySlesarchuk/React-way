@@ -236,14 +236,14 @@ __07/01/2019
         https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
         https://social-network.samuraijs.com/api/1.0/users    https://jsoneditoronline.org/ http://jsonviewer.stack.hu/
 __06/24/2019 __06/29/2019
-    -- lesson 49 Страница пользователей AJAX
+-- lesson 49 Страница пользователей AJAX
         https://www.youtube.com/watch?v=ceSZUZZaW30&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50
         <Route />route следит за строкой в браузере, если есть открывает, если нет окно по умолчанию
         jsx расширение только для компонент, js для редьюсеров и всего остального транспилятор Babel переводит из jsx в js
         разработку важнее начинать с бизнес уровня STATE !   DDD Domain Driven Design https://habr.com/ru/post/334126/
-    -- lesson 48 Копия состояние в DialogReducer    npm update --save react
+-- lesson 48 Копия состояние в DialogReducer    npm update --save react
         https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
-    -- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
+-- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
         чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
         детерминированность, демпотентность, инмютабельность
 __06/24/2019 npm install react-redux --save
