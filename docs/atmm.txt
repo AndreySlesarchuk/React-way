@@ -224,7 +224,7 @@ __07/04/2019
 __07/02/2019
 -- lesson 52 Side Effect (Побочный эффект) https://youtu.be/O7o89_1sM5Y?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
 __07/01/2019
-    -- lesson 50 REST API (краткая теория) Application Programm[-ing] Interface
+-- lesson 50 REST API (краткая теория) Application Programm[-ing] Interface
         https://www.youtube.com/watch?v=c34P8-9YVMQ    Interface - https://www.youtube.com/watch?v=c34P8-9YVMQ
         Server API https://monosnap.com/file/Dbizjl0M1djY7i31oWIvXc460EYdQa
         https://monosnap.com/file/hEq853r6WDDyM4g155rKO0QpFpJKHN
