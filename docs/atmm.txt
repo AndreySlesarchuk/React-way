@@ -230,7 +230,7 @@ __07/01/2019
         https://monosnap.com/file/hEq853r6WDDyM4g155rKO0QpFpJKHN
         Ajax в деталях (get, post, rest api, axios, jquery, options, cors):
         https://www.youtube.com/watch?v=wXKTQXLblwY&list=PLcvhF2Wqh7DNDDIp2MGbv8cMYsoUO1lew
-    -- lesson 51 Users API  https://www.youtube.com/watch?v=n9op6xgJMFo
+-- lesson 51 Users API  https://www.youtube.com/watch?v=n9op6xgJMFo
         ! axios https://monosnap.com/file/bEkFcuE03d7Tplasl9jfUdnw2ev2Ml  npm install axios --save
         http://social-network.samuraijs.com/docs#
         https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit#
