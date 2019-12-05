@@ -252,7 +252,7 @@ __06/24/2019 npm install react-redux --save
 __06/20/2019
 -- lesson 45 connect, mapStateToProps, mapDispatchToProps https://www.youtube.com/watch?v=SYaHe-lP7eY
 __06/21/2019 __06/22/2019 __06/23/2019
-    -- lesson 44 React JS Практика Context API  -- https://www.youtube.com/watch?v=Q_UvAaKSK90
+-- lesson 44 React JS Практика Context API  -- https://www.youtube.com/watch?v=Q_UvAaKSK90
         https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
         https://ru.reactjs.org/docs/context.html Контекст позволяет передавать данные через дерево компонентов без
         необходимости передавать пропмсы на промежуточных уровнях https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
