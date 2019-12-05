@@ -260,10 +260,10 @@ __06/21/2019 __06/22/2019 __06/23/2019
         ! Error: render is not a function https://github.com/facebook/react/issues/12241 !braces on the new line
         -- React Redux library, connect
 __06/13/2019 __06/13/2019 __06/19/2019
-    -- lesson 43 redux first step - video https://www.youtube.com/watch?v=cbnExb3GSFM
+-- lesson 43 redux first step - video https://www.youtube.com/watch?v=cbnExb3GSFM
         - npm install redux --save
         - debugger undefined profile Page- https://monosnap.com/file/T7Fov3zhyUI6KaSockfjIHT6Cw4aMi
-    -- Контейнерная компонента создается над презентационной  - как можно меньше лишней информации
+-- Контейнерная компонента создается над презентационной  - как можно меньше лишней информации
         - избавиться от store и dispatch https://monosnap.com/file/i6JTdEvTEzu3CxzW1FVtmO4ojFH724
             https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
 __06/11/2019
