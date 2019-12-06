@@ -277,7 +277,7 @@ __06/10/2019  ! компоненте давать только необходи�
         - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
 __06/06/2019 #Leaflet : it's time to leave GoogleMaps by Guillaume Soldera https://www.youtube.com/watch?v=_Jm-UPOEE0o
 __06/03/2019
-    -- lesson 39 action creator action type
+-- lesson 39 action creator action type
         - video https://www.youtube.com/watch?v=EW8cEDyYAYM&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=40
         - action это объект который формируется в компонентах для передачи объекта через метод dispatch
             - https://monosnap.com/file/J8Mzif8St3NCRnLrmPfVLRdaA3qMrN
