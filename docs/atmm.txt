@@ -303,18 +303,18 @@ __05/30/2019
 -- lesson 36 // state - OOP
         video https://www.youtube.com/watch?v=s1n24A2Xr0M&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=37
 __05/29/2019
-    -- lesson 34 (FLUX-> Redux круговорот на каждый символ) REDUX MobX...
+-- lesson 34 (FLUX-> Redux круговорот на каждый символ) REDUX MobX...
         - video https://www.youtube.com/watch?v=bpEy10oJSCg&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=35
         - image https://monosnap.com/file/Qw162Jl9wng3jjFqAAZSDvB27FYHgG
         - console.log(text); https://monosnap.com/file/HrJKmHqyikGA8uZ0aRylzwOOpQk0oa
 __05/28/2019
-    -- lesson 32, 33 (прокидываем callback через props) функция обратного вызова  - FLUX концепции rerendererEntireTree
-    -- render.js index.js store.js
+-- lesson 32, 33 (прокидываем callback через props) функция обратного вызова  - FLUX концепции rerendererEntireTree
+        - render.js index.js store.js
 __05/27/2019
-    -- lesson 31 (onClick, ref, VirtualDOM)     - callback
+-- lesson 31 (onClick, ref, VirtualDOM)     - callback
         - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 __05/24/2019
-    -- store.js in redux
+-- store.js in redux
         - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png
         - Функциональная компонента (presentational, stateless, dumb) функция которая возвращает JSX разметку (только
             отрисовывает, нужны props
