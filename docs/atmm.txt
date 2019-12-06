@@ -289,10 +289,10 @@ __06/02/2019
         - video https://www.youtube.com/watch?v=AyCBG4LcUSA&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=39
 __06/01/2019
 -- lesson 38
-    - dispatch and action
-    - API application program interface
+        - dispatch and action
+        - API application program interface
 __05/30/2019
-    -- lesson 36 https://www.youtube.com/watch?v=spTyL4QK1KI
+-- lesson 36 https://www.youtube.com/watch?v=spTyL4QK1KI
         - base OOP principles https://codepen.io/dimych-the-scripter/pen/gEeJVp
         - image for github https://avatars0.githubusercontent.com/u/25076693?s=400&v=4
         - React JS - The Samurai's way,  bind  почитать!!!
