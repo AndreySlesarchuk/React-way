@@ -297,10 +297,10 @@ __05/30/2019
         - image for github https://avatars0.githubusercontent.com/u/25076693?s=400&v=4
         - React JS - The Samurai's way,  bind  почитать!!!
 __05/30/2019
-    -- lesson 35 (callback, subscribe, observer)
+-- lesson 35 (callback, subscribe, observer)
         - video https://www.youtube.com/watch?v=iN6QXbHedQc&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=36
         - window.state = state; https://monosnap.com/file/1peMRi2ojcXuVK1gynPfPgZ7qiEGI4
-    -- lesson 36 // state - OOP
+-- lesson 36 // state - OOP
         video https://www.youtube.com/watch?v=s1n24A2Xr0M&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=37
 __05/29/2019
     -- lesson 34 (FLUX-> Redux круговорот на каждый символ) REDUX MobX...
