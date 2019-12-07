@@ -327,7 +327,7 @@ __05/23/2019
         -  <Route path='/dialogs' component={Dialogs} /> changing to
         <Route path='/dialogs' render={ () => {<Dialogs />} />  -  move data up
 __05/15/2019
-    -- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
+-- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
         - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
 __05/14/2019
     - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
@@ -374,10 +374,10 @@ __5/11/2019
 _
 !!! 30, 40 lesson for fixing
 
-    vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
+vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
     - https://leafletjs.com/examples/quick-start/
-        https://codepen.io/PaulLeCam/pen/gzVmGw
+    - https://codepen.io/PaulLeCam/pen/gzVmGw
 
     - https://www.openstreetmap.org/#map=6/54.008/28.191
     - http://localhost:9081/master
