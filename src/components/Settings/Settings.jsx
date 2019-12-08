@@ -1,8 +1,7 @@
 import React from "react";
 import c from './Settings.module.css';
 
-
-const  Settings = (props) => {
+const  Settings = () => {
     return (
         <div className={c.dialogs}>
             <div className={c.dialogsItems}>
