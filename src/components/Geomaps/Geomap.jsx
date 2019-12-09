@@ -6,8 +6,8 @@ import L from 'leaflet'
 
 //const initialTiles = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png';
 //const initialAttr = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-
 //const mapCenter = [53.90000, 27.56667]; //const zoomLevel = 7;
+
 const positionPinsk = [52.12290, 26.09510];
 
 var myIcon = L.icon ({
