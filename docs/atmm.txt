@@ -1,4 +1,4 @@
-__12/18/2019__ um20 ended - __11/21/2019__
+__12/18/2019__ __11/21/2019__
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI
             !   await and async
