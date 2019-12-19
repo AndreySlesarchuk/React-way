@@ -29,7 +29,7 @@ class MyMap extends Component {
                 <Marker position={position} icon={myIcon}>
                     <Popup className="popup">
                         <img src='https://img-fotki.yandex.ru/get/18/owen1141952.1a/0_cbce_3310fda0_-1-L' alt=''/>
-                        Минск - столица. <br/> Хоккейных клубов и площадок много.
+                        Минск - столица Беларуси. <br/> Хоккейных клубов и площадок много.
                     </Popup>
                 </Marker>
 
