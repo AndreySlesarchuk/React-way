@@ -13,8 +13,8 @@ var myIcon = L.icon ({
 
 class MyMap extends Component {
     state = {
-        lat: 53.90000,
-        lng: 27.56667,
+        lat: 53.90001,
+        lng: 27.56677,
         zoom: 7,
         Pinsk: [52.12290, 26.095510],
     }
