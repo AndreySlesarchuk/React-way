@@ -304,7 +304,7 @@ __05/30/2019
 __05/29/2019
 -- lesson 34 (FLUX-> Redux круговорот на каждый символ) REDUX MobX...
         - video https://www.youtube.com/watch?v=bpEy10oJSCg&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=35
-        - image https://monosnap.com/file/Qw162Jl9wng3jjFqAAZSDvB27FYHgG  
+        - image https://monosnap.com/file/Qw162Jl9wng3jjFqAAZSDvB27FYHgG
         - console.log(text); https://monosnap.com/file/HrJKmHqyikGA8uZ0aRylzwOOpQk0oa
 __05/28/2019
 -- lesson 32, 33 (прокидываем callback через props) функция обратного вызова  - FLUX концепции rerendererEntireTree
