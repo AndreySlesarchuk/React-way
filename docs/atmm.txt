@@ -1,4 +1,4 @@
-__12/20/2019__ __11/21/2019__
+__12/21/2019__ __11/21/2019__
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI
             !   await and async
