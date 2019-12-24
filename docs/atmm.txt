@@ -100,7 +100,7 @@ __08/28/2019 __08/29/2019 __08/30/2019 __08/31/2019
 __08/27/2019 Happy birthday __08/26/2019 08/23/2019 __08/24/2019 __08/25/2019
 -- lesson 74 componentDidUpdate   https://youtu.be/wcwG-pofoZk?list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8
         Компонент монтируется один раз. А потом, когда в нём меняется локальный стейт либо кто-то извне хочет
-        перерисовать компонент и закинуть в него новые пропсы.. То срабатывает метод жизненного цикла componentDidMount
+         перерисовать компонент и закинуть в него новые пропсы.. То срабатывает метод жизненного цикла componentDidMount
 __08/16/2019 __08/17/2019 __08/18/2019 __08/19/2019 __08/20/2019 __08/21/2019 __08/22/2019
 -- lesson 73 http put, local state https://www.youtube.com/watch?v=1faxVHNBnsU
         request payload     ref - uses bad - use local state
@@ -113,9 +113,9 @@ __08/14/2019
 -- lesson 72 - обновляем create-react-app https://youtu.be/lrP3mV9cNF4
         create-react-app update to new version https://create-react-app.dev/docs/updating-to-new-releases
         https://github.com/facebook/create-react-app/blob/master/CHANGELOG.md
-        1. npm install --save --save-exact react-scripts@3.0.1
-        2. npm install --save --save-exact react-scripts@3.1.0
-        3. npm install --save --save-exact react-scripts@3.1.1
+        1.  npm install --save --save-exact react-scripts@3.0.1
+        2.  npm install --save --save-exact react-scripts@3.1.0
+        3.  npm install --save --save-exact react-scripts@3.1.1
 __08/13/2019
 -- lesson 71 -  setState, local state https://www.youtube.com/watch?v=78ak5Jqmh9g
         Но... Локальный стейт всё равно можно и нужно применять для каких-то локальных вещей,
