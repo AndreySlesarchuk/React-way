@@ -241,8 +241,9 @@ __06/24/2019 __06/29/2019
 -- lesson 49 Страница пользователей AJAX
         https://www.youtube.com/watch?v=ceSZUZZaW30&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50
         <Route />route следит за строкой в браузере, если есть открывает, если нет окно по умолчанию
-        jsx расширение только для компонент, js для редьюсеров и всего остального транспилятор Babel переводит из jsx в js
-        разработку важнее начинать с бизнес уровня STATE !   DDD Domain Driven Design https://habr.com/ru/post/334126/
+        jsx расширение только для компонент, js для редьюсеров и всего остального транспилятор Babel переводит из jsx
+        в js разработку важнее начинать с бизнес уровня STATE
+        !   DDD Domain Driven Design https://habr.com/ru/post/334126/
 -- lesson 48 Копия состояние в DialogReducer    npm update --save react
         https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
 -- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
