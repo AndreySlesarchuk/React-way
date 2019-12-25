@@ -247,7 +247,8 @@ __06/24/2019 __06/29/2019
 -- lesson 48 Копия состояние в DialogReducer    npm update --save react
         https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
 -- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
-        чистая функция - получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
+        чистая функция - получающая и выдающая данные одинаковые
+            https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
         детерминированность, демпотентность, инмютабельность
 __06/24/2019 npm install react-redux --save
 -- lesson 46 deep copy vs shallow copy  var b = {...a}; https://monosnap.com/file/k9d44KTCCB8QFkz5StIh93oPwDFpQN
@@ -256,7 +257,8 @@ __06/20/2019
 -- lesson 45 connect, mapStateToProps, mapDispatchToProps https://www.youtube.com/watch?v=SYaHe-lP7eY
 __06/21/2019 __06/22/2019 __06/23/2019
 -- lesson 44 React JS Практика Context API  -- https://www.youtube.com/watch?v=Q_UvAaKSK90
-        https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
+        https://monosnap.com/file/LYT3309k4sQJnIlZ5LWBKq68bMsCEQ
+        https://monosnap.com/file/4xpyFiwZIh2cQr0lEBejzTSH5pbgpM
         https://ru.reactjs.org/docs/context.html Контекст позволяет передавать данные через дерево компонентов без
         необходимости передавать пропмсы на промежуточных уровнях https://monosnap.com/file/gEKICR2XssAdoZtPVeWzCxlXIAfveM
         ! все что приходит компоненте через пропсы - остается в пропсах а не контексте
