@@ -278,7 +278,8 @@ __06/10/2019  ! компоненте давать только необходи�
         - video https://www.youtube.com/watch?v=GPabDsMyceU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=42
         - action - объект с минимум type - reducer - функция которая принимает state, action и применяет
             по необходимости действия и возвращает новый стейт
-        https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
+        https://monosnap.com/file/KU0nvBTk5afP0gYou9WKuhM1hXXKKY
+        https://monosnap.com/file/jiBRKBzzC7imqI8GPHj3LWCS0l9mOm
 -- lesson 40 adding message
         - video https://www.youtube.com/watch?v=TUcn_vPHfxU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=41
 __06/06/2019 #Leaflet : it's time to leave GoogleMaps by Guillaume Soldera https://www.youtube.com/watch?v=_Jm-UPOEE0o
