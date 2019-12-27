@@ -1,4 +1,4 @@
-__12/27/2019__ begin new __11/21/2019__
+__12/27/2019__ begining new world __11/21/2019__
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI
             !   await and async
