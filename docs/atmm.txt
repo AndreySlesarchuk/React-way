@@ -9,7 +9,7 @@ __11/17/2019__ '-' __11/20/2019__
         npm run test
         tdd - test driving development
 __11/16/2019__ '-' __11/09/2019__
--- lesson 88 pure function (чистая функция) - React JS
+-- lesson 88 - pure function (чистая функция) - React JS
         https://www.youtube.com/watch?v=KU81NnNcjmw
         1. immutability (имьютабельность, неизменяемость) - входные данные, пришедшие в функцию, эта функция не должна
             менять (речь про объекты и массивы, так как по ссылке они передаются, поэтому делаем копию);
