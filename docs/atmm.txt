@@ -248,8 +248,7 @@ __06/24/2019 __06/29/2019
 -- lesson 48 Копия состояние в DialogReducer    npm update --save react
         https://www.youtube.com/watch?v=R3ZsEyc4BCo&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=50&t=2s
 -- lesson 47 Копия состояние в ProfileReducer    https://www.youtube.com/watch?v=L2SSsOmqiig
-        чистая функция - получающая и выдающая данные одинаковые
-            https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
+        чистая функция-получающая и выдающая данные одинаковые https://monosnap.com/file/ab6x0eRAhNd1u09ZNM95Idjzi0SRoP
         детерминированность, демпотентность, инмютабельность
 __06/24/2019 npm install react-redux --save
 -- lesson 46 deep copy vs shallow copy  var b = {...a}; https://monosnap.com/file/k9d44KTCCB8QFkz5StIh93oPwDFpQN
