@@ -272,7 +272,7 @@ __06/13/2019 __06/13/2019 __06/19/2019
             https://monosnap.com/file/wxu9JftEpP1DVDqG52cuxujMiJkzTG
 __06/11/2019
 -- lesson 42 redux - video https://www.youtube.com/watch?v=IUEkRTov_E4&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=43
-__06/10/2019  ! компоненте давать только необходимое
+__06/10/2019  ! компоненте давать только необходимое необходимо
 -- lesson 41 reducer (почти redux)
         - video https://www.youtube.com/watch?v=GPabDsMyceU&list=PLcvhF2Wqh7DNVy1OCUpG3i5lyxyBWhGZ8&index=42
         - action - объект с минимум type - reducer - функция которая принимает state, action и применяет
