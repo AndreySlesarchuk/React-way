@@ -70,7 +70,7 @@ __10/25/2019__ __10/24/2019__ __10/23/2019__ __10/22/2019__ __10/21/2019__ __10/
 __10/17/2019 __10/14/2019 __10/15/2019 __10/16/2019
         new appointments amount    linguoleo new age and new password
 __10/13/2019    birthday of our beloved daughter Maria
-__10/12/2019 __10/11/2019 __10/10/2019 __10/08/2019 __10/09/2019 __10/08/2019 advanced realize login and validation
+__10/12/2019 '-' __10/08/2019 advanced realize login and validation
         + fix - final redux-form lesson
 __10/07/2019 __10/06/2019 __10/05/2019 __10/04/2019 __10/03/2019 __10/02/2019 __10/01/2019  with new forces
         hasError = meta.touched && meta.error;
