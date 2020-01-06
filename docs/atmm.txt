@@ -1,4 +1,4 @@
-__01/05/2020__ Happy New Year 2020 day 5 __11/21/2019__
+__01/06/2020__ Happy New Year 2020 day 6 __11/21/2019__
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
 __11/17/2019__ '-' __11/20/2019__
