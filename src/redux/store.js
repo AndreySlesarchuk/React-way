@@ -9,7 +9,8 @@ let store = {
                 {id: 1, message: 'Study my dear friend!!', likesCount: 13},
                 {id: 2, message: 'Hello Zatoka!!!', likesCount: 7},
                 {id: 3, message: 'Good night!', likesCount: 11},
-                {id: 4, message: 'Yup yup yup', likesCount: 8}
+                {id: 4, message: 'Yup yup yup', likesCount: 8},
+                {id: 4, message: 'Ho ho ho', likesCount: 9}
             ],
             newPostText: 'pam.by'
         },
@@ -21,7 +22,7 @@ let store = {
                 {id: 4, name: 'Andrey'},
                 {id: 5, name: 'Vasiliy'},
                 {id: 6, name: 'Natasha'},
-                {id: 7, name: 'Seva'}
+                {id: 7, name: 'Sergey'}
 
             ],
             messages: [
