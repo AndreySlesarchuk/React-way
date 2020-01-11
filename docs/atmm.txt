@@ -58,7 +58,7 @@ __10/29/2019__
 -- lesson 81 - - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
         Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут
          UI) но ты думай    Есть и подводные моменты селекторов
-__10/28/2019__ __10/27/2019__
+__10/28/2019__
 -- lesson 80 - инициализация приложения https://www.youtube.com/watch?v=GFN1D81sBEw
         !  When connecting component - broke routing
         !  this.props.history.push("/login")
