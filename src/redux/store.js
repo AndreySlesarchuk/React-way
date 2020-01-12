@@ -10,7 +10,7 @@ let store = {
                 {id: 2, message: 'Hello Zatoka!!!', likesCount: 7},
                 {id: 3, message: 'Good night!', likesCount: 11},
                 {id: 4, message: 'Yup yup yup', likesCount: 8},
-                {id: 4, message: 'Ho ho ho', likesCount: 9}
+                {id: 4, message: 'Ho hey ho', likesCount: 9}
             ],
             newPostText: 'pam.by'
         },
