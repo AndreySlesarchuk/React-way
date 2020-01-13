@@ -17,8 +17,8 @@ let store = {
         dialogsPage: {
             dialogs: [
                 {id: 1, name: 'Masha'},
-                {id: 2, name: 'Mike'},
-                {id: 3, name: 'Tana'},
+                {id: 2, name: 'Tana'},
+                {id: 3, name: 'Mike'},
                 {id: 4, name: 'Andrey'},
                 {id: 5, name: 'Vasiliy'},
                 {id: 6, name: 'Natasha'},
