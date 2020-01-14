@@ -7,8 +7,8 @@ let store = {
         profilePage: {
             posts: [
                 {id: 1, message: 'Study my dear friend!!', likesCount: 13},
-                {id: 2, message: 'Hello Zatoka!!!', likesCount: 7},
-                {id: 3, message: 'Good night!', likesCount: 11},
+                {id: 2, message: 'Hello Zatoka!', likesCount: 7},
+                {id: 3, message: 'Good night!!!', likesCount: 11},
                 {id: 4, message: 'Yup yup yup', likesCount: 8},
                 {id: 5, message: 'Ho hey yohohohoho', likesCount: 9},
                 {id: 6, message: 'Happy new year!', likesCount: 13}
