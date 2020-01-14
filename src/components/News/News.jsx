@@ -17,7 +17,7 @@ const  News = () => {
             <div className={c.messages}>
                 <div className={c.new}>Hi</div>
                 <div className={c.message}>How is your react-way?</div>
-                <div className={c.message}>Yups</div>
+                <div className={c.message}>Middle</div>
             </div>
         </div>
     )
