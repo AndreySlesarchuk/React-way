@@ -17,13 +17,13 @@ let store = {
         },
         dialogsPage: {
             dialogs: [
-                {id: 1, name: 'Masha'},
-                {id: 2, name: 'Tana'},
-                {id: 3, name: 'Mike'},
+                {id: 1, name: 'Mike'},
+                {id: 2, name: 'Masha'},
+                {id: 3, name: 'Tana'},
                 {id: 4, name: 'Andrey'},
                 {id: 5, name: 'Vasiliy'},
                 {id: 6, name: 'Natasha'},
-                {id: 7, name: 'Jon'}
+                {id: 7, name: 'Denis'}
 
             ],
             messages: [
