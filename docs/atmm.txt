@@ -1,5 +1,5 @@
 if then else
-__01/13/2020__ Happy New Year 2020 day 13
+__01/14/2020__ Happy New Year 2020 day 14
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
 __11/17/2019__ `-` __11/20/2019__
