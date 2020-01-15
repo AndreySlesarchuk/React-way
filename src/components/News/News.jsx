@@ -6,12 +6,12 @@ const  News = () => {
     return (
         <div className={c.news}>
             <div className={c.newsItem}>
-                    <NavLink to={'news/tana'}>Tana</NavLink>
+                    <NavLink to={'news/mike'}>Mike</NavLink>
                 <div className={c.news}>
                     Andrey
                 </div>
                 <div className={c.news}>
-                    Mike
+                    Tana
                 </div>
             </div>
             <div className={c.messages}>
