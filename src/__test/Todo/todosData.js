@@ -11,12 +11,12 @@ const todosData = [
     },
     {
         id: 3,
-        text: "Learn React Redux",
+        text: "Learn Dokker",
         completed: false
     },
     {
         id: 4,
-        text: "Learn Dokker",
+        text: "Learn React Redux",
         completed: false
     },
     {
