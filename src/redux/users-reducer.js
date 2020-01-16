@@ -13,7 +13,7 @@ let initialState = {
     pageSize: 20,
     totalUsersCount: 0,
     currentPage: 1,
-    isFetching: false, // is getting )
+    isFetching: false, // is getting
     followingInProgress: [],
     fake: 10
 };
