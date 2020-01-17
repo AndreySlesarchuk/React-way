@@ -1,7 +1,7 @@
 const todosData = [
     {
         id: 1,
-        text: "Learn English",
+        text: "Learn English!",
         completed: false
     },
     {
