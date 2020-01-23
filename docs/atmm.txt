@@ -1,5 +1,6 @@
 if then else
 __01/23/2020__ Happy New Year 2020, day 23 !)))
+    English!?
     new appointment price script
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
