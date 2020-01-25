@@ -6,9 +6,9 @@ __01/25/2020__ Happy New Year 2020, day 25
         https://youtu.be/JtbSOJKRJAI    !   await and async
 __11/17/2019__ `-` __11/20/2019__
 -- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS
-        https://www.youtube.com/watch?v=fJlx8B9cU7w
-        unit tests (модульные тесты) тестирование с помощью кода.
-        npm run test
+        https://www.youtube.com/watch?v=fJlx8B9cU7w;
+        unit tests (модульные тесты) тестирование с помощью кода;
+        npm run test;
         tdd - test driving development
 __11/16/2019__
 -- lesson 88 - pure function (чистая функция) - React JS
