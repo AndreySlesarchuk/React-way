@@ -1,5 +1,5 @@
 if then else
-__01/25/2020__ Happy New Year 2020, day 25 !)))
+__01/25/2020__ Happy New Year 2020, day 25
     English!!1?
     new appointment price script
 -- lesson 90 redux-ducks рефакторинг - React JS long
