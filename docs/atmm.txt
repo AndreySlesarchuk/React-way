@@ -1,6 +1,6 @@
 @Andmy
-__01/30/2020__ Happy New Year 2020, day 30
-    English underground?!!! courses
+__01/31/2020__ Happy New Year 2020, day 31
+    English underground?!!! courses 
     new appointment price script
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
