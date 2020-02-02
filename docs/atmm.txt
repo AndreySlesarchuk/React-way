@@ -3,7 +3,6 @@ __02/02/2020__ Happy New Year 2020, day 33
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
         https://github.com/erikras/ducks-modular-redux
-
 __11/17/2019__ `-` __11/20/2019__
 -- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS
         https://www.youtube.com/watch?v=fJlx8B9cU7w;
