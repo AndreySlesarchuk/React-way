@@ -1,4 +1,3 @@
-@Andmy
 __02/03/2020__ Happy New Year 2020, day 34
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
