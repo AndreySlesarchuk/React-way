@@ -168,8 +168,8 @@ __08/03/2019
         !   yarn внедрить - npm i yarn | + yarn@1.17.3 added 1 package and audited 878714 packages in 10.824s
 __08/02/2019 САНКИ - thunk
 -- lesson 65 - урок redux-thunk в деталях (теория) https://www.youtube.com/watch?v=eWdnjfRu9Io&t=21s
-        thunk , Noun thunk / thunks , преобразователь thunk ,
-        Verb thunk / thunked /  thunked / thunking / thunks , преобразовывать
+        thunk , Noun thunk / thunks , преобразователь thunk,
+        Verb thunk / thunked /  thunked / thunking / thunks, преобразовывать
         Санка это функция которая умеет диспатчить обычные экшены
 __08/01/2019
 -- lesson 64 практика, button disabled (follow\unfollow) https://www.youtube.com/watch?v=iobMksCYGHE&t=347s
