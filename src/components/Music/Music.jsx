@@ -11,7 +11,6 @@ const  Music = () => {
                 <div className={c.album}> Accept</div>
                 <div className={c.album}> Nirvana </div>
                 <div className={c.album}> UDO </div>
-
                 <div className={c.album}> The Technology </div>
             </div>
             <div className={c.songs}>
@@ -21,7 +20,6 @@ const  Music = () => {
                 <div className={c.song}>Fall of the Empire</div>
                 <div className={c.song}>Spanish caravan</div>
                 <div className={c.song}>Crying soldier</div>
-
                 <div className={c.song}>Strange dance</div>
             </div>
         </div>
