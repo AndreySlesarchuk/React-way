@@ -1,4 +1,4 @@
-__02/05/2020__ Happy New Year 2020, day 36
+__02/06/2020__ Happy New Year 2020, day 37
 -- lesson 90 redux-ducks рефакторинг - React JS long
         https://youtu.be/JtbSOJKRJAI    !   await and async
         https://github.com/erikras/ducks-modular-redux
