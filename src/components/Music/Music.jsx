@@ -20,7 +20,7 @@ const  Music = () => {
                 <div className={c.song}>Shadow soldier's</div>
                 <div className={c.song}>Spanish caravan</div>
                 <div className={c.song}>Crying soldier</div>
-                <div className={c.song}>Strange dance</div>
+                <div className={c.song}>Push the button</div>
             </div>
         </div>
     )
