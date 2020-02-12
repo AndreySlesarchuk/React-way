@@ -1,4 +1,4 @@
-__02/12/2020__ Happy New Year 2020, day 43
+__02/12/2020__ day 43
 -- lesson 90 redux-ducks рефакторинг - React JS long very
         https://youtu.be/JtbSOJKRJAI
         !   await and async
