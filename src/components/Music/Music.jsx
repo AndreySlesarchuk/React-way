@@ -10,7 +10,7 @@ const  Music = () => {
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>Didier Marouani & SPACE</div>
                 <div className={c.album}>Accept</div>
-                <div className={c.album}> Nirvana </div>
+                <div className={c.album}>Nirvana </div>
                 <div className={c.album}> UDO </div>
             </div>
             <div className={c.songs}>
