@@ -1,4 +1,4 @@
-__02/13/2020__ day 44
+__02/14/2020__ day 45
 -- lesson 90 redux-ducks рефакторинг - React JS long very
         https://youtu.be/JtbSOJKRJAI
         !   await and async
