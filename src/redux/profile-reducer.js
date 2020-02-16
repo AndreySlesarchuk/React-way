@@ -1,4 +1,4 @@
-import {profileAPI} from "../api/api";
+import {profileAPI, usersAPI} from "../api/api";
 
 const ADD_POST = 'ADD-POST';
 const SET_USER_PROFILE = 'SET_USER_PROFILE';
@@ -56,7 +56,7 @@ export const deletePost = (postId) => ({type: DELETE_POST, postId})
 
 //thunk----
 export const getUserProfile = (userId) => async (dispatch) => {
-    const response = await profileAPI.getProfile(userId);
+    const response = await usersAPI.getProfile(userId);
     dispatch(setUserProfile(response.data));
 }
 
