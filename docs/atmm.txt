@@ -1,4 +1,4 @@
-__02/23/2020__ day 54................ react update
+__02/24/2020__ day 55................ react update
 -- lesson 90 redux-ducks рефакторинг - React JS long very
         https://youtu.be/JtbSOJKRJAI
         !   await and async..
