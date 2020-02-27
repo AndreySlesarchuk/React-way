@@ -1,5 +1,5 @@
 __02/27/2020__ day 58...................
--- lesson 90 redux-ducks рефакторинг - React JS long very
+-- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
         https://github.com/erikras/ducks-modular-redux
