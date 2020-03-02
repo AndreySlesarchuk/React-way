@@ -23,7 +23,7 @@ __11/16/2019__
             базовых в редюсоре не меняем стейт, берем и работаем с кпией стейта в функциональный компонентах не делаем
             аякс запросы Array.splice() мутирующий, а  slice() не мутирующий санки - не чистые функции.
 __11/08/2019__
--- lesson 87 - shouldComponentUpdate, PureComponent, memo.....
+-- lesson 87 - shouldComponentUpdate, PureComponent, memo....
         https://www.youtube.com/watch?v=YEqCI9NMoLI
         shouldComponentUpdate - компонента, ты должна обновиться?
         PureComponetnt - автоматическое применение shouldComponentUpdate.
