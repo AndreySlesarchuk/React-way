@@ -38,7 +38,7 @@ __11/06/2019__
 -- lesson 85 - hook, useEffect, хуки
         https://www.youtube.com/watch?v=P1Y8GFJa_Io
         хук useEffect - выполняет функцию после отрисовки на экране в зависимости от зависимостей
-        1. запрещено писать в условиях, циклах.
+        1. запрещено писать в условиях, циклах
 __11/05/2019__
 -- lesson 84 - hook, useState, хуки
         https://www.youtube.com/watch?v=EbqQg0K4wbo
@@ -56,7 +56,7 @@ __10/30/2019__
 -- lesson 82 - mapStateToProps (reselect часть 2)
         React React-Redux Redux -> connect Redux
 __10/29/2019__
--- lesson 81 - - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
+-- lesson 81 - селекторы (reselect part 1) https://www.youtube.com/watch?v=qzxL8qdPMgU
         Селекторы - выборщики функция которая достает данные из стейта то что нужно и возвращает в бизнес?(скорее тут
          UI) но ты думай    Есть и подводные моменты селекторов.
 __10/28/2019__
