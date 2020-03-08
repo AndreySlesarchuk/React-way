@@ -338,8 +338,8 @@ __05/15/2019
         - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
 __05/14/2019
     - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
-    -- npm install - for project from git for refresh
-    -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
+        -- npm install - for project from git for refresh
+        -- frames <BrowserRouter> ... <Route path='/dialogs' component={Music} /> ... </BrowserRouter>
     - <NavLink to="/dialogs">Messages</NavLink>
     - History API html5  | preventDefault
 __05/13/2019
@@ -360,7 +360,7 @@ __5/11/2019
     - npm start
     - index.js точка входа --> /public/index.html
     - Компонента - 1. Это фунция, возвращающая разметку (JSX) 2. Это тег
-!   -  В браузер разметка jsx не попадает
+!   - В браузер разметка jsx не попадает
 
 -- WebStorm keyboard shortcut
     - refactor this - Ctrl+Alt+Shift+T - convert to class component
