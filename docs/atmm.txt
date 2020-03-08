@@ -379,7 +379,7 @@ __5/11/2019
 
 -- React course https://www.udemy.com/course/mern-stack-front-to-back/
 _
-!!! 30, 40 lesson for fixing
+!   30, 40 lesson for fixing
 
 vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
     - https://map.worldweatheronline.com/
