@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from 'react'
 import './App.css';
 import Navbar from "./components/Navbar/Navbar";
 import Todo from "./__test/Todo/Todo";
