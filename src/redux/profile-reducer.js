@@ -54,7 +54,7 @@ export const setStatus = (status) => ({type: SET_STATUS, status})
 export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
 export const deletePost = (postId) => ({type: DELETE_POST, postId})
 
-//thunk----
+//thunk---
 export const getUserProfile = (userId) => async (dispatch) => {
     const response = await usersAPI.getProfile(userId);
     dispatch(setUserProfile(response.data));
