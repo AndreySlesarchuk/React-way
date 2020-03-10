@@ -1,4 +1,4 @@
-import * as axios from "axios";
+import * as axios from "axios"
 
 const instance = axios.create({
     withCredentials: true,
@@ -6,7 +6,7 @@ const instance = axios.create({
     headers: {
         "API-KEY": "02b51016-fda9-413b-96e5-32697749202c"
     }
-});
+})
 
 export const usersAPI = {
     getUsers(currentPage = 1, pageSize = 17) {
