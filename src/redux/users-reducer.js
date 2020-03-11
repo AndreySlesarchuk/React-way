@@ -113,9 +113,9 @@ export const follow = (userId) => {
 
 export const unfollow = (userId) => {
     return async (dispatch) => {
-        let apiMethod = usersAPI.unfollow.bind(usersAPI);
-        let actionCreator = unfollowSuccess;
-        followUnfollowFlow(dispatch, userId, apiMethod, actionCreator);
+        let apiMethod = usersAPI.unfollow.bind(usersAPI)
+        let actionCreator = unfollowSuccess
+        followUnfollowFlow(dispatch, userId, apiMethod, actionCreator)
     }
 }
-export default usersReducer;
+export default usersReducer
