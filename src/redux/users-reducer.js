@@ -94,13 +94,13 @@ export const requestUsers = (page, pageSize) => {
 }
 
 const followUnfollowFlow = async (dispatch, userId, apiMethod, actionCreator ) => {
-        dispatch(toggleFollowingProgress(true, userId));
+        dispatch(toggleFollowingProgress(true, userId))
         let response = await apiMethod(userId);
 
         if (response.data.resultCode == 0) {
-            dispatch(actionCreator(userId));
+            dispatch(actionCreator(userId))
         }
-        dispatch(toggleFollowingProgress(false, userId));
+        dispatch(toggleFollowingProgress(false, userId))
 }
 
 export const follow = (userId) => {
