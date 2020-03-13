@@ -7,8 +7,8 @@ import {Route, withRouter} from "react-router-dom"
 import Music from "./components/Music/Music"
 import News from "./components/News/News"
 import Geomap from "./components/Geomaps/Geomap"
-import MyMap from "./components/Geomaps/MyMap";
-import DialogsContainer from "./components/Dialogs/DialogsContainer";
+import MyMap from "./components/Geomaps/MyMap"
+import DialogsContainer from "./components/Dialogs/DialogsContainer"
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
