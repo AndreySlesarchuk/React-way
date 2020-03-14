@@ -10,10 +10,10 @@ import Geomap from "./components/Geomaps/Geomap"
 import MyMap from "./components/Geomaps/MyMap"
 import DialogsContainer from "./components/Dialogs/DialogsContainer"
 import UsersContainer from "./components/Users/UsersContainer"
-import ProfileContainer from "./components/Profile/ProfileContainer";
-import HeaderContainer from "./components/Header/HeaderContainer";
-import LoginPage from "./components/Login/Login";
-import {connect} from "react-redux";
+import ProfileContainer from "./components/Profile/ProfileContainer"
+import HeaderContainer from "./components/Header/HeaderContainer"
+import LoginPage from "./components/Login/Login"
+import {connect} from "react-redux"
 import {compose} from "redux"
 import {initializeApp} from "./redux/app-reducer"
 import Preloader from "./components/common/Preloader/Preloader"
