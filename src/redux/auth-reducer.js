@@ -1,7 +1,7 @@
-import {authAPI} from "../api/api";
-import {stopSubmit} from "redux-form";
+import {authAPI} from "../api/api"
+import {stopSubmit} from "redux-form"
 
-const SET_USER_DATA = 'samurai-network/auth/SET_USER_DATA';
+const SET_USER_DATA = 'samurai-network/auth/SET_USER_DATA'
 
 let initialState = {
     userId: null,
@@ -18,7 +18,7 @@ const authReducer = (state = initialState, action) => {
                 ...action.payload
             }
         default:
-            return state;
+            return state
     }
 }
 
