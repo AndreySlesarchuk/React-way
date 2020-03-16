@@ -9,6 +9,6 @@ export const maxLengthCreator = (maxLength) => (value) => {
 }
 
 export const minLengthCreator = (minLength) => (value) => {
-    if (value.length < minLength) return `Mix length is ${minLength} symbols`;
-    return undefined;
+    if (value.length < minLength) return `Mix length is ${minLength} symbols`
+    return undefined
 }
