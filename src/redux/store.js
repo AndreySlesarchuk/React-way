@@ -45,11 +45,11 @@ let store = {
         sidebar: {}
     },
     _callSubscriber() {
-        console.log('State was changed.');
+        console.log('State was changed.')
     },
 
     getState() {
-        return this._state;
+        return this._state
     },
     subscribe(observer) {
         this._callSubscriber = observer; //observer
