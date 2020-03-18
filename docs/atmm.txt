@@ -1,4 +1,4 @@
-__03/17/2020__ day 77
+__03/18/2020__ day 78
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
