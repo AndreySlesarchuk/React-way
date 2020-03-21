@@ -12,11 +12,11 @@ let state = {
 
 it('length of post should be correct', () => {
     //1. test data
-    let action = addPostActionCreator("it-kamasutra.com");
+    let action = addPostActionCreator("it-kamasutra.com")
     //2. action
-    let newState = profileReducer(state, action);
+    let newState = profileReducer(state, action)
     //3. expectation
-    expect(newState.posts.length).toBe(5);
+    expect(newState.posts.length).toBe(5)
 
 });
 
