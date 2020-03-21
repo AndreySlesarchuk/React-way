@@ -22,11 +22,11 @@ it('length of post should be correct', () => {
 
 it('message of new post should be "it-kamasutra.com"', () => {
     //1. test data
-    let action = addPostActionCreator("it-kamasutra.com");
+    let action = addPostActionCreator("it-kamasutra.com")
     //2. action
-    let newState = profileReducer(state, action);
+    let newState = profileReducer(state, action)
     //3. expectation
-    expect(newState.posts[4].message).toBe("it-kamasutra.com");
+    expect(newState.posts[4].message).toBe("it-kamasutra.com")
 });
 
 it('after deleting length of messages should be decrement', () => {
