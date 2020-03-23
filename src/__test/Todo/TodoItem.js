@@ -9,7 +9,7 @@ function TodoItem(props) {
     }
 
     return (
-        <div className={c.todoItem} onClick={() => props.handleChange(props.todo.id)} >
+        <div className={c.todoItem} onClick={() => props.handleChange(props.todo.id)}>
             <input
                 onChange={() => {}}
                 name="completed"
