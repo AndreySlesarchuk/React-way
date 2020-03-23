@@ -1,5 +1,5 @@
 import React from "react"
-import MemeGenerator from "./MemeGenerator";
+import MemeGenerator from "./MemeGenerator"
 
 function Meme() {
     return (
@@ -10,4 +10,4 @@ function Meme() {
     )
 }
 
-export default Meme;
+export default Meme
