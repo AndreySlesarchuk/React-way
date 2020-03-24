@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import c from './../Dialogs.module.css';
 import {NavLink} from "react-router-dom";
 
