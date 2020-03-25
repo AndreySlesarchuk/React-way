@@ -28,8 +28,8 @@ const Dialogs = (props) => {
     )
 }
 
-const maxLength50 = maxLengthCreator(50);
-const minLength3 = minLengthCreator(3);
+const maxLength50 = maxLengthCreator(50)
+const minLength3 = minLengthCreator(3)
 
 const AddMessageForm = (props) => {
     return (
