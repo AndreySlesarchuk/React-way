@@ -39,4 +39,4 @@ class Geomap extends React.Component {
     }
 }
 
-export default Geomap;
+export default Geomap
