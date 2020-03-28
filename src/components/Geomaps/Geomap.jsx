@@ -29,7 +29,7 @@ class Geomap extends React.Component {
         stationMarker.addTo(this.map);
     }
     render() {
-        const positionPinsk = [52.12, 26.09];
+        const positionPinsk = [52.12, 26.09]
         const {className, style} = this.props;
         return (
             <div>
