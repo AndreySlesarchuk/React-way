@@ -30,7 +30,7 @@ class Geomap extends React.Component {
     }
     render() {
         const positionPinsk = [52.12, 26.09]
-        const {className, style} = this.props;
+        const {className, style} = this.props
         return (
             <div>
                 <div ref='mount' className={className} style={style}/>
