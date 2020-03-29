@@ -26,7 +26,7 @@ class Geomap extends React.Component {
         var stationMarker = L.marker(
             positionPinsk, {title: "Pinsk"},
         )
-        stationMarker.addTo(this.map);
+        stationMarker.addTo(this.map)
     }
     render() {
         const positionPinsk = [52.12, 26.09]
