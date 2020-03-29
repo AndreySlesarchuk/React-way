@@ -19,7 +19,7 @@ class MyMap extends Component {
         Pinsk: [52.12290, 26.095510],
     }
     render() {
-        const position = [this.state.lat, this.state.lng];
+        const position = [this.state.lat, this.state.lng]
         return (
             <Map className="map" center={position} zoom={this.state.zoom}>
                 <TileLayer
@@ -40,8 +40,8 @@ class MyMap extends Component {
                     </Popup>
                 </Marker>
             </Map>
-        );
+        )
     }
 }
 
-export default MyMap;
+export default MyMap
