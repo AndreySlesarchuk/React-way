@@ -26,4 +26,4 @@ const  Music = () => {
     )
 }
 
-export default Music;
+export default Music
