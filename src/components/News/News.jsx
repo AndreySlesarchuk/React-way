@@ -1,6 +1,6 @@
 import React from "react"
 import c from './News.module.css'
-import {NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom"
 
 const  News = () => {
     return (
