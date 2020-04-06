@@ -1,5 +1,4 @@
-import React from 'react';
-//import classes from ... changed to c
+import React from 'react'
 import c from './Post.module.css'
 
 const Post = (props) => {
