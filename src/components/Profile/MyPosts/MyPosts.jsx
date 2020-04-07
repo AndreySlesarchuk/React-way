@@ -6,7 +6,7 @@ import {maxLengthCreator, minLengthCreator, required} from "../../../utils/valid
 import {Textarea} from "../../common/FormsControls/FormsControls"
 
 const maxLength30 = maxLengthCreator(30)
-const minLength2 = minLengthCreator(2);
+const minLength2 = minLengthCreator(2)
 
 let AddNewPostForm = (props) => {
     return <form onSubmit={props.handleSubmit}>
