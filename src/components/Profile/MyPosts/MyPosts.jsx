@@ -3,7 +3,7 @@ import c from './MyPosts.module.css'
 import Post from "./Post/Post"
 import {Field, reduxForm} from "redux-form"
 import {maxLengthCreator, minLengthCreator, required} from "../../../utils/validators/validators"
-import {Textarea} from "../../common/FormsControls/FormsControls";
+import {Textarea} from "../../common/FormsControls/FormsControls"
 
 const maxLength30 = maxLengthCreator(30);
 const minLength2 = minLengthCreator(2);
