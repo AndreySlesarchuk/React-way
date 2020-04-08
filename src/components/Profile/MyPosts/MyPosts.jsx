@@ -41,4 +41,4 @@ const MyPosts = React.memo(props => {
     )
 });
 
-export default MyPosts;
+export default MyPosts
