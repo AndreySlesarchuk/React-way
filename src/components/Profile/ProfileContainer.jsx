@@ -1,5 +1,5 @@
 import * as React from "react"
-import {connect} from "react-redux";
+import {connect} from "react-redux"
 import Profile from "./Profile";
 import {getStatus, getUserProfile, updateStatus} from "../../redux/profile-reducer";
 import {withRouter} from "react-router-dom";
