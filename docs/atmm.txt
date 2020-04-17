@@ -8,7 +8,7 @@ __11/17/2019__
         https://www.youtube.com/watch?v=fJlx8B9cU7w;
         unit tests (модульные тесты) тестирование с помощью кода;
         npm run test;
-        tdd - test driving development
+        tdd - test driving development.
 __11/16/2019__
 -- lesson 88 - pure function (чистая функция) - React JS
         https://www.youtube.com/watch?v=KU81NnNcjmw
