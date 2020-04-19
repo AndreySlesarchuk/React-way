@@ -2,7 +2,7 @@ __04/19/2020__ day 109 {if ... then}
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
-        https://github.com/erikras/ducks-modular-redux
+        https://github.com/erikras/ducks-modular-redux .
 __11/17/2019__
 -- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS
         https://www.youtube.com/watch?v=fJlx8B9cU7w;
