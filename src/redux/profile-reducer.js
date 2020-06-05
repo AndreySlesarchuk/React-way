@@ -10,7 +10,7 @@ let initialState = {
         {id: 1, message: 'Hello!', likesCount: 11},
         {id: 2, message: 'Good day', likesCount: 9},
         {id: 3, message: 'Victory day', likesCount: 9},
-        {id: 4, message: 'summer evening', likesCount: 11}
+        {id: 4, message: 'summer evenings', likesCount: 11}
     ],
     profile: null,
     status: "Hello my great world"
@@ -57,7 +57,6 @@ export const deletePost = (postId) => ({type: DELETE_POST, postId})
 //thunk---
 export const getUserProfile = (userId) => async (dispatch) => {
     const response = await usersAPI.getProfile(userId)
-    debugger;
     dispatch(setUserProfile(response.data))
 }
 
