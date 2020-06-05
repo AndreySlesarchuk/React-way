@@ -56,7 +56,8 @@ export const deletePost = (postId) => ({type: DELETE_POST, postId})
 
 //thunk---
 export const getUserProfile = (userId) => async (dispatch) => {
-    const response = await usersAPI.getProfile(userId);
+    const response = await usersAPI.getProfile(userId)
+    debugger;
     dispatch(setUserProfile(response.data))
 }
 
