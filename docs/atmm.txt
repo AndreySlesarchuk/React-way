@@ -26,7 +26,7 @@ __11/08/2019__
 -- lesson 87 - shouldComponentUpdate, PureComponent, memo
         https://www.youtube.com/watch?v=YEqCI9NMoLI
         shouldComponentUpdate - компонента, ты должна обновиться?
-        PureComponetnt - автоматическое применение shouldComponentUpdate;
+        PureComponetnt - автоматическое применение shouldComponentUpdate
         React.memo оптимизация вызхова компоненты по необходимости.
 __11/07/2019__
 -- lesson 86 - Virtual DOM
