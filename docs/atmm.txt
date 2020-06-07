@@ -9,7 +9,7 @@ __11/17/2019__
         unit tests (модульные тесты) тестирование с помощью кода;
         npm run test;
         tdd - test driving development.
-__11/16/2019__
+__11/16/2019__n
 -- lesson 88 - pure function (чистая функция) - React JS
         https://www.youtube.com/watch?v=KU81NnNcjmw
         1. immutability (имьютабельность, неизменяемость) - входные данные, пришедшие в функцию, эта функция не должна
