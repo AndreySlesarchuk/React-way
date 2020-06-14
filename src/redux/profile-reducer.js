@@ -16,7 +16,7 @@ let initialState = {
     status: "Hello my great world"
 }
 
-const profileReducer = (state = initialState, action) => {
+const profileReducer = (action, state = initialState) => {
     //debugger; off
     switch (action.type) {
         case ADD_POST: {
