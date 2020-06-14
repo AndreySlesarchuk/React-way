@@ -22,6 +22,7 @@ class App extends Component {
     componentDidMount = () => {
         this.props.initializeApp();
     }
+
     render() {
         if (!this.props.initialized) {
             return <Preloader/>
@@ -52,11 +53,7 @@ class App extends Component {
     }
 }
 
-const mapStateToProps =  (state) => ({
-    initialized: state.app.initialized
-})
+const mapStateToProps = (state) => ({initialized: state.app.initialized})
 
-export default compose(
-    withRouter,
-    connect(mapStateToProps, {initializeApp})) (App);
+export default compose(withRouter, connect(mapStateToProps, {initializeApp}))(App);
 
