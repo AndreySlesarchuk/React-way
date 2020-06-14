@@ -18,7 +18,7 @@ let initialState = {
     fake: 11
 };
 
-const usersReducer = (state = initialState, action) => {
+const usersReducer = (action, state = initialState) => {
     switch (action.type) {
         case FOLLOW:
             return {
