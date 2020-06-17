@@ -3,7 +3,7 @@ ___06/17/2020___ day 167 {if ... then ... else ... to ... }
         https://youtu.be/JtbSOJKRJAI
         !   await and async
         https://github.com/erikras/ducks-modular-redux
-__11/17/2019__
+__11/17/2019___
 -- lesson 89 Тесты, jest, tdd, тестируем reducer - React JS;
         https://www.youtube.com/watch?v=fJlx8B9cU7w;
         unit tests (модульные тесты) тестирование с помощью кода;
