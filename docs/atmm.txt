@@ -345,8 +345,8 @@ __05/14/2019
 __05/13/2019
     - Git https://github.com/it-kamasutra/react-way-of-samurai
     - /node_modules not stored in the git  >npm install
-    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message}
-    - debugger; останавливается выполнение и смотрим все необходимое
+    - Props(Объект) Параметры для компоненты(функции) const Header = (props) => { {props.message} ;
+    - debugger; останавливается выполнение и смотрим все необходимое;
     - console.log(c);
 __05/12/2019
     - Бэм методология https://ru.bem.info/methodology/
