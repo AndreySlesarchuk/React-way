@@ -322,7 +322,7 @@ __05/27/2019
         - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 __05/24/2019
 -- store.js in redux
-    - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png
+    - NodeJS  SPA (Single Page Application) ./docs/pagesLifecycle.png ;
     - Функциональная компонента (presentational, stateless, dumb) функция которая возвращает JSX разметку (только
         отрисовывает, нужны props
     - PROPS - 'это объект' в тэги которые в свою очередь в другие тэги
