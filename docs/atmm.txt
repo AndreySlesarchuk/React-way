@@ -335,7 +335,7 @@ __05/23/2019
         <Route path='/dialogs' render={ () => {<Dialogs />} />  -  move data up
 __05/15/2019
 -- Переход только при полном совпадении exact <Route exact path='/dialogs' component={Dialogs} />
-        - Объекты    - BLL - Buisness Logic Layer      UI - User Interface SOLID
+        - Объекты    - BLL - Buisness Logic Layer    UI - User Interface SOLID
 __05/14/2019
     - CRA ROUTER for nodejs ->> nmp i react-router-dom -save
         -- npm install - for project from git for refresh
