@@ -16,7 +16,7 @@ let initialState = {
     status: "Hello my great world"
 }
 
-const profileReducerOld = (action, state = initialState) => {
+const profileReducer = (action, state = initialState) => {
     debugger;
     switch (action.type) {
         case ADD_POST: {
@@ -72,4 +72,4 @@ export const updateStatus = (status) => async (dispatch) => {
     }
 }
 
-export default profileReducerOld
+export default profileReducer
