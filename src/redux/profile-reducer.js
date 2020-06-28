@@ -17,7 +17,7 @@ let initialState = {
 }
 
 const profileReducer = (action, state = initialState) => {
-    //debugger; off
+    debugger;
     switch (action.type) {
         case ADD_POST: {
             let newPost = {
