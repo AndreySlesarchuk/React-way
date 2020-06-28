@@ -1,75 +1,48 @@
-import {profileAPI, usersAPI} from "../api/api"
+import profileReducerOld, {addPostActionCreator, deletePost} from "./profile-reducer-old";
+import React from 'react';
 
-const ADD_POST = 'ADD-POST'
-const SET_USER_PROFILE = 'SET_USER_PROFILE'
-const SET_STATUS = 'SET_STATUS'
-const DELETE_POST = 'DELETE_POST'
-
-let initialState = {
+let state = {
     posts: [
-        {id: 1, message: 'Hello!', likesCount: 11},
-        {id: 2, message: 'Good day', likesCount: 9},
-        {id: 3, message: 'Happy year', likesCount: 9},
-        {id: 4, message: 'summer evenings', likesCount: 11}
-    ],
-    profile: null,
-    status: "Hello my great world"
-}
+        {id: 1, message: 'Hello!', likesCount: 13},
+        {id: 2, message: 'Good day', likesCount: 8},
+        {id: 3, message: 'Victory day', likesCount: 7},
+        {id: 4, message: 'summer evening', likesCount: 11}
+    ]
+};
 
-const profileReducer = (action, state = initialState) => {
-    debugger;
-    switch (action.type) {
-        case ADD_POST: {
-            let newPost = {
-                id: 5,
-                message: action.newPostText,
-                likesCount: 0
-            };
-            return {
-                ...state,
-                posts: [...state.posts, newPost],
-                newPostText: ''
-            };
-        }
-        case SET_USER_PROFILE:
-            return {
-                ...state,
-                profile: action.profile
-            };
-        case DELETE_POST:
-            return {...state, posts: state.posts.filter(p => p.id !== action.postId) }
-        case SET_STATUS:
-            return {
-                ...state,
-                status: action.status
-            };
-        default:
-            return state;
-    }
-}
+it('length of post should be correct', () => {
+    //1. test data
+    let action = addPostActionCreator("it-kamasutra.com")
+    //2. action
+    let newState = profileReducerOld(state, action)
+    //3. expectation
+    expect(newState.posts.length).toBe(5)
 
-// if only returns value
-export const addPostActionCreator = (newPostText) => ({type: ADD_POST, newPostText})
-export const setStatus = (status) => ({type: SET_STATUS, status})
-export const setUserProfile = (profile) => ({type: SET_USER_PROFILE, profile})
-export const deletePost = (postId) => ({type: DELETE_POST, postId})
+});
 
-//thunk---
-export const getUserProfile = (userId) => async (dispatch) => {
-    const response = await usersAPI.getProfile(userId)
-    dispatch(setUserProfile(response.data))
-}
+it('message of new post should be "it-kamasutra.com"', () => {
+    //1. test data
+    let action = addPostActionCreator("it-kamasutra.com")
+    //2. action
+    let newState = profileReducerOld(state, action)
+    //3. expectation
+    expect(newState.posts[4].message).toBe("it-kamasutra.com")
+});
 
-export const getStatus = (userId) => async (dispatch) => {
-    let response =  await profileAPI.getStatus(userId)
-    dispatch(setStatus(response.data))
-}
+it('after deleting length of messages should be decrement', () => {
+    //1. test data
+    let action = deletePost(1)
+    //2. action
+    let newState = profileReducerOld(state, action)
+    //3. expectation
+    expect(newState.posts.length).toBe(3)
+});
 
-export const updateStatus = (status) => async (dispatch) => {
-    const response = await profileAPI.updateStatus(status)
-    if (response.data.resultCode === 0) {
-        dispatch(setStatus(status))
-    }
-}
-
-export default profileReducer
+it(`after deleting length shouldn't be decrement if id is incorrect`, () => {
+    //1. test data
+    let action = deletePost(1000)
+    //2. action
+    let newState = profileReducerOld(state, action)
+    //3. expectation
+    expect(newState.posts.length).toBe(4)
+});
