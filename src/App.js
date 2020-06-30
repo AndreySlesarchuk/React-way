@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import Todo from './__test/Todo/Todo'
-import Meme from "./__test/Meme/Meme"
+import Meme from './__test/Meme/Meme'
 import {Route, withRouter} from "react-router-dom"
 import Music from "./components/Music/Music"
 import News from "./components/News/News"
