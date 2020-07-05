@@ -1,5 +1,5 @@
 import React from 'react'
-import preloader from "../../../assets/images/Pacman-1s-200px.svg"
+import preloader from '../../../assets/images/Pacman-1s-200px.svg'
 
 let Preloader = () => {
     return <div>
