@@ -1,5 +1,5 @@
 import React from 'react'
-import {connect} from "react-redux"
+import {connect} from react-redux
 import {follow, requestUsers, setCurrentPage, toggleFollowingProgress, unfollow} from "../../redux/users-reducer"
 import Users from './Users'
 import Preloader from "../common/Preloader/Preloader"
