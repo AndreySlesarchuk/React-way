@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import {connect} from "react-redux"
 import {follow, requestUsers, setCurrentPage, toggleFollowingProgress, unfollow} from "../../redux/users-reducer"
 import Users from './Users'
