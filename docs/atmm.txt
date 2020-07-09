@@ -1,4 +1,4 @@
-___07/08/2020___ day 188 {if ... then ... else ... to ... }
+___07/09/2020___ day 189 {if ... then ... else ... to ... }
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
