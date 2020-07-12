@@ -27,7 +27,7 @@ let store = {
 
             ],
             messages: [
-                {id: 1, message: 'Hi everything!'},
+                {id: 1, message: 'Hi everybody!!'},
                 {id: 2, message: 'Hello World!'},
                 {id: 3, message: 'How is your react-way?'},
                 {id: 4, message: 'Yup'},
