@@ -32,7 +32,7 @@ let store = {
                 {id: 3, message: 'How is your react-way?'},
                 {id: 4, message: 'Yup'},
                 {id: 5, message: 'Good morning'},
-                {id: 6, message: 'Good night'},
+                {id: 6, message: 'Good evening'},
                 {id: 7, message: 'How are you?'},
             ],
             newMessageBody: ""
