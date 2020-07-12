@@ -31,7 +31,7 @@ let store = {
                 {id: 2, message: 'Hello World!'},
                 {id: 3, message: 'How is your react-way?'},
                 {id: 4, message: 'Yup'},
-                {id: 5, message: 'Good day'},
+                {id: 5, message: 'Good morning'},
                 {id: 6, message: 'Good night'},
                 {id: 7, message: 'How are you?'},
             ],
