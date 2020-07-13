@@ -17,7 +17,7 @@ let store = {
         },
         dialogsPage: {
             dialogs: [
-                {id: 1, name: 'Mike'},
+                {id: 1, name: 'Miha'},
                 {id: 2, name: 'Masha'},
                 {id: 3, name: 'Tana'},
                 {id: 4, name: 'Andrey'},
@@ -27,8 +27,8 @@ let store = {
 
             ],
             messages: [
-                {id: 1, message: 'Hi everybody!'},
-                {id: 2, message: 'Hello World!'},
+                {id: 1, message: 'Hello World!'},
+                {id: 2, message: 'Hi guys!'},
                 {id: 3, message: 'How is your react-way?'},
                 {id: 4, message: 'Yup'},
                 {id: 5, message: 'Good morning'},
