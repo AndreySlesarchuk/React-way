@@ -1,4 +1,4 @@
-___08/05/2020___ day 218 {if .. }
+___08/05/2020___ day 218 {if . }
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
