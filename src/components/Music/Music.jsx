@@ -15,9 +15,10 @@ const  Music = () => {
             </div>
             <div className={c.songs}>
                 <div className={c.song}>From Earth to Mars</div>
+                <div className={c.song}>Spanish caravan</div>
                 <div className={c.song}>Shadow soldier's</div>
                 <div className={c.song}>April</div>
-                <div className={c.song}>Spanish caravan</div>
+
                 <div className={c.song}>Strange dances</div>
                 <div className={c.song}>Crying soldier</div>
                 <div className={c.song}>Fall of the Empire</div>
