@@ -1,4 +1,4 @@
-___08/07/2020___ day 220
+___08/08/2020___ day 221
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async
