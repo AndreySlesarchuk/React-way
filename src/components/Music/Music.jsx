@@ -21,7 +21,6 @@ const  Music = () => {
                 <div className={c.song}>Strange dances</div>
                 <div className={c.song}>Fall of the Empire</div>
                 <div className={c.song}>Crying soldier</div>
-
             </div>
         </div>
     )
