@@ -5,13 +5,14 @@ const  Music = () => {
     return (
         <div className={c.music}>
             <div className={c.musicAlbums}>
+                <div className={c.album}>UDO</div>
                 <div className={c.album}>Didier Marouani & SPACE</div>
                 <div className={c.album}>Nirvana</div>
                 <div className={c.album}>KINO</div>
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>The Technology </div>
                 <div className={c.album}>Accept</div>
-                <div className={c.album}>UDO</div>
+
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Crying soldier</div>
