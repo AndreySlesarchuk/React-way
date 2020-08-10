@@ -12,7 +12,6 @@ const  Music = () => {
                 <div className={c.album}>KINO</div>
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>The Technology </div>
-
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Fall of the Empire</div>
