@@ -6,6 +6,7 @@ const  Music = () => {
         <div className={c.music}>
             <div className={c.musicAlbums}>
                 <div className={c.album}>Accept</div>
+                
                 <div className={c.album}>UDO</div>
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>KINO</div>
