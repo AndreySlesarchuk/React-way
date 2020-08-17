@@ -5,6 +5,7 @@ const  Music = () => {
     return (
         <div className={c.music}>
             <div className={c.musicAlbums}>
+                <div className={c.album}>Splin</div>
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>UDO</div>
                 <div className={c.album}>Splin</div>
@@ -15,6 +16,7 @@ const  Music = () => {
                 <div className={c.album}>The Technology </div>
             </div>
             <div className={c.songs}>
+                <div className={c.album}>Romance</div>
                 <div className={c.song}>Fall of the Empire</div>
                 <div className={c.song}>Crying soldier</div>
                 <div className={c.album}>Church</div>
