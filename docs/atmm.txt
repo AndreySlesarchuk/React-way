@@ -1,4 +1,4 @@
-___08/20/2020___ day 233 Жыве Беларусь !!!!!
+___08/20/2020___ day 233 Жыве Беларусь !!!!
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async 
