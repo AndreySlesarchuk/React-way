@@ -42,7 +42,7 @@ class App extends Component {
                            render={() => <LoginPage/>}/>
                     <Route path='/music' render={() => <Music/>}/>
                     <Route path='/news' render={() => <News/>}/>
-                    <Route path='/todo' render={() => <Todo/>}/>
+                    <Route path='/to-do' render={() => <Todo/>}/>
                     <Route path='/meme' render={() => <Meme/>}/>
                     <Route path='/map' render={() => <MyMap/>}/>
                     <Route path='/geomap' render={() => <Geomap style={{height: '1000px'}} view={[53.9, 27.5]}/>}/>
