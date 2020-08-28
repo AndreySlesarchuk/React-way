@@ -1,4 +1,4 @@
-___08/28/2020___ day 241 Happy Birthday !
+___08/28/2020___ day 241 Happy Birthday 
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
         !   await and async 
