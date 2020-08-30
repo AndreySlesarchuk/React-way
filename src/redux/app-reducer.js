@@ -6,7 +6,7 @@ let initialState = {
     initialized: false
 };
 
-const appReducer = (action, state = initialState) => {
+const appReducer = (state = initialState, action) => {
     switch (action.type) {
         case INITIALIZED_SUCCESS:
             return {

@@ -1,7 +1,7 @@
 import {authAPI} from "../api/api"
 import {stopSubmit} from "redux-form"
 
-const SET_USER_DATA = 'atmm/auth/SET_USER_DATA'
+const SET_USER_DATA = 'SET_USER_DATA'
 
 let initialState = {
     userId: null,
@@ -10,7 +10,7 @@ let initialState = {
     isAuth: false
 };
 
-const authReducer = (action, state = initialState) => {
+const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case SET_USER_DATA:
             return {

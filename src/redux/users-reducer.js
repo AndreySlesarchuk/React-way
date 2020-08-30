@@ -1,12 +1,12 @@
-import { usersAPI } from '../api/api'
+import {usersAPI} from '../api/api'
 
-const FOLLOW = 'atmm/users/FOLLOW'
-const UNFOLLOW = 'atmm/users/UNFOLLOW'
-const SET_USERS = 'atmm/users/SET_USERS'
-const SET_CURRENT_PAGE = 'atmm/users/SET_CURRENT_PAGE'
-const SET_TOTAL_USERS_COUNT = 'atmm/users/SET_TOTAL_USERS_COUNT'
-const TOGGLE_IS_FETCHING = 'atmm/users/TOGGLE_IS_FETCHING'
-const TOGGLE_IS_FOLLOWING_PROGRESS = 'atmm/users/TOGGLE_IS_FOLLOWING_PROGRESS'
+const FOLLOW = 'FOLLOW'
+const UNFOLLOW = 'UNFOLLOW'
+const SET_USERS = 'SET_USERS'
+const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE'
+const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT'
+const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING'
+const TOGGLE_IS_FOLLOWING_PROGRESS = 'TOGGLE_IS_FOLLOWING_PROGRESS'
 
 let initialState = {
     users: [],
@@ -18,7 +18,7 @@ let initialState = {
     fake: 11
 };
 
-const usersReducer = (action, state = initialState) => {
+const usersReducer = (state = initialState, action) => {
     switch (action.type) {
         case FOLLOW:
             return {
@@ -93,14 +93,14 @@ export const requestUsers = (page, pageSize) => {
     }
 }
 
-const followUnfollowFlow = async (dispatch, userId, apiMethod, actionCreator ) => {
-        dispatch(toggleFollowingProgress(true, userId))
-        let response = await apiMethod(userId);
+const followUnfollowFlow = async (dispatch, userId, apiMethod, actionCreator) => {
+    dispatch(toggleFollowingProgress(true, userId))
+    let response = await apiMethod(userId);
 
-        if (response.data.resultCode == 0) {
-            dispatch(actionCreator(userId))
-        }
-        dispatch(toggleFollowingProgress(false, userId))
+    if (response.data.resultCode == 0) {
+        dispatch(actionCreator(userId))
+    }
+    dispatch(toggleFollowingProgress(false, userId))
 }
 
 export const follow = (userId) => {
