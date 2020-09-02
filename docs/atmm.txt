@@ -1,4 +1,4 @@
-___09/01/2020___ day 245 Autumn
+___09/02/2020___ day 246 Autumn
 -- lesson 001_ redux - React JS
 ___08/29/2020___ day 242
 -- lesson 90 redux-ducks рефакторинг - React JS
