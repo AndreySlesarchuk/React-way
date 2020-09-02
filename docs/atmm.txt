@@ -1,5 +1,5 @@
 ___09/02/2020___ day 246
--- lesson 001_ redux - React JS
+    -- lesson 001_ redux - React JS
 ___08/29/2020___ day 242
 -- lesson 90 redux-ducks рефакторинг - React JS
         https://youtu.be/JtbSOJKRJAI
