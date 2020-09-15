@@ -1,4 +1,4 @@
-___09/15/2020___ day 259 .
+___09/15/2020___ day 259
     -- lesson 001__ redux - React JS
 ___08/29/2020___ day 242
     -- lesson 90 redux-ducks рефакторинг - React JS
