@@ -1,7 +1,7 @@
-___09/21/2020___ day 265
+___09/21/2020___ day 265 and now
     -- lesson 001__ redux - React JS
 ___08/29/2020___ day 242
-    -- lesson 90 redux-ducks рефакторинг - React JS
+    -- lesson 90 redux-ducks рефакторинг - React JS -
         https://youtu.be/JtbSOJKRJAI
         !   await and async 
         https://github.com/erikras/ducks-modular-redux
