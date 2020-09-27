@@ -1,5 +1,7 @@
 ___09/27/2020___ day 271
     -- lesson 001__ redux - React JS
+    _   !   30, 40 lesson for fixing
+
 ___08/29/2020___ day 242
     -- lesson 90 redux-ducks рефакторинг - React JS -
         https://youtu.be/JtbSOJKRJAI
@@ -380,6 +382,4 @@ __5/11/2019
     - model https://marvelapp.com/39ef033/screen/50996553
 
 -- React course https://www.udemy.com/course/mern-stack-front-to-back/
-_
-!   30, 40 lesson for fixing
 
