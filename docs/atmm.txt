@@ -383,9 +383,3 @@ __5/11/2019
 _
 !   30, 40 lesson for fixing
 
-vvvvvvvvvvvvvv-TODO-assemble-vvvvvvvvvvvvvv
-    - https://map.worldweatheronline.com/
-    - https://leafletjs.com/examples/quick-start/
-    - https://codepen.io/PaulLeCam/pen/gzVmGw
-    - https://www.openstreetmap.org/#map=6/54.008/28.191
-^^^^^^^^^^^^^^disassemble^^^^^^^^^^^^^^^^^^
