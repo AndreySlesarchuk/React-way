@@ -1,4 +1,4 @@
-___09/28/2020___ day 272 ..
+___09/28/2020___ day 272 ...
     -- lesson 001__ redux - React JS
     _   !   30, 40 lesson for fixing
 
