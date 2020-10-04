@@ -17,6 +17,7 @@ import {connect} from 'react-redux'
 import {compose} from 'redux'
 import {initializeApp} from './redux/app-reducer'
 import Preloader from './components/common/Preloader/Preloader'
+import Settings from "./components/Settings/Settings";
 
 class App extends Component {
     componentDidMount = () => {
@@ -42,7 +43,7 @@ class App extends Component {
                     <Route path='/meme' render={() => <Meme/>}/>
                     <Route path='/map' render={() => <MyMap/>}/>
                     <Route path='/geomap' render={() => <Geomap style={{height: '1000px'}} view={[53.9, 27.5]}/>}/>
-                    <Route path='/settings' render={() => <Todo/>}/>
+                    <Route path='/settings' render={() => <Settings/>}/>
                 </div>
             </div>
         );
