@@ -1,6 +1,6 @@
 ___10/11/2020___ day 285
     -- lesson 001__ redux - React JS
-        Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
+        Начинается Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
     _   !   30, 40 lesson for fixing
 ___08/29/2020___ day 242
     -- lesson 90 redux-ducks рефакторинг - React JS --
