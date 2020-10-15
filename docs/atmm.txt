@@ -3,7 +3,7 @@ ___10/15/2020___ day 289
         Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
     _   !   30, 40 lesson for fixing
 ___08/29/2020___ day 242
-    -- lesson 90 redux-ducks рефакторинг - React JS --
+    -- lesson 90 redux-ducks рефакторинг - React JS -
         https://youtu.be/JtbSOJKRJAI
         !   await and async 
         https://github.com/erikras/ducks-modular-redux
