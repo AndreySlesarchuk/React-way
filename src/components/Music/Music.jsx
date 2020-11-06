@@ -5,6 +5,7 @@ const  Music = () => {
     return (
         <div className={c.music}>
             <div className={c.musicAlbums}>
+                <div className={c.album}>OTTA Orchestra</div>
                 <div className={c.album}>Splin</div>
                 <div className={c.album}>Nautilus Pompilius</div>
                 <div className={c.album}>Accept</div>
