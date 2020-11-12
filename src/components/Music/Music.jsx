@@ -9,7 +9,6 @@ const  Music = () => {
                 <div className={c.album}>OTTA Orchestra</div>
                 <div className={c.album}>Splin</div>
                 <div className={c.album}>Nautilus Pompilius</div>
-
                 <div className={c.album}>UDO</div>
                 <div className={c.album}>Splin</div>
                 <div className={c.album}>Accept</div>
@@ -17,7 +16,6 @@ const  Music = () => {
                 <div className={c.album}>Didier Marouani & SPACE</div>
                 <div className={c.album}>The Technology </div>
                 <div className={c.album}>Nirvana</div>
-
             </div>
             <div className={c.songs}>
                 <div className={c.song}>Fall of the Empire</div>
