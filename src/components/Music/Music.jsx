@@ -18,6 +18,7 @@ const  Music = () => {
                 <div className={c.album}>Nirvana</div>
             </div>
             <div className={c.songs}>
+                <div className={c.song}>Push the button</div>
                 <div className={c.song}>Fall of the Empire</div>
                 <div className={c.song}>Shadow soldier's</div>
                 <div className={c.song}>Crying soldier</div>
