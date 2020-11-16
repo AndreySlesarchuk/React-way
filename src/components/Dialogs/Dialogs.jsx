@@ -30,7 +30,6 @@ const Dialogs = (props) => {
 
 const maxLength50 = maxLengthCreator(49)
 const minLength3 = minLengthCreator(3)
-
 const AddMessageForm = (props) => {
     return (
         <form onSubmit={props.handleSubmit}>
