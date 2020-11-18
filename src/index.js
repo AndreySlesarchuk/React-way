@@ -6,7 +6,7 @@ import {BrowserRouter} from "react-router-dom"
 import store from './redux/redux-store'
 import {Provider} from 'react-redux'
 
-/*---
+/*--
 let h1 = document.createElement("h1");
 h1.innerHTML = "Hello";
 document.querySelector("body").appendChild(h1);
