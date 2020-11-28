@@ -19,11 +19,12 @@ const  Music = () => {
                 <div className={c.album}>Nirvana</div>
             </div>
             <div className={c.songs}>
+                <div className={c.song}>Shadow soldier's</div>
                 <div className={c.song}>From Earth to Mars</div>
                 <div className={c.song}>Push the button</div>
                 <div className={c.song}>Strange dances</div>
                 <div className={c.song}>Fall of the Empire</div>
-                <div className={c.song}>Shadow soldier's</div>
+
                 <div className={c.song}>Crying soldier</div>
                 <div className={c.album}>Train to Barselona</div>
                 <div className={c.album}>Romance</div>
