@@ -8,7 +8,6 @@ const  Music = () => {
                 <div className={c.album}>Didier Marouani & SPACE</div>
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>The Technology </div>
-
                 <div className={c.album}>Accept</div>
                 <div className={c.album}>The Technology </div>
                 <div className={c.album}>UDO</div>
