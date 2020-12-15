@@ -1,4 +1,4 @@
-___12/09/2020___ day 344
+___12/10/2020___ day 345
     -- lesson 001__ redux - React JS
         Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
     _   !   30, 40 lesson for fixing
