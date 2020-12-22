@@ -16,7 +16,7 @@ const ProfileInfo = (props) => {
                 <img src={backgroundImage}/>
             </div>}
             <div className={c.descriptionBlock}>
-                <img src={props.profile.photos.large} alt="" />
+                <img src={props.profile.photos.large} alt="Large photo" />
                 <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus} />
             </div>
         </div>
