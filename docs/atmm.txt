@@ -49,7 +49,7 @@ __11/05/2019___
         Хуки это функции гармонично вплетающиеся в полотно проекта;
         Полное руководство по useEffect https://habr.com/ru/company/ruvds/blog/445276/
         A Complete Guide to useEffect https://overreacted.io/a-complete-guide-to-useeffect/
-__11/01/2019__
+__11/01/2019___
 -- lesson 83 - библиотека reselect (reselect часть 3)
         https://www.youtube.com/watch?v=nDh92Vnf3_k&t=8s
         ! концепт - чтобы функция(селектор) не перезапускалась если в этом нет смысла и инкапсуляция.
