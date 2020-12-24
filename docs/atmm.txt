@@ -32,7 +32,7 @@ __11/08/2019___
         shouldComponentUpdate - компонента, ты должна обновиться?
         PureComponent - автоматическое применение shouldComponentUpdate
         React.memo оптимизация вызхова компоненты по необходимости.
-__11/07/2019__
+__11/07/2019___
 -- lesson 86 - Virtual DOM
         https://www.youtube.com/watch?v=rsW9_UtF4jk
         DOM - document object model Объектная модель документа;
