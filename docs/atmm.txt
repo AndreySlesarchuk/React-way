@@ -2,6 +2,7 @@
     -- lesson 001__ redux - React JS
         TypeScript строгая типизация https://www.typescriptlang.org/
         Ant Design https://ant.design/
+        Apollo Data Graph Platform https://www.apollographql.com/
         
         Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
         Введение, TypeScript, Apollo, AntDesign, WebSocket / React JS - Путь Самурая 2.0
