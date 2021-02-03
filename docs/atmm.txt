@@ -1,10 +1,13 @@
+02/03/2021 day 34
+    -- lesson 002__ - React-у жизненно необходим TypeScript / React JS - Путь Самурая 2.0
+        https://www.youtube.com/watch?v=XZt5-v5zlgM&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=2
 02/02/2021 day 33
-    -- lesson 001__ redux - React JS
+    -- lesson 001__
+        Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
         TypeScript строгая типизация https://www.typescriptlang.org/
         Ant Design https://ant.design/
         Apollo Data Graph Platform https://www.apollographql.com/
-        
-        Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
+        Socket.IO https://socket.io websocket
         Введение, TypeScript, Apollo, AntDesign, WebSocket / React JS - Путь Самурая 2.0
     _ !  30, 40 lesson for fixing
 ___08/29/2020___ day 242
