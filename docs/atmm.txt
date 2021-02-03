@@ -1,6 +1,8 @@
 02/02/2021 day 33
     -- lesson 001__ redux - React JS
         TypeScript строгая типизация https://www.typescriptlang.org/
+        Ant Design https://ant.design/
+        
         Путь самурая 2.0 https://www.youtube.com/playlist?list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN
         Введение, TypeScript, Apollo, AntDesign, WebSocket / React JS - Путь Самурая 2.0
     _ !  30, 40 lesson for fixing
