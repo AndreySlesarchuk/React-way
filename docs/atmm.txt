@@ -1,4 +1,4 @@
-02/05/2021 day .36
+02/05/2021 day .36.
     -- lesson 003__ 03 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript
