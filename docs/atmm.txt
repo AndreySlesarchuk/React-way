@@ -1,5 +1,5 @@
 02/07/2021 day 38
-    -- lesson 003_ 03 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
+    -- lesson 003 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript
             https://create-react-app.dev/docs/adding-typescript/
