@@ -3,7 +3,7 @@
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript
             https://create-react-app.dev/docs/adding-typescript/
-!!!        Дженерик - это уточнение!!!
+!!!     Дженерик - это уточнение!!!
 
 02/03/2021 day 34
     -- lesson 002__ - React-у жизненно необходим TypeScript / React JS - Путь Самурая 2.0
