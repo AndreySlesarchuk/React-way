@@ -3,7 +3,9 @@
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript or add to project
             https://create-react-app.dev/docs/adding-typescript/
-
+        npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+                # or
+        yarn add typescript @types/node @types/react @types/react-dom @types/jest
 !!! Дженерик - это уточнение!!!
 
 02/03/2021 day 34
