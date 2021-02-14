@@ -5,7 +5,7 @@
 
 02/12/2021 day 43
     -- lesson 003 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
-        a: any, b: Object, sayHello: Function
+        a: any, b: Object, sayHello: Function,  sayHello: () => void,
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript or add to project
             https://create-react-app.dev/docs/adding-typescript/
