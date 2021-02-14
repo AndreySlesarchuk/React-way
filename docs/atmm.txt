@@ -3,8 +3,10 @@
     -- lesson 004 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
         04 - Redux + TypeScript / React JS - Путь Самурая 2.0
 
+    Ctrl+Space
 02/12/2021 day 43
     -- lesson 003 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
+        export type InitialStateType = typeof initialState;
         a: any, b: Object, sayHello: Function,  sayHello: () => void,
         https://www.youtube.com/watch?v=doVgFdc6Op4&list=PLcvhF2Wqh7DM3z1XqMw0kPuxpbyMo3HvN&index=3
         create-react-app typescript or add to project
