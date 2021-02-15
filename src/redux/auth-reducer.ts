@@ -19,7 +19,7 @@ let initialState: InitialStateType = {
     captchaUrl: null
 };
 
-const authReducer = (state = initialState, action) => {
+const authReducer = (state = initialState, action: any):InitialStateType => {
     switch (action.type) {
         case SET_USER_DATA:
             return {
@@ -31,11 +31,16 @@ const authReducer = (state = initialState, action) => {
     }
 }
 
-export const setAuthUserData = (userId, email, login, isAuth) => (
-    {type: SET_USER_DATA, payload: {userId, email, login, isAuth}})
+export const setAuthUserData = (userId: number, email: string, login: string, isAuth: boolean) => ({
+    type: SET_USER_DATA, payload: {userId, email, login, isAuth}
+})
+
+//export const getCaptchaUrlSuccess = (captchaUrl) => ({
+//    type: GET_CAPTCHA_URL_SUCCESS, payload: {captchaUrl}
+//})
 
 //thunk creator - function that returns another function - dispatch//
-export const getAuthUserData = () => async (dispatch) => {
+export const getAuthUserData = () => async (dispatch: any) => {
     let response = await authAPI.me();
     if (response.data.resultCode === 0) {
         let {id, email, login} = response.data.data;
@@ -43,7 +48,7 @@ export const getAuthUserData = () => async (dispatch) => {
     }
 }
 
-export const login = (email, password, rememberMe) => async (dispatch) => {
+export const login = (email: string, password: string, rememberMe) => async (dispatch) => {
     let response = await authAPI.login(email, password, rememberMe)
     if (response.data.resultCode === 0) {
         dispatch(getAuthUserData())
