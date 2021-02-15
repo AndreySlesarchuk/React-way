@@ -3,6 +3,13 @@ import {stopSubmit} from "redux-form"
 
 const SET_USER_DATA = 'SET_USER_DATA'
 
+export type InitialStateType = {
+    userId: null,
+    email: null,
+    login: null,
+    isAuth: false
+}
+
 let initialState = {
     userId: null,
     email: null,
