@@ -32,9 +32,9 @@ const authReducer = (state = initialState, action: any): InitialStateType => {
 }
 
 type SetAuthUserDataActionPayloadType = {
-    userId: number
-    email: string
-    login: string
+    userId: number | null
+    email: string | null
+    login: string | null
     isAuth: boolean
 }
 
@@ -44,7 +44,7 @@ type SetAuthUserDataActionType = {
 }
 
 
-export const setAuthUserData = (userId: number, email: string, login: string, isAuth: boolean): SetAuthUserDataActionType => ({
+export const setAuthUserData = (userId: number | null, email: string | null , login: string | null, isAuth: boolean): SetAuthUserDataActionType => ({
     type: SET_USER_DATA, payload: {userId, email, login, isAuth}
 })
 
@@ -61,17 +61,19 @@ export const getAuthUserData = () => async (dispatch: any) => {
     }
 }
 
-export const login = (email: string, password: string, rememberMe) => async (dispatch) => {
-    let response = await authAPI.login(email, password, rememberMe)
-    if (response.data.resultCode === 0) {
-        dispatch(getAuthUserData())
-    } else {
-        let message = response.data.messages.length > 0 ? response.data.messages[0] : "Some error"
-        dispatch(stopSubmit("login", {_error: message}))
-    }
+export const login = (email: string, password: string, rememberMe: any) => {
+    return async (dispatch: any) => {
+        let response = await authAPI.login(email, password, rememberMe)
+        if (response.data.resultCode === 0) {
+            dispatch(getAuthUserData())
+        } else {
+            let message = response.data.messages.length > 0 ? response.data.messages[0] : "Some error"
+            dispatch(stopSubmit("login", {_error: message}))
+        }
+    };
 }
 
-export const logout = () => async (dispatch) => {
+export const logout = () => async (dispatch: any) => {
     let response = await authAPI.logout();
     if (response.data.resultCode === 0) {
         dispatch(setAuthUserData(null, null, null, false))
