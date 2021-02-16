@@ -18,7 +18,7 @@ const appReducer = (state = initialState, action: any):InitialStateType => {
                 initialized: true
             }
         default:
-            return state;
+            return state
     }
 }
 
