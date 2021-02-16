@@ -17,7 +17,7 @@ let initialState: InitialStateType = {
     login: null,
     isAuth: false,
     captchaUrl: null
-};
+}
 
 const authReducer = (state = initialState, action: any): InitialStateType => {
     switch (action.type) {
