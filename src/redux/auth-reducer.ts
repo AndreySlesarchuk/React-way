@@ -47,15 +47,17 @@ export const setAuthUserData = (userId: number | null, email: string | null , lo
     type: SET_USER_DATA, payload: {userId, email, login, isAuth}
 })
 
-
+//TODO
+/*
 type GetCaptchaUrlSuccessActionType = {
     type: typeof GET_CAPTCHA_URL_SUCCESS
     payload: {captchaUrl: string}
 }
 
-export const getCaptchaUrlSuccess = (captchaUrl): GetCaptchaUrlSuccessActionType => ({
+export const getCaptchaUrlSuccess = (captchaUrl: string): GetCaptchaUrlSuccessActionType => ({
     type: GET_CAPTCHA_URL_SUCCESS, payload: {captchaUrl}
 })
+*/
 
 
 //thunk creator - function that returns another function - dispatch//
