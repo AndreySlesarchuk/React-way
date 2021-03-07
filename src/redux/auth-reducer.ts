@@ -43,14 +43,20 @@ type SetAuthUserDataActionType = {
     payload: SetAuthUserDataActionPayloadType
 }
 
-
 export const setAuthUserData = (userId: number | null, email: string | null , login: string | null, isAuth: boolean): SetAuthUserDataActionType => ({
     type: SET_USER_DATA, payload: {userId, email, login, isAuth}
 })
 
-//export const getCaptchaUrlSuccess = (captchaUrl) => ({
-//    type: GET_CAPTCHA_URL_SUCCESS, payload: {captchaUrl}
-//})
+
+type GetCaptchaUrlSuccessActionType = {
+    type: typeof GET_CAPTCHA_URL_SUCCESS
+    payload: {captchaUrl: string}
+}
+
+export const getCaptchaUrlSuccess = (captchaUrl): GetCaptchaUrlSuccessActionType => ({
+    type: GET_CAPTCHA_URL_SUCCESS, payload: {captchaUrl}
+})
+
 
 //thunk creator - function that returns another function - dispatch//
 export const getAuthUserData = () => async (dispatch: any) => {
