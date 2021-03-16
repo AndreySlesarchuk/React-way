@@ -361,7 +361,7 @@ __05/24/2019
     - ROUTE - маршруты
     - BLL - Buisness Logic Layer данные
 __05/23/2019
--- Прокидываем props
+    - Прокидываем props
         -  <Route path='/dialogs' component={Dialogs} /> changing to
         <Route path='/dialogs' render={ () => {<Dialogs />} />  -  move data up
 __05/15/2019
