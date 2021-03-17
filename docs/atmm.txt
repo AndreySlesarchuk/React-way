@@ -349,7 +349,7 @@ __05/28/2019
 -- lesson 32, 33 (прокидываем callback через props) функция обратного вызова  - FLUX концепции rerendererEntireTree
         - render.js index.js store.js
 __05/27/2019
--- lesson 31 (onClick, ref, VirtualDOM)     - callback
+    -- lesson 31 (onClick, ref, VirtualDOM)     - callback
         - <textarea ref={newPostElement}><textarea> let text = newPostElement.current.value;
 __05/24/2019
     -- store.js in redux
