@@ -28,7 +28,7 @@
         Socket.IO https://socket.io websocket
         Введение, TypeScript, Apollo, AntDesign, WebSocket / React JS - Путь Самурая 2.0
     _ !  30, 40 lesson for fixing
-___08/29/2020___ day 242
+08/29/2020___ day 242
     -- lesson 90 redux-ducks рефакторинг - React JS -
         https://youtu.be/JtbSOJKRJAI
         !   await and async 
