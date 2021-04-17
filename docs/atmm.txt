@@ -392,6 +392,7 @@ __5/11/2019
 !   - В браузер разметка jsx не попадает
 
 -- WebStorm keyboard shortcut
+    - comments - Ctrl+?
     - refactor this - Ctrl+Alt+Shift+T - convert to class component
     - duplicate blok(or line) - Ctrl-D
     - alignment - Ctrl+A+Ctrl+Alt+L
