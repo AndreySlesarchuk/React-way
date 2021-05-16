@@ -58,7 +58,7 @@ __11/08/2019___
         PureComponent - автоматическое применение shouldComponentUpdate
         React.memo оптимизация вызхова компоненты по необходимости.
 __11/07/2019___
--- lesson 86 - Virtual DOM
+    -- lesson 86 - Virtual DOM
         https://www.youtube.com/watch?v=rsW9_UtF4jk
         DOM - document object model Объектная модель документа;
         Reconciliation https://learn-reactjs.ru/core/reconciliation;
