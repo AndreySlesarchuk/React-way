@@ -21,7 +21,7 @@ const todosData = [
     },
     {
         id: 5,
-        text: "Learn English",
+        text: "Learn Java Script",
         completed: false
     }
 ]
