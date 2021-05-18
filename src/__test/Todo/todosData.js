@@ -23,6 +23,11 @@ const todosData = [
         id: 5,
         text: "Learn Java Script",
         completed: false
+    },
+    {
+        id: 6,
+        text: "Learn Kotlin",
+        completed: false
     }
 ]
 
