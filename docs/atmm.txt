@@ -1,7 +1,7 @@
 05/26/2021 - day 147 - 02/13/2021 - day 44 white
     -- lesson 004 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
         https://youtu.be/7s8RJw6uWsQ?t=1349
-        1. Типизация объектов. С большой буквы.
+        1. Типизация объектов. С большой буквы. важно
     Ctrl+Space - open elements
 02/12/2021 day 43
     -- lesson 003 - React + TypeScript за 30 минут/ React JS - Путь Самурая 2.0
