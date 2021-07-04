@@ -33,17 +33,17 @@ class App extends Component {
                 <HeaderContainer/>
                 <Navbar/>
                 <div className='app-wrapper-content'>
-                    <Route path='/profile/:userId?' render={() => <ProfileContainer />}/>
-                    <Route path='/dialogs' render={() => <DialogsContainer />}/>
-                    <Route path='/users' render={() => <UsersContainer />}/>
-                    <Route path='/login' render={() => <LoginPage />}/>
-                    <Route path='/music' render={() => <Music />}/>
-                    <Route path='/news' render={() => <News />}/>
-                    <Route path='/todo' render={() => <Todo />}/>
-                    <Route path='/meme' render={() => <Meme />}/>
-                    <Route path='/map' render={() => <MyMap />}/>
+                    <Route path='/profile/:userId?' render={() => <ProfileContainer/>}/>
+                    <Route path='/dialogs' render={() => <DialogsContainer/>}/>
+                    <Route path='/users' render={() => <UsersContainer/>}/>
+                    <Route path='/login' render={() => <LoginPage/>}/>
+                    <Route path='/music' render={() => <Music/>}/>
+                    <Route path='/news' render={() => <News/>}/>
+                    <Route path='/todo' render={() => <Todo/>}/>
+                    <Route path='/meme' render={() => <Meme/>}/>
+                    <Route path='/map' render={() => <MyMap/>}/>
                     <Route path='/geomap' render={() => <Geomap style={{height: '1000px'}} view={[53.9, 27.5]}/>}/>
-                    <Route path='/settings' render={() => <Settings />}/>
+                    <Route path='/settings' render={() => <Settings/>}/>
                 </div>
             </div>
         );
